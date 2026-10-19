@@ -58,7 +58,7 @@
   <link rel="apple-touch-icon" href="images/icon-192.png">
 
   <!-- Unified Production Stylesheet (Bulma + Custom Theme + FontAwesome + MapLibre GL) -->
-  <link rel="stylesheet" href="css/bundle.min.css?v=41">
+  <link rel="stylesheet" href="css/bundle.min.css?v=47">
 
   <!-- Structured Data: WebSite, WebApplication, Dataset & FAQPage JSON-LD -->
   <script type="application/ld+json">
@@ -219,75 +219,66 @@
 
         <div class="navbar-end">
           <!-- Find My Plate Button -->
-          <!-- Find My Plate Button -->
           <div class="navbar-item">
-            <button id="btn-find-my-plate" class="button is-small is-rounded" onclick="findMyPlate()" style="background:rgba(56,189,248,0.15); color:#38bdf8; border:1px solid rgba(56,189,248,0.35); font-weight:700;" aria-label="Detect my current tectonic plate">
+            <button id="btn-find-my-plate" class="button is-small is-rounded" onclick="findMyPlate()" style="background:rgba(56,189,248,0.15); color:#38bdf8; border:1px solid rgba(56,189,248,0.35); font-weight:700;" title="Detect my current tectonic plate" aria-label="Detect my current tectonic plate">
               <span class="icon is-small"><i class="fa-solid fa-location-crosshairs" aria-hidden="true"></i></span>
-              <span>Find My Plate</span>
+              <span class="nav-btn-text">Find My Plate</span>
             </button>
           </div>
 
           <!-- All 52 Plates Modal Trigger -->
           <div class="navbar-item">
-            <button id="btn-all-plates" class="button is-small is-rounded" onclick="openComparisonModal()" style="background:rgba(30,41,59,0.85); color:#e2e8f0; border:1px solid rgba(255,255,255,0.15);" aria-label="Open directory of all 52 tectonic plates">
+            <button id="btn-all-plates" class="button is-small is-rounded" onclick="openComparisonModal()" style="background:rgba(30,41,59,0.85); color:#e2e8f0; border:1px solid rgba(255,255,255,0.15);" title="Open comparison table of all 52 tectonic plates" aria-label="Open directory of all 52 tectonic plates">
               <span class="icon is-small"><i class="fa-solid fa-table-list" aria-hidden="true"></i></span>
-              <span>All 52 Plates</span>
+              <span class="nav-btn-text">All 52 Plates</span>
             </button>
           </div>
 
           <!-- Plates Directory Page Link -->
           <div class="navbar-item">
-            <a href="/plates" id="btn-plates-dir-nav" class="button is-small is-rounded" style="background:rgba(30,41,59,0.85); color:#e2e8f0; border:1px solid rgba(255,255,255,0.15);" aria-label="Open comprehensive directory of all 52 tectonic plates">
+            <a href="/plates" id="btn-plates-dir-nav" class="button is-small is-rounded" style="background:rgba(30,41,59,0.85); color:#e2e8f0; border:1px solid rgba(255,255,255,0.15);" title="Comprehensive directory of all 52 tectonic plates" aria-label="Open comprehensive directory of all 52 tectonic plates">
               <span class="icon is-small"><i class="fa-solid fa-list-check" aria-hidden="true"></i></span>
-              <span>Directory</span>
+              <span class="nav-btn-text">Directory</span>
             </a>
           </div>
 
           <!-- Printable Maps Page Link -->
           <div class="navbar-item">
-            <a href="/maps/labeled-tectonic-plates-map" id="btn-maps-print-nav" class="button is-small is-rounded" style="background:rgba(56,189,248,0.15); color:#38bdf8; border:1px solid rgba(56,189,248,0.35); font-weight:700;" aria-label="Download printable tectonic plate maps in PDF, PNG and SVG">
+            <a href="/maps/labeled-tectonic-plates-map" id="btn-maps-print-nav" class="button is-small is-rounded" style="background:rgba(56,189,248,0.15); color:#38bdf8; border:1px solid rgba(56,189,248,0.35); font-weight:700;" title="Download printable tectonic plate maps in PDF, PNG and SVG" aria-label="Download printable tectonic plate maps in PDF, PNG and SVG">
               <span class="icon is-small"><i class="fa-solid fa-map" aria-hidden="true"></i></span>
-              <span>Printable Maps</span>
+              <span class="nav-btn-text">Printable Maps</span>
             </a>
           </div>
 
           <!-- Geology Quiz Link -->
           <div class="navbar-item">
-            <a href="/quiz" id="btn-quiz-nav" class="button is-small is-rounded" style="background:rgba(30,41,59,0.85); color:#e2e8f0; border:1px solid rgba(255,255,255,0.15);" aria-label="Take interactive geology quiz">
+            <a href="/quiz" id="btn-quiz-nav" class="button is-small is-rounded" style="background:rgba(30,41,59,0.85); color:#e2e8f0; border:1px solid rgba(255,255,255,0.15);" title="Interactive geology & plate tectonics quiz" aria-label="Take interactive geology quiz">
               <span class="icon is-small"><i class="fa-solid fa-circle-question" aria-hidden="true"></i></span>
-              <span>Quiz</span>
+              <span class="nav-btn-text">Quiz</span>
             </a>
           </div>
 
           <!-- Teacher Worksheets Link -->
           <div class="navbar-item">
-            <a href="/worksheets" id="btn-worksheets-nav" class="button is-small is-rounded" style="background:rgba(30,41,59,0.85); color:#e2e8f0; border:1px solid rgba(255,255,255,0.15);" aria-label="Printable teacher worksheets and answer keys">
+            <a href="/worksheets" id="btn-worksheets-nav" class="button is-small is-rounded" style="background:rgba(30,41,59,0.85); color:#e2e8f0; border:1px solid rgba(255,255,255,0.15);" title="Printable teacher worksheets and answer keys" aria-label="Printable teacher worksheets and answer keys">
               <span class="icon is-small"><i class="fa-solid fa-file-pen" aria-hidden="true"></i></span>
-              <span>Worksheets</span>
-            </a>
-          </div>
-
-          <!-- Geology Guide Jump Button -->
-          <div class="navbar-item">
-            <a href="#geology-guide" id="btn-geology-guide-nav" class="button is-small is-rounded" style="background:rgba(30,41,59,0.85); color:#e2e8f0; border:1px solid rgba(255,255,255,0.15);" aria-label="Read plate tectonics educational guide">
-              <span class="icon is-small"><i class="fa-solid fa-book-open" aria-hidden="true"></i></span>
-              <span>Geology Guide</span>
+              <span class="nav-btn-text">Worksheets</span>
             </a>
           </div>
 
           <!-- PWA Install App Button -->
           <div class="navbar-item">
-            <button id="btn-pwa-install" class="button is-small is-rounded" onclick="installPWA()" style="display:none; background:#0284c7; color:#fff; border:1px solid #38bdf8; font-weight:700;" aria-label="Install Tectonic Plates Map App">
+            <button id="btn-pwa-install" class="button is-small is-rounded" onclick="installPWA()" style="display:none; background:#0284c7; color:#fff; border:1px solid #38bdf8; font-weight:700;" title="Install Tectonic Plates Map App" aria-label="Install Tectonic Plates Map App">
               <span class="icon is-small"><i class="fa-solid fa-download" aria-hidden="true"></i></span>
-              <span>Install App</span>
+              <span class="nav-btn-text">Install App</span>
             </button>
           </div>
 
           <!-- Explore Modes Drawer Trigger -->
           <div class="navbar-item">
-            <button id="btn-maps-selector" class="button is-small is-rounded" onclick="toggleMapsDrawer()" style="background:rgba(245,158,11,0.18); color:#fbbf24; border:1px solid rgba(245,158,11,0.4); font-weight:700;" aria-label="Open Explore drawer">
+            <button id="btn-maps-selector" class="button is-small is-rounded" onclick="toggleMapsDrawer()" style="background:rgba(245,158,11,0.18); color:#fbbf24; border:1px solid rgba(245,158,11,0.4); font-weight:700;" title="Open Earth Phenomena Explore drawer" aria-label="Open Explore drawer">
               <span class="icon is-small"><i class="fa-solid fa-compass" aria-hidden="true"></i></span>
-              <span>Explore (7)</span>
+              <span class="nav-btn-text">Explore</span>
             </button>
           </div>
 
@@ -295,7 +286,7 @@
           <div class="navbar-item">
             <button id="quake-count-badge" class="button is-small is-rounded quake-sync-btn" onclick="refreshLiveEarthquakes(true)" title="Live USGS Earthquakes (past 24h) • Click to refresh in real time" aria-label="Live USGS Earthquakes - Click to refresh in real time">
               <span class="icon is-small"><i class="fa-solid fa-bolt" aria-hidden="true"></i></span>
-              <span class="quake-btn-text">Quakes Today</span>
+              <span class="quake-btn-text">Quakes</span>
             </button>
           </div>
         </div>

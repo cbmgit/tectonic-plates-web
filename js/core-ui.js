@@ -56,12 +56,6 @@
       });
     }
 
-    const guideNavBtn = document.getElementById('btn-geology-guide-nav');
-    if (guideNavBtn) {
-      guideNavBtn.addEventListener('click', () => {
-        if (typeof window.closeAllModals === 'function') window.closeAllModals();
-      });
-    }
   }
 
   if (document.readyState === 'loading') {

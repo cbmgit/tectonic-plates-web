@@ -188,9 +188,156 @@ a:hover {
 /* Search Box in Navbar */
 .nav-search-wrap {
   position: relative;
-  min-width: 280px;
-  max-width: 380px;
+  width: 190px;
+  min-width: 130px;
+  max-width: 260px;
+  transition: width 0.2s cubic-bezier(0.16, 1, 0.3, 1);
 }
+
+.nav-search-wrap:focus-within {
+  width: 240px;
+}
+
+/* Desktop Fluid Responsive Navbar Navigation (>= 1024px) */
+@media screen and (min-width: 1024px) {
+  .mobile-nav-actions {
+    display: none !important;
+  }
+
+  .navbar.is-tectonic {
+    padding: 0 16px;
+  }
+
+  .navbar.is-tectonic .navbar-menu {
+    display: flex !important;
+    align-items: center;
+    padding: 0;
+    flex-grow: 1;
+    min-width: 0;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+
+  .navbar.is-tectonic .navbar-start {
+    display: flex;
+    align-items: center;
+    margin-right: 12px;
+    flex-shrink: 0;
+    min-width: 0;
+  }
+
+  .navbar.is-tectonic .navbar-start .navbar-item {
+    padding: 0;
+  }
+
+  .nav-search-wrap {
+    width: 160px;
+    min-width: 110px;
+    max-width: 200px;
+    transition: width 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  .navbar.is-tectonic .navbar-end {
+    display: flex !important;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 8px; /* Clean, comfortable spacing between buttons */
+    margin-left: auto;
+    flex-shrink: 1;
+    min-width: 0;
+    max-width: 100%;
+    padding: 4px 0;
+    overflow-x: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+
+  .navbar.is-tectonic .navbar-end::-webkit-scrollbar {
+    display: none;
+  }
+
+  .navbar.is-tectonic .navbar-end .navbar-item {
+    padding: 0 !important;
+    margin: 0 !important;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+  }
+
+  .navbar.is-tectonic .navbar-end .button {
+    height: 32px;
+    padding: 0 12px; /* Generous, professional pill padding */
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+    gap: 6px;
+    white-space: nowrap;
+    border-radius: 9999px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+    transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  .navbar.is-tectonic .navbar-end .button:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.4);
+  }
+}
+
+/* Widescreen Displays (>= 1440px) */
+@media screen and (min-width: 1440px) {
+  .navbar.is-tectonic {
+    padding: 0 24px;
+  }
+
+  .nav-search-wrap {
+    width: 190px;
+  }
+
+  .navbar.is-tectonic .navbar-end {
+    gap: 9px;
+  }
+
+  .navbar.is-tectonic .navbar-end .button {
+    height: 33px;
+    padding: 0 13px;
+    font-size: 0.8125rem;
+  }
+}
+
+/* Compact Screens: 1024px to 1279px */
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .navbar.is-tectonic {
+    padding: 0 10px;
+  }
+
+  .brand-badge {
+    gap: 0.45rem;
+  }
+
+  .brand-h1 {
+    font-size: 1.05rem;
+  }
+
+  .nav-search-wrap {
+    width: 120px;
+    min-width: 95px;
+  }
+
+  .navbar.is-tectonic .navbar-end {
+    gap: 5px;
+  }
+
+  .navbar.is-tectonic .navbar-end .button {
+    height: 30px;
+    padding: 0 9px;
+    font-size: 0.76rem;
+    gap: 5px;
+  }
+}
+
 
 .search-dropdown-menu {
   position: absolute;
@@ -2184,7 +2331,7 @@ a:hover {
 
 /* Mobile Action Buttons in Navbar Brand */
 .mobile-nav-actions {
-  display: flex;
+  display: none !important;
   align-items: center;
   gap: 8px;
   margin-left: auto;
@@ -2198,8 +2345,12 @@ a:hover {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
 }
 
-/* Tablet Screens (<= 1023px) */
+/* Tablet & Small Screens (<= 1023px) */
 @media screen and (max-width: 1023px) {
+  .mobile-nav-actions {
+    display: flex !important;
+  }
+
   .navbar-brand {
     display: flex;
     align-items: center;
@@ -2210,6 +2361,7 @@ a:hover {
   }
 
   .navbar-burger {
+    display: block !important;
     color: #ffffff !important;
     height: 3.2rem;
     width: 3.2rem;
@@ -2240,7 +2392,7 @@ a:hover {
     border-bottom: 1px solid rgba(255, 255, 255, 0.15);
     box-shadow: 0 24px 48px rgba(0, 0, 0, 0.85) !important;
     padding: 16px 20px 24px;
-    display: none;
+    display: none !important;
   }
 
   .navbar-menu.is-active {
@@ -2263,6 +2415,7 @@ a:hover {
     justify-content: center;
     height: 38px;
     font-size: 0.9rem;
+    border-radius: 9999px;
   }
 
   .maps-hub-bar {
