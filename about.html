@@ -119,6 +119,12 @@
               <span>Contact Us</span>
             </a>
           </div>
+          <div class="navbar-item">
+            <a href="https://github.com/cbmgit/tectonic-plates-web" target="_blank" rel="noopener" class="button is-small is-dark is-rounded" style="border:1px solid rgba(255,255,255,0.15);" aria-label="View Open Source Code on GitHub">
+              <span class="icon is-small"><i class="fa-brands fa-github" aria-hidden="true"></i></span>
+              <span>GitHub</span>
+            </a>
+          </div>
         </div>
       </div>
     </nav>
@@ -140,19 +146,45 @@
         </span>
         <h1 class="title is-2" style="color:#ffffff; margin-bottom:12px;">About TectonicPlateMap.org</h1>
         <p class="subtitle is-5" style="color:#94a3b8; max-width:760px; margin:0 auto;">
-          An interactive, high-speed 3D web map for exploring Earth's tectonic plates, fault lines, and live earthquakes.
+          An independent science communication initiative and interactive 3D geophysics platform.
         </p>
       </header>
 
       <div class="content static-article">
         
         <div class="static-feature-card">
+          <h2 style="color:#ffffff;"><i class="fa-solid fa-users" style="color:#38bdf8; margin-right:8px;"></i> Who We Are</h2>
+          <p>
+            <strong>TectonicPlateMap.org</strong> is an independent science communication and Earth education initiative maintained by software engineer and geology enthusiast (<a href="https://github.com/cbmgit" target="_blank" rel="noopener" style="color:#38bdf8; text-decoration:underline;">@cbmgit</a>).
+          </p>
+          <p>
+            We created this project to bridge the gap between heavy academic GIS software and everyday learners. Our goal is to make peer-reviewed geophysics research, real-time seismic monitoring, and continental drift dynamics intuitive, blazing fast, and freely accessible to students, teachers, and curious minds worldwide without paywalls, clunky software, or ads.
+          </p>
+        </div>
+
+        <div class="static-feature-card" style="border-left-color: #10b981; background: rgba(16, 185, 129, 0.05); margin-top: 1.5rem;">
+          <h2 style="color:#ffffff;"><i class="fa-brands fa-github" style="color:#10b981; margin-right:8px;"></i> 100% Open Source</h2>
+          <p>
+            We believe educational science tools should be transparent, verifiable, and free to examine. The entire frontend web client, MapLibre GL visualization engine, study guides, and quiz modules are open source under the <strong>MIT License</strong>.
+          </p>
+          <div style="margin: 14px 0;">
+            <a href="https://github.com/cbmgit/tectonic-plates-web" target="_blank" rel="noopener" class="button is-small is-rounded is-primary" style="font-weight:700;">
+              <span class="icon is-small"><i class="fa-brands fa-github"></i></span>
+              <span>View Source Code on GitHub</span>
+            </a>
+          </div>
+          <p style="font-size:0.85rem; color:#94a3b8; margin:0;">
+            Found a bug, want to contribute a feature, or have geological data corrections? Check out our repository at <a href="https://github.com/cbmgit/tectonic-plates-web" target="_blank" rel="noopener" style="color:#38bdf8; text-decoration:underline;">github.com/cbmgit/tectonic-plates-web</a> or open an issue.
+          </p>
+        </div>
+
+        <div class="static-feature-card" style="margin-top: 1.5rem;">
           <h2 style="color:#ffffff;"><i class="fa-solid fa-compass" style="color:#38bdf8; margin-right:8px;"></i> Why we built this</h2>
           <p>
             Most plate tectonics maps on the web look like they were built twenty years ago, or they are locked behind clunky academic software that takes forever to load.
           </p>
           <p>
-            Earth's crust is moving right now underneath our feet, causing quakes and feeding active volcanoes every single day. We wanted to build something fast, beautiful, and completely open where anyone can spin the globe, click on any fault line, see plate drift speeds in real time, and learn how our planet works without dealing with paywalls, ads, or signups.
+            Earth's crust is moving right now underneath our feet, causing quakes and feeding active volcanoes every single day. We wanted to build something fast, beautiful, and completely open where anyone can spin the globe, click on any fault line, see plate drift speeds in real time, and learn how our planet works.
           </p>
         </div>
 
@@ -273,7 +305,8 @@
         <div class="column is-4">
           <h3 style="color:#ffffff; font-size:1rem; font-weight:700; margin-bottom:10px;">ADDITIONAL</h3>
           <ul style="list-style:none; padding:0; margin:0; font-size:0.85rem; display:flex; flex-direction:column; gap:6px;">
-            <li><a href="/about"><i class="fa-solid fa-angle-right mr-1"></i> About</a></li>
+            <li><a href="/about"><i class="fa-solid fa-angle-right mr-1"></i> About Us</a></li>
+            <li><a href="https://github.com/cbmgit/tectonic-plates-web" target="_blank" rel="noopener" style="color:#38bdf8;"><i class="fa-brands fa-github mr-1"></i> Open Source (GitHub)</a></li>
             <li><a href="/contact"><i class="fa-solid fa-angle-right mr-1"></i> Contact</a></li>
             <li><a href="/privacy-policy"><i class="fa-solid fa-angle-right mr-1"></i> Privacy Policy</a></li>
             <li><a href="/terms-of-service"><i class="fa-solid fa-angle-right mr-1"></i> Terms of Service</a></li>
@@ -282,7 +315,7 @@
       </div>
       <div style="border-top:1px solid rgba(255,255,255,0.08); padding-top:1.5rem; text-align:center;">
         <p style="font-size:0.82rem; color:#64748b;">
-          &copy; 2026 TectonicPlateMap.org &bull; Open-access Earth geophysics and seismology platform. Built with HTML5, Bulma CSS, and MapLibre GL.
+          &copy; 2026 TectonicPlateMap.org &bull; Open-access Earth geophysics and seismology platform. Built with HTML5, Bulma CSS, and MapLibre GL. &bull; <a href="https://github.com/cbmgit/tectonic-plates-web" target="_blank" rel="noopener" style="color:#94a3b8; text-decoration:underline;"><i class="fa-brands fa-github mr-1"></i>Source Code</a>
          <span class="app-version-badge" style="font-family:var(--font-mono, monospace); font-size:0.72rem; background:rgba(255,255,255,0.06); color:#38bdf8; border:1px solid rgba(56,189,248,0.3); border-radius:12px; font-weight:600; padding:2px 8px; margin-left:6px; display:inline-block;" title="Tectonic Plates Map Version">v0.5</span></p>
       </div>
     </div>
