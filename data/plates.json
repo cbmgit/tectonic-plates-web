@@ -1,0 +1,1555 @@
+[
+  {
+    "id": 1,
+    "code": "PA",
+    "slug": "pacific-plate",
+    "name": "Pacific Plate",
+    "class": "major",
+    "crustType": "oceanic",
+    "areaKm2": 104594030,
+    "centroid": {
+      "latitude": -5.14,
+      "longitude": -163.31
+    },
+    "speedCmPerYear": 7.1,
+    "direction": "West-Northwest",
+    "azimuth": 297.1,
+    "referenceFrame": "relative to No-Net-Rotation (NNR)",
+    "neighbors": [
+      "AN",
+      "AU",
+      "BR",
+      "CL",
+      "CO",
+      "EA",
+      "FT",
+      "GP",
+      "JF",
+      "JZ",
+      "KE",
+      "MA",
+      "NA",
+      "NB",
+      "NH",
+      "NI",
+      "NZ",
+      "OK",
+      "PS",
+      "RI",
+      "SS",
+      "TO",
+      "WL"
+    ],
+    "boundaryTypes": [
+      "convergent",
+      "divergent",
+      "transform"
+    ],
+    "sources": "Peter Bird (2003) PB2002; Argus & Gordon (1991) NNR-NUVEL1A"
+  },
+  {
+    "id": 2,
+    "code": "AF",
+    "slug": "african-plate",
+    "name": "African Plate",
+    "class": "major",
+    "crustType": "mixed",
+    "areaKm2": 58475731,
+    "centroid": {
+      "latitude": -6.12,
+      "longitude": -2.76
+    },
+    "speedCmPerYear": 3.2,
+    "direction": "Northeast",
+    "azimuth": 52.7,
+    "referenceFrame": "relative to No-Net-Rotation (NNR)",
+    "neighbors": [
+      "AN",
+      "AR",
+      "AS",
+      "AT",
+      "EU",
+      "NA",
+      "SA",
+      "SO"
+    ],
+    "boundaryTypes": [
+      "convergent",
+      "divergent",
+      "transform"
+    ],
+    "sources": "Peter Bird (2003) PB2002; Argus & Gordon (1991) NNR-NUVEL1A"
+  },
+  {
+    "id": 3,
+    "code": "AN",
+    "slug": "antarctic-plate",
+    "name": "Antarctic Plate",
+    "class": "major",
+    "crustType": "mixed",
+    "areaKm2": 58149796,
+    "centroid": {
+      "latitude": -81.72,
+      "longitude": 18.04
+    },
+    "speedCmPerYear": 1.0,
+    "direction": "North-Northwest",
+    "azimuth": 330.8,
+    "referenceFrame": "relative to No-Net-Rotation (NNR)",
+    "neighbors": [
+      "AF",
+      "AU",
+      "JZ",
+      "NZ",
+      "PA",
+      "SA",
+      "SC",
+      "SL",
+      "SO",
+      "SW"
+    ],
+    "boundaryTypes": [
+      "convergent",
+      "divergent",
+      "transform"
+    ],
+    "sources": "Peter Bird (2003) PB2002; Argus & Gordon (1991) NNR-NUVEL1A"
+  },
+  {
+    "id": 4,
+    "code": "NA",
+    "slug": "north-american-plate",
+    "name": "North American Plate",
+    "class": "major",
+    "crustType": "mixed",
+    "areaKm2": 55431580,
+    "centroid": {
+      "latitude": 57.21,
+      "longitude": -82.53
+    },
+    "speedCmPerYear": 2.0,
+    "direction": "West",
+    "azimuth": 273.9,
+    "referenceFrame": "relative to No-Net-Rotation (NNR)",
+    "neighbors": [
+      "AF",
+      "CA",
+      "CO",
+      "EU",
+      "JF",
+      "OK",
+      "PA",
+      "RI",
+      "SA"
+    ],
+    "boundaryTypes": [
+      "convergent",
+      "divergent",
+      "transform"
+    ],
+    "sources": "Peter Bird (2003) PB2002; Argus & Gordon (1991) NNR-NUVEL1A"
+  },
+  {
+    "id": 5,
+    "code": "EU",
+    "slug": "eurasian-plate",
+    "name": "Eurasian Plate",
+    "class": "major",
+    "crustType": "mixed",
+    "areaKm2": 48557923,
+    "centroid": {
+      "latitude": 58.64,
+      "longitude": 62.43
+    },
+    "speedCmPerYear": 2.5,
+    "direction": "East",
+    "azimuth": 86.5,
+    "referenceFrame": "relative to No-Net-Rotation (NNR)",
+    "neighbors": [
+      "AF",
+      "AM",
+      "AR",
+      "AS",
+      "AT",
+      "BU",
+      "IN",
+      "NA",
+      "OK",
+      "SU",
+      "YA"
+    ],
+    "boundaryTypes": [
+      "convergent",
+      "divergent",
+      "transform"
+    ],
+    "sources": "Peter Bird (2003) PB2002; Argus & Gordon (1991) NNR-NUVEL1A"
+  },
+  {
+    "id": 6,
+    "code": "AU",
+    "slug": "australian-plate",
+    "name": "Australian Plate",
+    "class": "major",
+    "crustType": "mixed",
+    "areaKm2": 45984895,
+    "centroid": {
+      "latitude": -31.44,
+      "longitude": 121.9
+    },
+    "speedCmPerYear": 6.9,
+    "direction": "North-Northeast",
+    "azimuth": 30.3,
+    "referenceFrame": "relative to No-Net-Rotation (NNR)",
+    "neighbors": [
+      "AN",
+      "BH",
+      "BR",
+      "BS",
+      "BU",
+      "CR",
+      "FT",
+      "IN",
+      "KE",
+      "MO",
+      "NH",
+      "NI",
+      "PA",
+      "SO",
+      "SU",
+      "TI",
+      "TO",
+      "WL"
+    ],
+    "boundaryTypes": [
+      "convergent",
+      "divergent",
+      "transform"
+    ],
+    "sources": "Peter Bird (2003) PB2002; Argus & Gordon (1991) NNR-NUVEL1A"
+  },
+  {
+    "id": 7,
+    "code": "SA",
+    "slug": "south-american-plate",
+    "name": "South American Plate",
+    "class": "major",
+    "crustType": "mixed",
+    "areaKm2": 41825164,
+    "centroid": {
+      "latitude": -21.29,
+      "longitude": -42.48
+    },
+    "speedCmPerYear": 1.2,
+    "direction": "North-Northwest",
+    "azimuth": 338.4,
+    "referenceFrame": "relative to No-Net-Rotation (NNR)",
+    "neighbors": [
+      "AF",
+      "AN",
+      "AP",
+      "CA",
+      "NA",
+      "ND",
+      "NZ",
+      "SC",
+      "SW"
+    ],
+    "boundaryTypes": [
+      "convergent",
+      "divergent",
+      "transform"
+    ],
+    "sources": "Peter Bird (2003) PB2002; Argus & Gordon (1991) NNR-NUVEL1A"
+  },
+  {
+    "id": 8,
+    "code": "SO",
+    "slug": "somali-plate",
+    "name": "Somali Plate",
+    "class": "minor",
+    "crustType": "mixed",
+    "areaKm2": 19154790,
+    "centroid": {
+      "latitude": -19.17,
+      "longitude": 47.15
+    },
+    "speedCmPerYear": 2.7,
+    "direction": "Northeast",
+    "azimuth": 53.6,
+    "referenceFrame": "relative to No-Net-Rotation (NNR)",
+    "neighbors": [
+      "AF",
+      "AN",
+      "AR",
+      "AU",
+      "IN"
+    ],
+    "boundaryTypes": [
+      "convergent",
+      "divergent"
+    ],
+    "sources": "Peter Bird (2003) PB2002; Argus & Gordon (1991) NNR-NUVEL1A"
+  },
+  {
+    "id": 9,
+    "code": "NZ",
+    "slug": "nazca-plate",
+    "name": "Nazca Plate",
+    "class": "minor",
+    "crustType": "oceanic",
+    "areaKm2": 16101279,
+    "centroid": {
+      "latitude": -20.92,
+      "longitude": -93.08
+    },
+    "speedCmPerYear": 7.7,
+    "direction": "East",
+    "azimuth": 84.9,
+    "referenceFrame": "relative to No-Net-Rotation (NNR)",
+    "neighbors": [
+      "AN",
+      "AP",
+      "CO",
+      "EA",
+      "GP",
+      "JZ",
+      "ND",
+      "PA",
+      "PM",
+      "SA"
+    ],
+    "boundaryTypes": [
+      "convergent",
+      "divergent",
+      "transform"
+    ],
+    "sources": "Peter Bird (2003) PB2002; Argus & Gordon (1991) NNR-NUVEL1A"
+  },
+  {
+    "id": 10,
+    "code": "IN",
+    "slug": "indian-plate",
+    "name": "Indian Plate",
+    "class": "minor",
+    "crustType": "continental",
+    "areaKm2": 12435088,
+    "centroid": {
+      "latitude": 13.28,
+      "longitude": 75.14
+    },
+    "speedCmPerYear": 5.7,
+    "direction": "Northeast",
+    "azimuth": 44.0,
+    "referenceFrame": "relative to No-Net-Rotation (NNR)",
+    "neighbors": [
+      "AR",
+      "AU",
+      "BU",
+      "EU",
+      "SO"
+    ],
+    "boundaryTypes": [
+      "convergent",
+      "divergent",
+      "transform"
+    ],
+    "sources": "Peter Bird (2003) PB2002; Argus & Gordon (1991) NNR-NUVEL1A"
+  },
+  {
+    "id": 11,
+    "code": "SU",
+    "slug": "sunda-plate",
+    "name": "Sunda Plate",
+    "class": "minor",
+    "crustType": "mixed",
+    "areaKm2": 8916270,
+    "centroid": {
+      "latitude": 3.87,
+      "longitude": 112.28
+    },
+    "speedCmPerYear": 4.0,
+    "direction": "East",
+    "azimuth": 95.1,
+    "referenceFrame": "relative to No-Net-Rotation (NNR)",
+    "neighbors": [
+      "AU",
+      "BH",
+      "BS",
+      "BU",
+      "EU",
+      "MS",
+      "PS",
+      "TI",
+      "YA"
+    ],
+    "boundaryTypes": [
+      "convergent",
+      "divergent",
+      "transform"
+    ],
+    "sources": "Peter Bird (2003) PB2002; Argus & Gordon (1991) NNR-NUVEL1A"
+  },
+  {
+    "id": 12,
+    "code": "PS",
+    "slug": "philippine-sea-plate",
+    "name": "Philippine Sea Plate",
+    "class": "minor",
+    "crustType": "oceanic",
+    "areaKm2": 5443817,
+    "centroid": {
+      "latitude": 19.34,
+      "longitude": 132.85
+    },
+    "speedCmPerYear": 3.9,
+    "direction": "West-Northwest",
+    "azimuth": 295.3,
+    "referenceFrame": "relative to No-Net-Rotation (NNR)",
+    "neighbors": [
+      "AM",
+      "BH",
+      "CL",
+      "MA",
+      "OK",
+      "ON",
+      "PA",
+      "SU",
+      "YA"
+    ],
+    "boundaryTypes": [
+      "convergent",
+      "divergent",
+      "transform"
+    ],
+    "sources": "Peter Bird (2003) PB2002; Argus & Gordon (1991) NNR-NUVEL1A"
+  },
+  {
+    "id": 13,
+    "code": "AM",
+    "slug": "amur-plate",
+    "name": "Amur Plate",
+    "class": "minor",
+    "crustType": "continental",
+    "areaKm2": 5303412,
+    "centroid": {
+      "latitude": 44.42,
+      "longitude": 125.87
+    },
+    "speedCmPerYear": 3.4,
+    "direction": "East-Southeast",
+    "azimuth": 120.2,
+    "referenceFrame": "relative to No-Net-Rotation (NNR)",
+    "neighbors": [
+      "EU",
+      "OK",
+      "ON",
+      "PS",
+      "YA"
+    ],
+    "boundaryTypes": [
+      "convergent",
+      "divergent",
+      "transform"
+    ],
+    "sources": "Peter Bird (2003) PB2002; Argus & Gordon (1991) NNR-NUVEL1A"
+  },
+  {
+    "id": 14,
+    "code": "AR",
+    "slug": "arabian-plate",
+    "name": "Arabian Plate",
+    "class": "minor",
+    "crustType": "continental",
+    "areaKm2": 4904232,
+    "centroid": {
+      "latitude": 24.81,
+      "longitude": 49.65
+    },
+    "speedCmPerYear": 5.0,
+    "direction": "Northeast",
+    "azimuth": 41.3,
+    "referenceFrame": "relative to No-Net-Rotation (NNR)",
+    "neighbors": [
+      "AF",
+      "AT",
+      "EU",
+      "IN",
+      "SO"
+    ],
+    "boundaryTypes": [
+      "convergent",
+      "divergent",
+      "transform"
+    ],
+    "sources": "Peter Bird (2003) PB2002; Argus & Gordon (1991) NNR-NUVEL1A"
+  },
+  {
+    "id": 15,
+    "code": "OK",
+    "slug": "okhotsk-plate",
+    "name": "Okhotsk Plate",
+    "class": "minor",
+    "crustType": "mixed",
+    "areaKm2": 3037118,
+    "centroid": {
+      "latitude": 50.34,
+      "longitude": 148.05
+    },
+    "speedCmPerYear": 2.6,
+    "direction": "Southeast",
+    "azimuth": 142.0,
+    "referenceFrame": "relative to No-Net-Rotation (NNR)",
+    "neighbors": [
+      "AM",
+      "EU",
+      "NA",
+      "PA",
+      "PS"
+    ],
+    "boundaryTypes": [
+      "convergent",
+      "divergent",
+      "transform"
+    ],
+    "sources": "Peter Bird (2003) PB2002; Argus & Gordon (1991) NNR-NUVEL1A"
+  },
+  {
+    "id": 16,
+    "code": "CA",
+    "slug": "caribbean-plate",
+    "name": "Caribbean Plate",
+    "class": "minor",
+    "crustType": "mixed",
+    "areaKm2": 2964762,
+    "centroid": {
+      "latitude": 14.84,
+      "longitude": -72.82
+    },
+    "speedCmPerYear": 1.3,
+    "direction": "East-Northeast",
+    "azimuth": 57.8,
+    "referenceFrame": "relative to No-Net-Rotation (NNR)",
+    "neighbors": [
+      "CO",
+      "NA",
+      "ND",
+      "PM",
+      "SA"
+    ],
+    "boundaryTypes": [
+      "convergent",
+      "transform"
+    ],
+    "sources": "Peter Bird (2003) PB2002; Argus & Gordon (1991) NNR-NUVEL1A"
+  },
+  {
+    "id": 17,
+    "code": "CO",
+    "slug": "cocos-plate",
+    "name": "Cocos Plate",
+    "class": "minor",
+    "crustType": "oceanic",
+    "areaKm2": 2931806,
+    "centroid": {
+      "latitude": 8.65,
+      "longitude": -94.74
+    },
+    "speedCmPerYear": 7.2,
+    "direction": "Northeast",
+    "azimuth": 40.8,
+    "referenceFrame": "relative to No-Net-Rotation (NNR)",
+    "neighbors": [
+      "CA",
+      "GP",
+      "NA",
+      "NZ",
+      "PA",
+      "PM",
+      "RI"
+    ],
+    "boundaryTypes": [
+      "convergent",
+      "divergent"
+    ],
+    "sources": "Peter Bird (2003) PB2002; Argus & Gordon (1991) NNR-NUVEL1A"
+  },
+  {
+    "id": 18,
+    "code": "YA",
+    "slug": "yangtze-plate",
+    "name": "Yangtze Plate",
+    "class": "minor",
+    "crustType": "continental",
+    "areaKm2": 2201946,
+    "centroid": {
+      "latitude": 26.22,
+      "longitude": 116.45
+    },
+    "speedCmPerYear": 4.0,
+    "direction": "East-Southeast",
+    "azimuth": 115.2,
+    "referenceFrame": "relative to No-Net-Rotation (NNR)",
+    "neighbors": [
+      "AM",
+      "EU",
+      "ON",
+      "PS",
+      "SU"
+    ],
+    "boundaryTypes": [
+      "convergent",
+      "divergent",
+      "transform"
+    ],
+    "sources": "Peter Bird (2003) PB2002; Argus & Gordon (1991) NNR-NUVEL1A"
+  },
+  {
+    "id": 19,
+    "code": "SC",
+    "slug": "scotia-plate",
+    "name": "Scotia Plate",
+    "class": "minor",
+    "crustType": "oceanic",
+    "areaKm2": 1700722,
+    "centroid": {
+      "latitude": -57.17,
+      "longitude": -52.61
+    },
+    "speedCmPerYear": 1.3,
+    "direction": "North-Northeast",
+    "azimuth": 21.7,
+    "referenceFrame": "relative to No-Net-Rotation (NNR)",
+    "neighbors": [
+      "AN",
+      "SA",
+      "SL",
+      "SW"
+    ],
+    "boundaryTypes": [
+      "convergent",
+      "divergent",
+      "transform"
+    ],
+    "sources": "Peter Bird (2003) PB2002; Argus & Gordon (1991) NNR-NUVEL1A"
+  },
+  {
+    "id": 20,
+    "code": "CL",
+    "slug": "caroline-plate",
+    "name": "Caroline Plate",
+    "class": "minor",
+    "crustType": "oceanic",
+    "areaKm2": 1528210,
+    "centroid": {
+      "latitude": 3.47,
+      "longitude": 140.42
+    },
+    "speedCmPerYear": 5.9,
+    "direction": "West-Northwest",
+    "azimuth": 283.9,
+    "referenceFrame": "relative to No-Net-Rotation (NNR)",
+    "neighbors": [
+      "BH",
+      "NB",
+      "PA",
+      "PS",
+      "WL"
+    ],
+    "boundaryTypes": [
+      "convergent",
+      "divergent",
+      "transform"
+    ],
+    "sources": "Peter Bird (2003) PB2002; Argus & Gordon (1991) NNR-NUVEL1A"
+  },
+  {
+    "id": 21,
+    "code": "AS",
+    "slug": "aegean-sea-plate",
+    "name": "Aegean Sea Plate",
+    "class": "microplate",
+    "crustType": "continental",
+    "areaKm2": 321878,
+    "centroid": {
+      "latitude": 36.91,
+      "longitude": 25.29
+    },
+    "speedCmPerYear": 1.5,
+    "direction": "South-Southeast",
+    "azimuth": 154.5,
+    "referenceFrame": "relative to No-Net-Rotation (NNR)",
+    "neighbors": [
+      "AF",
+      "AT",
+      "EU"
+    ],
+    "boundaryTypes": [
+      "convergent",
+      "divergent"
+    ],
+    "sources": "Peter Bird (2003) PB2002; Argus & Gordon (1991) NNR-NUVEL1A"
+  },
+  {
+    "id": 22,
+    "code": "AP",
+    "slug": "altiplano-plate",
+    "name": "Altiplano Plate",
+    "class": "microplate",
+    "crustType": "continental",
+    "areaKm2": 832156,
+    "centroid": {
+      "latitude": -17.57,
+      "longitude": -69.92
+    },
+    "speedCmPerYear": 1.7,
+    "direction": "North-Northeast",
+    "azimuth": 29.8,
+    "referenceFrame": "relative to No-Net-Rotation (NNR)",
+    "neighbors": [
+      "NZ",
+      "SA"
+    ],
+    "boundaryTypes": [
+      "convergent"
+    ],
+    "sources": "Peter Bird (2003) PB2002; Argus & Gordon (1991) NNR-NUVEL1A"
+  },
+  {
+    "id": 23,
+    "code": "AT",
+    "slug": "anatolian-plate",
+    "name": "Anatolian Plate",
+    "class": "microplate",
+    "crustType": "continental",
+    "areaKm2": 575627,
+    "centroid": {
+      "latitude": 38.34,
+      "longitude": 32.56
+    },
+    "speedCmPerYear": 1.1,
+    "direction": "Northeast",
+    "azimuth": 34.1,
+    "referenceFrame": "relative to No-Net-Rotation (NNR)",
+    "neighbors": [
+      "AF",
+      "AR",
+      "AS",
+      "EU"
+    ],
+    "boundaryTypes": [
+      "convergent",
+      "divergent",
+      "transform"
+    ],
+    "sources": "Peter Bird (2003) PB2002; Argus & Gordon (1991) NNR-NUVEL1A"
+  },
+  {
+    "id": 24,
+    "code": "BR",
+    "slug": "balmoral-reef-plate",
+    "name": "Balmoral Reef Plate",
+    "class": "microplate",
+    "crustType": "oceanic",
+    "areaKm2": 195383,
+    "centroid": {
+      "latitude": -15.0,
+      "longitude": 175.62
+    },
+    "speedCmPerYear": 4.4,
+    "direction": "West-Northwest",
+    "azimuth": 290.0,
+    "referenceFrame": "relative to No-Net-Rotation (NNR)",
+    "neighbors": [
+      "AU",
+      "CR",
+      "NH",
+      "PA"
+    ],
+    "boundaryTypes": [
+      "convergent",
+      "divergent",
+      "transform"
+    ],
+    "sources": "Peter Bird (2003) PB2002; Argus & Gordon (1991) NNR-NUVEL1A"
+  },
+  {
+    "id": 25,
+    "code": "BS",
+    "slug": "banda-sea-plate",
+    "name": "Banda Sea Plate",
+    "class": "microplate",
+    "crustType": "oceanic",
+    "areaKm2": 695916,
+    "centroid": {
+      "latitude": -4.37,
+      "longitude": 125.22
+    },
+    "speedCmPerYear": 3.0,
+    "direction": "Northeast",
+    "azimuth": 45.4,
+    "referenceFrame": "relative to No-Net-Rotation (NNR)",
+    "neighbors": [
+      "AU",
+      "BH",
+      "MS",
+      "SU",
+      "TI"
+    ],
+    "boundaryTypes": [
+      "convergent",
+      "divergent",
+      "transform"
+    ],
+    "sources": "Peter Bird (2003) PB2002; Argus & Gordon (1991) NNR-NUVEL1A"
+  },
+  {
+    "id": 26,
+    "code": "BH",
+    "slug": "birds-head-plate",
+    "name": "Birds Head Plate",
+    "class": "microplate",
+    "crustType": "mixed",
+    "areaKm2": 525657,
+    "centroid": {
+      "latitude": -1.03,
+      "longitude": 132.02
+    },
+    "speedCmPerYear": 6.6,
+    "direction": "West-Northwest",
+    "azimuth": 303.4,
+    "referenceFrame": "relative to No-Net-Rotation (NNR)",
+    "neighbors": [
+      "AU",
+      "BS",
+      "CL",
+      "MO",
+      "MS",
+      "PS",
+      "SU",
+      "WL"
+    ],
+    "boundaryTypes": [
+      "convergent",
+      "divergent",
+      "transform"
+    ],
+    "sources": "Peter Bird (2003) PB2002; Argus & Gordon (1991) NNR-NUVEL1A"
+  },
+  {
+    "id": 27,
+    "code": "BU",
+    "slug": "burma-plate",
+    "name": "Burma Plate",
+    "class": "microplate",
+    "crustType": "continental",
+    "areaKm2": 515369,
+    "centroid": {
+      "latitude": 9.15,
+      "longitude": 94.74
+    },
+    "speedCmPerYear": 4.9,
+    "direction": "North-Northeast",
+    "azimuth": 28.9,
+    "referenceFrame": "relative to No-Net-Rotation (NNR)",
+    "neighbors": [
+      "AU",
+      "EU",
+      "IN",
+      "SU"
+    ],
+    "boundaryTypes": [
+      "convergent",
+      "divergent",
+      "transform"
+    ],
+    "sources": "Peter Bird (2003) PB2002; Argus & Gordon (1991) NNR-NUVEL1A"
+  },
+  {
+    "id": 28,
+    "code": "CR",
+    "slug": "conway-reef-plate",
+    "name": "Conway Reef Plate",
+    "class": "microplate",
+    "crustType": "oceanic",
+    "areaKm2": 144457,
+    "centroid": {
+      "latitude": -19.15,
+      "longitude": 174.72
+    },
+    "speedCmPerYear": 2.9,
+    "direction": "North-Northwest",
+    "azimuth": 338.9,
+    "referenceFrame": "relative to No-Net-Rotation (NNR)",
+    "neighbors": [
+      "AU",
+      "BR",
+      "NH"
+    ],
+    "boundaryTypes": [
+      "convergent",
+      "divergent"
+    ],
+    "sources": "Peter Bird (2003) PB2002; Argus & Gordon (1991) NNR-NUVEL1A"
+  },
+  {
+    "id": 29,
+    "code": "EA",
+    "slug": "easter-plate",
+    "name": "Easter Plate",
+    "class": "microplate",
+    "crustType": "oceanic",
+    "areaKm2": 166982,
+    "centroid": {
+      "latitude": -24.4,
+      "longitude": -114.12
+    },
+    "speedCmPerYear": 3.7,
+    "direction": "North-Northeast",
+    "azimuth": 30.2,
+    "referenceFrame": "relative to No-Net-Rotation (NNR)",
+    "neighbors": [
+      "NZ",
+      "PA"
+    ],
+    "boundaryTypes": [
+      "divergent"
+    ],
+    "sources": "Peter Bird (2003) PB2002; Argus & Gordon (1991) NNR-NUVEL1A"
+  },
+  {
+    "id": 30,
+    "code": "FT",
+    "slug": "futuna-plate",
+    "name": "Futuna Plate",
+    "class": "microplate",
+    "crustType": "oceanic",
+    "areaKm2": 32023,
+    "centroid": {
+      "latitude": -15.06,
+      "longitude": -177.94
+    },
+    "speedCmPerYear": 3.7,
+    "direction": "North-Northwest",
+    "azimuth": 339.3,
+    "referenceFrame": "relative to No-Net-Rotation (NNR)",
+    "neighbors": [
+      "AU",
+      "NI",
+      "PA"
+    ],
+    "boundaryTypes": [
+      "divergent",
+      "transform"
+    ],
+    "sources": "Peter Bird (2003) PB2002; Argus & Gordon (1991) NNR-NUVEL1A"
+  },
+  {
+    "id": 31,
+    "code": "GP",
+    "slug": "galapagos-plate",
+    "name": "Galapagos Plate",
+    "class": "microplate",
+    "crustType": "oceanic",
+    "areaKm2": 14625,
+    "centroid": {
+      "latitude": 1.89,
+      "longitude": -101.75
+    },
+    "speedCmPerYear": 6.0,
+    "direction": "East-Northeast",
+    "azimuth": 59.9,
+    "referenceFrame": "relative to No-Net-Rotation (NNR)",
+    "neighbors": [
+      "CO",
+      "NZ",
+      "PA"
+    ],
+    "boundaryTypes": [
+      "divergent"
+    ],
+    "sources": "Peter Bird (2003) PB2002; Argus & Gordon (1991) NNR-NUVEL1A"
+  },
+  {
+    "id": 32,
+    "code": "JZ",
+    "slug": "juan-fernandez-plate",
+    "name": "Juan Fernandez Plate",
+    "class": "microplate",
+    "crustType": "oceanic",
+    "areaKm2": 97677,
+    "centroid": {
+      "latitude": -33.31,
+      "longitude": -110.97
+    },
+    "speedCmPerYear": 7.6,
+    "direction": "Northeast",
+    "azimuth": 37.9,
+    "referenceFrame": "relative to No-Net-Rotation (NNR)",
+    "neighbors": [
+      "AN",
+      "NZ",
+      "PA"
+    ],
+    "boundaryTypes": [
+      "divergent"
+    ],
+    "sources": "Peter Bird (2003) PB2002; Argus & Gordon (1991) NNR-NUVEL1A"
+  },
+  {
+    "id": 33,
+    "code": "JF",
+    "slug": "juan-de-fuca-plate",
+    "name": "Juan de Fuca Plate",
+    "class": "microplate",
+    "crustType": "oceanic",
+    "areaKm2": 256324,
+    "centroid": {
+      "latitude": 46.15,
+      "longitude": -128.34
+    },
+    "speedCmPerYear": 2.3,
+    "direction": "East-Northeast",
+    "azimuth": 72.7,
+    "referenceFrame": "relative to No-Net-Rotation (NNR)",
+    "neighbors": [
+      "NA",
+      "PA"
+    ],
+    "boundaryTypes": [
+      "convergent",
+      "divergent"
+    ],
+    "sources": "Peter Bird (2003) PB2002; Argus & Gordon (1991) NNR-NUVEL1A"
+  },
+  {
+    "id": 34,
+    "code": "KE",
+    "slug": "kermadec-plate",
+    "name": "Kermadec Plate",
+    "class": "microplate",
+    "crustType": "oceanic",
+    "areaKm2": 505346,
+    "centroid": {
+      "latitude": -33.12,
+      "longitude": -179.53
+    },
+    "speedCmPerYear": 3.5,
+    "direction": "East-Northeast",
+    "azimuth": 60.0,
+    "referenceFrame": "relative to No-Net-Rotation (NNR)",
+    "neighbors": [
+      "AU",
+      "PA",
+      "TO"
+    ],
+    "boundaryTypes": [
+      "convergent",
+      "divergent",
+      "transform"
+    ],
+    "sources": "Peter Bird (2003) PB2002; Argus & Gordon (1991) NNR-NUVEL1A"
+  },
+  {
+    "id": 35,
+    "code": "MN",
+    "slug": "manus-plate",
+    "name": "Manus Plate",
+    "class": "microplate",
+    "crustType": "oceanic",
+    "areaKm2": 8219,
+    "centroid": {
+      "latitude": -3.51,
+      "longitude": 150.58
+    },
+    "speedCmPerYear": 3.8,
+    "direction": "North-Northwest",
+    "azimuth": 336.3,
+    "referenceFrame": "relative to No-Net-Rotation (NNR)",
+    "neighbors": [
+      "NB",
+      "SB"
+    ],
+    "boundaryTypes": [
+      "convergent",
+      "divergent"
+    ],
+    "sources": "Peter Bird (2003) PB2002; Argus & Gordon (1991) NNR-NUVEL1A"
+  },
+  {
+    "id": 36,
+    "code": "MO",
+    "slug": "maoke-plate",
+    "name": "Maoke Plate",
+    "class": "microplate",
+    "crustType": "continental",
+    "areaKm2": 115307,
+    "centroid": {
+      "latitude": -3.69,
+      "longitude": 138.07
+    },
+    "speedCmPerYear": 6.5,
+    "direction": "North-Northeast",
+    "azimuth": 23.1,
+    "referenceFrame": "relative to No-Net-Rotation (NNR)",
+    "neighbors": [
+      "AU",
+      "BH",
+      "WL"
+    ],
+    "boundaryTypes": [
+      "convergent",
+      "transform"
+    ],
+    "sources": "Peter Bird (2003) PB2002; Argus & Gordon (1991) NNR-NUVEL1A"
+  },
+  {
+    "id": 37,
+    "code": "MA",
+    "slug": "mariana-plate",
+    "name": "Mariana Plate",
+    "class": "microplate",
+    "crustType": "oceanic",
+    "areaKm2": 420801,
+    "centroid": {
+      "latitude": 17.5,
+      "longitude": 144.53
+    },
+    "speedCmPerYear": 1.2,
+    "direction": "North-Northwest",
+    "azimuth": 334.5,
+    "referenceFrame": "relative to No-Net-Rotation (NNR)",
+    "neighbors": [
+      "PA",
+      "PS"
+    ],
+    "boundaryTypes": [
+      "convergent",
+      "divergent"
+    ],
+    "sources": "Peter Bird (2003) PB2002; Argus & Gordon (1991) NNR-NUVEL1A"
+  },
+  {
+    "id": 38,
+    "code": "MS",
+    "slug": "molucca-sea-plate",
+    "name": "Molucca Sea Plate",
+    "class": "microplate",
+    "crustType": "oceanic",
+    "areaKm2": 418108,
+    "centroid": {
+      "latitude": -0.57,
+      "longitude": 124.06
+    },
+    "speedCmPerYear": 2.0,
+    "direction": "East",
+    "azimuth": 81.1,
+    "referenceFrame": "relative to No-Net-Rotation (NNR)",
+    "neighbors": [
+      "BH",
+      "BS",
+      "SU"
+    ],
+    "boundaryTypes": [
+      "convergent",
+      "transform"
+    ],
+    "sources": "Peter Bird (2003) PB2002; Argus & Gordon (1991) NNR-NUVEL1A"
+  },
+  {
+    "id": 39,
+    "code": "NH",
+    "slug": "new-hebrides-plate",
+    "name": "New Hebrides Plate",
+    "class": "microplate",
+    "crustType": "oceanic",
+    "areaKm2": 643463,
+    "centroid": {
+      "latitude": -17.68,
+      "longitude": 170.43
+    },
+    "speedCmPerYear": 8.2,
+    "direction": "West-Northwest",
+    "azimuth": 281.5,
+    "referenceFrame": "relative to No-Net-Rotation (NNR)",
+    "neighbors": [
+      "AU",
+      "BR",
+      "CR",
+      "PA"
+    ],
+    "boundaryTypes": [
+      "convergent",
+      "divergent",
+      "transform"
+    ],
+    "sources": "Peter Bird (2003) PB2002; Argus & Gordon (1991) NNR-NUVEL1A"
+  },
+  {
+    "id": 40,
+    "code": "NI",
+    "slug": "niuafo-ou-plate",
+    "name": "Niuafo'ou Plate",
+    "class": "microplate",
+    "crustType": "oceanic",
+    "areaKm2": 124283,
+    "centroid": {
+      "latitude": -16.52,
+      "longitude": -175.43
+    },
+    "speedCmPerYear": 8.5,
+    "direction": "East",
+    "azimuth": 96.5,
+    "referenceFrame": "relative to No-Net-Rotation (NNR)",
+    "neighbors": [
+      "AU",
+      "FT",
+      "PA",
+      "TO"
+    ],
+    "boundaryTypes": [
+      "divergent"
+    ],
+    "sources": "Peter Bird (2003) PB2002; Argus & Gordon (1991) NNR-NUVEL1A"
+  },
+  {
+    "id": 41,
+    "code": "ND",
+    "slug": "north-andes-plate",
+    "name": "North Andes Plate",
+    "class": "microplate",
+    "crustType": "mixed",
+    "areaKm2": 971805,
+    "centroid": {
+      "latitude": 6.34,
+      "longitude": -75.34
+    },
+    "speedCmPerYear": 1.1,
+    "direction": "North-Northeast",
+    "azimuth": 11.4,
+    "referenceFrame": "relative to No-Net-Rotation (NNR)",
+    "neighbors": [
+      "CA",
+      "NZ",
+      "PM",
+      "SA"
+    ],
+    "boundaryTypes": [
+      "convergent",
+      "transform"
+    ],
+    "sources": "Peter Bird (2003) PB2002; Argus & Gordon (1991) NNR-NUVEL1A"
+  },
+  {
+    "id": 42,
+    "code": "NB",
+    "slug": "north-bismarck-plate",
+    "name": "North Bismarck Plate",
+    "class": "microplate",
+    "crustType": "oceanic",
+    "areaKm2": 388138,
+    "centroid": {
+      "latitude": -3.38,
+      "longitude": 149.19
+    },
+    "speedCmPerYear": 6.8,
+    "direction": "West-Northwest",
+    "azimuth": 294.2,
+    "referenceFrame": "relative to No-Net-Rotation (NNR)",
+    "neighbors": [
+      "CL",
+      "MN",
+      "PA",
+      "SB",
+      "SS",
+      "WL"
+    ],
+    "boundaryTypes": [
+      "convergent",
+      "transform"
+    ],
+    "sources": "Peter Bird (2003) PB2002; Argus & Gordon (1991) NNR-NUVEL1A"
+  },
+  {
+    "id": 43,
+    "code": "ON",
+    "slug": "okinawa-plate",
+    "name": "Okinawa Plate",
+    "class": "microplate",
+    "crustType": "mixed",
+    "areaKm2": 324711,
+    "centroid": {
+      "latitude": 27.35,
+      "longitude": 127.94
+    },
+    "speedCmPerYear": 6.2,
+    "direction": "Southeast",
+    "azimuth": 131.7,
+    "referenceFrame": "relative to No-Net-Rotation (NNR)",
+    "neighbors": [
+      "AM",
+      "PS",
+      "YA"
+    ],
+    "boundaryTypes": [
+      "convergent",
+      "divergent"
+    ],
+    "sources": "Peter Bird (2003) PB2002; Argus & Gordon (1991) NNR-NUVEL1A"
+  },
+  {
+    "id": 44,
+    "code": "PM",
+    "slug": "panama-plate",
+    "name": "Panama Plate",
+    "class": "microplate",
+    "crustType": "mixed",
+    "areaKm2": 273735,
+    "centroid": {
+      "latitude": 9.01,
+      "longitude": -81.06
+    },
+    "speedCmPerYear": 2.0,
+    "direction": "Northeast",
+    "azimuth": 44.1,
+    "referenceFrame": "relative to No-Net-Rotation (NNR)",
+    "neighbors": [
+      "CA",
+      "CO",
+      "ND",
+      "NZ"
+    ],
+    "boundaryTypes": [
+      "convergent",
+      "transform"
+    ],
+    "sources": "Peter Bird (2003) PB2002; Argus & Gordon (1991) NNR-NUVEL1A"
+  },
+  {
+    "id": 45,
+    "code": "RI",
+    "slug": "rivera-plate",
+    "name": "Rivera Plate",
+    "class": "microplate",
+    "crustType": "oceanic",
+    "areaKm2": 100893,
+    "centroid": {
+      "latitude": 20.04,
+      "longitude": -107.39
+    },
+    "speedCmPerYear": 1.0,
+    "direction": "East",
+    "azimuth": 86.8,
+    "referenceFrame": "relative to No-Net-Rotation (NNR)",
+    "neighbors": [
+      "CO",
+      "NA",
+      "PA"
+    ],
+    "boundaryTypes": [
+      "convergent",
+      "divergent"
+    ],
+    "sources": "Peter Bird (2003) PB2002; Argus & Gordon (1991) NNR-NUVEL1A"
+  },
+  {
+    "id": 46,
+    "code": "SL",
+    "slug": "shetland-plate",
+    "name": "Shetland Plate",
+    "class": "microplate",
+    "crustType": "mixed",
+    "areaKm2": 72266,
+    "centroid": {
+      "latitude": -61.84,
+      "longitude": -58.94
+    },
+    "speedCmPerYear": 2.3,
+    "direction": "North-Northeast",
+    "azimuth": 32.9,
+    "referenceFrame": "relative to No-Net-Rotation (NNR)",
+    "neighbors": [
+      "AN",
+      "SC"
+    ],
+    "boundaryTypes": [
+      "convergent",
+      "divergent"
+    ],
+    "sources": "Peter Bird (2003) PB2002; Argus & Gordon (1991) NNR-NUVEL1A"
+  },
+  {
+    "id": 47,
+    "code": "SS",
+    "slug": "solomon-sea-plate",
+    "name": "Solomon Sea Plate",
+    "class": "microplate",
+    "crustType": "oceanic",
+    "areaKm2": 128669,
+    "centroid": {
+      "latitude": -7.25,
+      "longitude": 152.61
+    },
+    "speedCmPerYear": 7.1,
+    "direction": "North",
+    "azimuth": 10.5,
+    "referenceFrame": "relative to No-Net-Rotation (NNR)",
+    "neighbors": [
+      "NB",
+      "PA",
+      "SB",
+      "WL"
+    ],
+    "boundaryTypes": [
+      "convergent",
+      "transform"
+    ],
+    "sources": "Peter Bird (2003) PB2002; Argus & Gordon (1991) NNR-NUVEL1A"
+  },
+  {
+    "id": 48,
+    "code": "SB",
+    "slug": "south-bismarck-plate",
+    "name": "South Bismarck Plate",
+    "class": "microplate",
+    "crustType": "oceanic",
+    "areaKm2": 309094,
+    "centroid": {
+      "latitude": -5.3,
+      "longitude": 149.24
+    },
+    "speedCmPerYear": 3.0,
+    "direction": "East-Southeast",
+    "azimuth": 118.9,
+    "referenceFrame": "relative to No-Net-Rotation (NNR)",
+    "neighbors": [
+      "MN",
+      "NB",
+      "SS",
+      "WL"
+    ],
+    "boundaryTypes": [
+      "convergent",
+      "divergent",
+      "transform"
+    ],
+    "sources": "Peter Bird (2003) PB2002; Argus & Gordon (1991) NNR-NUVEL1A"
+  },
+  {
+    "id": 49,
+    "code": "SW",
+    "slug": "south-sandwich-plate",
+    "name": "South Sandwich Plate",
+    "class": "microplate",
+    "crustType": "oceanic",
+    "areaKm2": 184414,
+    "centroid": {
+      "latitude": -57.77,
+      "longitude": -27.66
+    },
+    "speedCmPerYear": 7.3,
+    "direction": "East-Northeast",
+    "azimuth": 76.4,
+    "referenceFrame": "relative to No-Net-Rotation (NNR)",
+    "neighbors": [
+      "AN",
+      "SA",
+      "SC"
+    ],
+    "boundaryTypes": [
+      "convergent",
+      "divergent",
+      "transform"
+    ],
+    "sources": "Peter Bird (2003) PB2002; Argus & Gordon (1991) NNR-NUVEL1A"
+  },
+  {
+    "id": 50,
+    "code": "TI",
+    "slug": "timor-plate",
+    "name": "Timor Plate",
+    "class": "microplate",
+    "crustType": "mixed",
+    "areaKm2": 353285,
+    "centroid": {
+      "latitude": -8.86,
+      "longitude": 125.72
+    },
+    "speedCmPerYear": 5.2,
+    "direction": "North-Northeast",
+    "azimuth": 24.2,
+    "referenceFrame": "relative to No-Net-Rotation (NNR)",
+    "neighbors": [
+      "AU",
+      "BS",
+      "SU"
+    ],
+    "boundaryTypes": [
+      "convergent",
+      "transform"
+    ],
+    "sources": "Peter Bird (2003) PB2002; Argus & Gordon (1991) NNR-NUVEL1A"
+  },
+  {
+    "id": 51,
+    "code": "TO",
+    "slug": "tonga-plate",
+    "name": "Tonga Plate",
+    "class": "microplate",
+    "crustType": "oceanic",
+    "areaKm2": 253622,
+    "centroid": {
+      "latitude": -19.39,
+      "longitude": -174.49
+    },
+    "speedCmPerYear": 11.4,
+    "direction": "East",
+    "azimuth": 100.0,
+    "referenceFrame": "relative to No-Net-Rotation (NNR)",
+    "neighbors": [
+      "AU",
+      "KE",
+      "NI",
+      "PA"
+    ],
+    "boundaryTypes": [
+      "convergent",
+      "divergent",
+      "transform"
+    ],
+    "sources": "Peter Bird (2003) PB2002; Argus & Gordon (1991) NNR-NUVEL1A"
+  },
+  {
+    "id": 52,
+    "code": "WL",
+    "slug": "woodlark-plate",
+    "name": "Woodlark Plate",
+    "class": "microplate",
+    "crustType": "oceanic",
+    "areaKm2": 453080,
+    "centroid": {
+      "latitude": -6.32,
+      "longitude": 147.74
+    },
+    "speedCmPerYear": 6.7,
+    "direction": "North-Northeast",
+    "azimuth": 18.2,
+    "referenceFrame": "relative to No-Net-Rotation (NNR)",
+    "neighbors": [
+      "AU",
+      "BH",
+      "CL",
+      "MO",
+      "NB",
+      "PA",
+      "SB",
+      "SS"
+    ],
+    "boundaryTypes": [
+      "convergent",
+      "divergent",
+      "transform"
+    ],
+    "sources": "Peter Bird (2003) PB2002; Argus & Gordon (1991) NNR-NUVEL1A"
+  }
+]

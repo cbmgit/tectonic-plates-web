@@ -1,0 +1,100 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.5167,
+          21.4
+        ]
+      },
+      "properties": {
+        "name": "Chicxulub Crater",
+        "diameter": "180 km (110 mi)",
+        "age": "66 Million Years",
+        "lat": 21.4,
+        "lng": -89.5167,
+        "country": "Mexico (Yucatan)",
+        "desc": "The colossal asteroid impact responsible for the Cretaceous-Paleogene extinction of the dinosaurs."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5,
+          -27.0
+        ]
+      },
+      "properties": {
+        "name": "Vredefort Crater",
+        "diameter": "300 km (186 mi)",
+        "age": "2.02 Billion Years",
+        "lat": -27.0,
+        "lng": 27.5,
+        "country": "South Africa",
+        "desc": "Largest verified impact crater on Earth, created by a 10-15 km asteroid in the Paleoproterozoic Era."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.0225,
+          35.0272
+        ]
+      },
+      "properties": {
+        "name": "Barringer Meteor Crater",
+        "diameter": "1.2 km (0.75 mi)",
+        "age": "50,000 Years",
+        "lat": 35.0272,
+        "lng": -111.0225,
+        "country": "USA (Arizona)",
+        "desc": "World's best preserved meteorite crater, formed by a 50m nickel-iron meteor travelling 29,000 mph."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.1833,
+          46.6
+        ]
+      },
+      "properties": {
+        "name": "Sudbury Basin",
+        "diameter": "130 km (81 mi)",
+        "age": "1.85 Billion Years",
+        "lat": 46.6,
+        "lng": -81.1833,
+        "country": "Canada (Ontario)",
+        "desc": "Major impact structure world-renowned for immense nickel and copper ore deposits created by impact melt."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.7,
+          51.3833
+        ]
+      },
+      "properties": {
+        "name": "Manicouagan Crater ('Eye of Quebec')",
+        "diameter": "100 km (62 mi)",
+        "age": "214 Million Years",
+        "lat": 51.3833,
+        "lng": -68.7,
+        "country": "Canada (Quebec)",
+        "desc": "Stunning ring lake impact structure visible from Earth orbit, formed by a 5 km asteroid."
+      }
+    }
+  ]
+}

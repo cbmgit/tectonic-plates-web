@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="100%" height="100%">
+  <defs>
+    <!-- Background & Plate Gradients -->
+    <radialGradient id="globeGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="85%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </radialGradient>
+    
+    <linearGradient id="plateA" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#0284c7"/>
+    </linearGradient>
+
+    <linearGradient id="plateB" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2dd4bf"/>
+      <stop offset="100%" stop-color="#0d9488"/>
+    </linearGradient>
+
+    <linearGradient id="plateC" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#60a5fa"/>
+      <stop offset="100%" stop-color="#2563eb"/>
+    </linearGradient>
+
+    <linearGradient id="plateD" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#4f46e5"/>
+    </linearGradient>
+
+    <!-- Glowing Fault Line Filters -->
+    <filter id="glowFissure" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Outer Atmosphere Ring -->
+  <circle cx="60" cy="60" r="56" fill="url(#globeGlow)" stroke="#38bdf8" stroke-width="2" stroke-opacity="0.3"/>
+  <circle cx="60" cy="60" r="54" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+
+  <!-- TECTONIC PLATES (Interlocking Lithospheric Slabs) -->
+  <g transform="translate(0, 0)">
+    <!-- Plate 1: Northwest Plate (e.g. North American / Pacific margin) -->
+    <path d="M 60,8 A 52,52 0 0,0 12,44 L 38,48 L 52,36 L 58,22 Z" 
+          fill="url(#plateA)" fill-opacity="0.9" />
+
+    <!-- Plate 2: Southwest Plate (e.g. Pacific / Nazca) -->
+    <path d="M 12,48 A 52,52 0 0,0 26,96 L 46,74 L 40,54 L 38,50 Z" 
+          fill="url(#plateB)" fill-opacity="0.9" />
+
+    <!-- Plate 3: South / Antarctic Plate -->
+    <path d="M 30,98 A 52,52 0 0,0 90,98 L 76,78 L 50,78 L 48,76 Z" 
+          fill="url(#plateD)" fill-opacity="0.9" />
+
+    <!-- Plate 4: East Plate (Eurasian / African) -->
+    <path d="M 64,8 A 52,52 0 0,1 108,60 L 80,62 L 66,42 L 62,20 Z" 
+          fill="url(#plateC)" fill-opacity="0.9" />
+
+    <!-- Plate 5: Central Tectonic Rift / Oceanic Basin -->
+    <path d="M 108,64 A 52,52 0 0,1 92,96 L 78,76 L 82,64 Z" 
+          fill="url(#plateA)" fill-opacity="0.8" />
+  </g>
+
+  <!-- GLOWING FAULT BOUNDARIES (Seismic Fissures) -->
+  <g filter="url(#glowFissure)">
+    <!-- Main Mid-Ocean Divergent Ridge (Golden Amber) -->
+    <path d="M 60,8 L 58,22 L 52,36 L 38,48 L 40,54 L 46,74 L 50,78 L 76,78 L 90,98" 
+          fill="none" stroke="#fbbf24" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+
+    <!-- Subduction Zone / Transform Faults (Coral Crimson) -->
+    <path d="M 52,36 L 66,42 L 80,62 L 78,76" 
+          fill="none" stroke="#ff3860" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+
+    <path d="M 38,48 L 12,46" 
+          fill="none" stroke="#ff3860" stroke-width="2.5" stroke-linecap="round" />
+
+    <path d="M 80,62 L 108,62" 
+          fill="none" stroke="#2dd4bf" stroke-width="2.5" stroke-linecap="round" />
+  </g>
+
+  <!-- Epicenter Hotspot / Mantle Plume (Pulsing Center) -->
+  <circle cx="52" cy="36" r="4.5" fill="#ef4444" stroke="#ffffff" stroke-width="1.5"/>
+  <circle cx="78" cy="76" r="3.5" fill="#fbbf24" stroke="#ffffff" stroke-width="1"/>
+</svg>

@@ -1,0 +1,448 @@
+{
+  "active": {
+    "polygons": {
+      "type": "FeatureCollection",
+      "features": []
+    },
+    "points": {
+      "type": "FeatureCollection",
+      "features": []
+    },
+    "lines": {
+      "type": "FeatureCollection",
+      "features": []
+    }
+  },
+  "2024": {
+    "polygons": {
+      "type": "FeatureCollection",
+      "features": []
+    },
+    "lines": {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "Greenfield Tornado",
+            "ef_scale": "EF4",
+            "color": "#ef4444",
+            "date": "May 21, 2024",
+            "state": "Iowa",
+            "winds": "309-318 mph (Doppler on Wheels peak)",
+            "official_winds": "185 mph (3-second gust)",
+            "path_length": "43.7 miles (70.3 km)",
+            "max_width": "1,000 yards (914 m)",
+            "deaths": 5,
+            "desc": "Intense multi-vortex tornado producing wind speeds among the highest ever measured by mobile radar, obliterating robust wind turbines and structures across Greenfield."
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [-94.55, 41.22],
+              [-94.38, 41.28],
+              [-94.30, 41.30],
+              [-94.22, 41.34],
+              [-94.10, 41.42],
+              [-93.95, 41.52]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "Barnsdall-Bartlesville Tornado",
+            "ef_scale": "EF4",
+            "color": "#ef4444",
+            "date": "May 6, 2024",
+            "state": "Oklahoma",
+            "winds": "180 mph (290 km/h)",
+            "path_length": "39.2 miles (63.1 km)",
+            "max_width": "1,700 yards (1.55 km)",
+            "deaths": 2,
+            "desc": "Violent nocturnal wedge tornado tearing through Osage and Washington counties with catastrophic industrial and residential destruction."
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [-96.35, 36.50],
+              [-96.22, 36.54],
+              [-96.16, 36.56],
+              [-95.98, 36.72],
+              [-95.82, 36.85]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "Elkhorn-Bennington Tornado",
+            "ef_scale": "EF4",
+            "color": "#ef4444",
+            "date": "April 26, 2024",
+            "state": "Nebraska",
+            "winds": "165 mph (265 km/h)",
+            "path_length": "32.0 miles (51.5 km)",
+            "max_width": "1,500 yards (1.37 km)",
+            "deaths": 1,
+            "desc": "Long-track tornado flattening subdivisions in western Omaha metro area with intense cyclonic wind shear."
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [-96.42, 41.18],
+              [-96.32, 41.25],
+              [-96.24, 41.32],
+              [-96.15, 41.40],
+              [-96.02, 41.50]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "Sulphur Tornado",
+            "ef_scale": "EF3",
+            "color": "#f97316",
+            "date": "April 27, 2024",
+            "state": "Oklahoma",
+            "winds": "165 mph (265 km/h)",
+            "path_length": "13.8 miles (22.2 km)",
+            "max_width": "700 yards (640 m)",
+            "deaths": 1,
+            "desc": "Direct hit on downtown historic district of Sulphur, destroying brick structures and multi-story buildings."
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [-97.05, 34.46],
+              [-96.97, 34.51],
+              [-96.90, 34.54],
+              [-96.82, 34.58]
+            ]
+          }
+        }
+      ]
+    },
+    "points": {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "Greenfield Tornado",
+            "ef_scale": "EF4",
+            "color": "#ef4444",
+            "date": "May 21, 2024",
+            "state": "Iowa",
+            "winds": "309-318 mph (Doppler on Wheels peak)",
+            "official_winds": "185 mph",
+            "max_width": "1,000 yards",
+            "path_length": "43.7 miles",
+            "deaths": 5,
+            "desc": "One of the most intense radar-measured tornadoes in history (309-318 mph at 100m AGL)."
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [-94.30, 41.30]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "Barnsdall Tornado",
+            "ef_scale": "EF4",
+            "color": "#ef4444",
+            "date": "May 6, 2024",
+            "state": "Oklahoma",
+            "winds": "180 mph",
+            "max_width": "1,700 yards",
+            "path_length": "39.2 miles",
+            "deaths": 2,
+            "desc": "Violent nighttime wedge tornado carving across northern Oklahoma."
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [-96.16, 36.56]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "Elkhorn Tornado",
+            "ef_scale": "EF4",
+            "color": "#ef4444",
+            "date": "April 26, 2024",
+            "state": "Nebraska",
+            "winds": "165 mph",
+            "max_width": "1,500 yards",
+            "path_length": "32.0 miles",
+            "deaths": 1,
+            "desc": "Violent wedge tornado impacting suburban Omaha and Bennington."
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [-96.24, 41.32]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "Sulphur Tornado",
+            "ef_scale": "EF3",
+            "color": "#f97316",
+            "date": "April 27, 2024",
+            "state": "Oklahoma",
+            "winds": "165 mph",
+            "max_width": "700 yards",
+            "path_length": "13.8 miles",
+            "deaths": 1,
+            "desc": "Devastating strike on historic Sulphur city center."
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [-96.97, 34.51]
+          }
+        }
+      ]
+    }
+  },
+  "legends": {
+    "polygons": {
+      "type": "FeatureCollection",
+      "features": []
+    },
+    "lines": {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "Joplin Tornado",
+            "ef_scale": "EF5",
+            "color": "#a855f7",
+            "date": "May 22, 2011",
+            "state": "Missouri",
+            "winds": ">200 mph (320+ km/h)",
+            "path_length": "22.1 miles (35.6 km)",
+            "max_width": "1.0 mile (1.6 km)",
+            "deaths": 158,
+            "desc": "Catastrophic multi-vortex rain-wrapped EF5 tornado that leveled a large portion of Joplin, MO, becoming the costliest single tornado in world history ($3.18 billion)."
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [-94.62, 37.04],
+              [-94.57, 37.06],
+              [-94.50, 37.07],
+              [-94.43, 37.09],
+              [-94.34, 37.13],
+              [-94.22, 37.18]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "El Reno Tornado",
+            "ef_scale": "EF5",
+            "color": "#a855f7",
+            "date": "May 31, 2013",
+            "state": "Oklahoma",
+            "winds": "301 mph (484 km/h mobile radar)",
+            "path_length": "16.2 miles (26.1 km)",
+            "max_width": "2.6 miles (4.2 km) - WORLD RECORD",
+            "deaths": 8,
+            "desc": "The widest tornado ever recorded on planet Earth (2.6 miles wide). Spawned multiple erratic sub-vortices with wind speeds measured at 301 mph by mobile radar."
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [-98.05, 35.48],
+              [-98.02, 35.50],
+              [-97.94, 35.53],
+              [-97.85, 35.55],
+              [-97.77, 35.58]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "Bridge Creek-Moore Tornado",
+            "ef_scale": "EF5",
+            "color": "#a855f7",
+            "date": "May 3, 1999",
+            "state": "Oklahoma",
+            "winds": "301 ± 20 mph (484 km/h) - WORLD RECORD",
+            "path_length": "38.0 miles (61.2 km)",
+            "max_width": "1.0 mile (1.6 km)",
+            "deaths": 36,
+            "desc": "Generated the highest wind speed ever measured by scientific instruments on Earth (301 ± 20 mph by Doppler on Wheels) as it tore across Bridge Creek and south Oklahoma City."
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [-97.85, 35.15],
+              [-97.72, 35.25],
+              [-97.58, 35.30],
+              [-97.48, 35.34],
+              [-97.35, 35.42]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "Tri-State Tornado",
+            "ef_scale": "EF5",
+            "color": "#a855f7",
+            "date": "March 18, 1925",
+            "state": "MO - IL - IN",
+            "winds": "Estimated >300 mph (>480 km/h)",
+            "path_length": "219 miles (352 km) - WORLD RECORD",
+            "max_width": "1.0 mile (1.6 km)",
+            "deaths": 695,
+            "desc": "The deadliest tornado in United States history (695 fatalities) and the longest continuous damage track on record (219 miles across three states at an average 62 mph forward speed)."
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [-90.04, 37.52],
+              [-89.65, 37.75],
+              [-89.15, 37.89],
+              [-88.55, 38.08],
+              [-88.02, 38.25],
+              [-87.65, 38.53]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "Rolling Fork Tornado",
+            "ef_scale": "EF4",
+            "color": "#ef4444",
+            "date": "March 24, 2023",
+            "state": "Mississippi",
+            "winds": "170 mph (275 km/h)",
+            "path_length": "59.3 miles (95.4 km)",
+            "max_width": "1,320 yards (1.2 km)",
+            "deaths": 17,
+            "desc": "Violent nocturnal wedge tornado traveling across western Mississippi causing catastrophic destruction in Rolling Fork and Silver City."
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [-90.95, 32.82],
+              [-90.87, 32.90],
+              [-90.70, 33.02],
+              [-90.45, 33.15],
+              [-90.22, 33.30]
+            ]
+          }
+        }
+      ]
+    },
+    "points": {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "Joplin Tornado",
+            "ef_scale": "EF5",
+            "color": "#a855f7",
+            "date": "May 22, 2011",
+            "state": "Missouri",
+            "winds": ">200 mph (320+ km/h)",
+            "max_width": "1.0 mile",
+            "path_length": "22.1 miles",
+            "deaths": 158,
+            "desc": "Catastrophic EF5 tornado that destroyed 7,000+ homes and St. John's Regional Medical Center."
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [-94.50, 37.07]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "El Reno Tornado",
+            "ef_scale": "EF5",
+            "color": "#a855f7",
+            "date": "May 31, 2013",
+            "state": "Oklahoma",
+            "winds": "301 mph (radar measured)",
+            "max_width": "2.6 miles (4.2 km) - World Record",
+            "path_length": "16.2 miles",
+            "deaths": 8,
+            "desc": "The widest tornado ever documented on Earth (2.6 miles)."
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [-97.94, 35.53]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "Bridge Creek-Moore Tornado",
+            "ef_scale": "EF5",
+            "color": "#a855f7",
+            "date": "May 3, 1999",
+            "state": "Oklahoma",
+            "winds": "301 ± 20 mph - World Record Peak Wind",
+            "max_width": "1.0 mile",
+            "path_length": "38.0 miles",
+            "deaths": 36,
+            "desc": "Highest measured wind speed ever recorded on planet Earth (301 ± 20 mph)."
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [-97.58, 35.30]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "Tri-State Tornado",
+            "ef_scale": "EF5",
+            "color": "#a855f7",
+            "date": "March 18, 1925",
+            "state": "MO - IL - IN",
+            "winds": "Estimated >300 mph",
+            "max_width": "1.0 mile",
+            "path_length": "219 miles - World Record Path",
+            "deaths": 695,
+            "desc": "Deadliest tornado in US history with an unprecedented 219-mile continuous path."
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [-89.15, 37.89]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "Rolling Fork Tornado",
+            "ef_scale": "EF4",
+            "color": "#ef4444",
+            "date": "March 24, 2023",
+            "state": "Mississippi",
+            "winds": "170 mph",
+            "max_width": "1,320 yards",
+            "path_length": "59.3 miles",
+            "deaths": 17,
+            "desc": "Violent EF4 long-track nocturnal wedge tornado."
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [-90.87, 32.90]
+          }
+        }
+      ]
+    }
+  }
+}

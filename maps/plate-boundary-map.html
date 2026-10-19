@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Plate Boundaries Map | Convergent, Divergent & Transform</title>
+  <meta name="description" content="Scientific plate boundaries map color-coded by boundary type: convergent subduction zones, divergent spreading ridges, and transform fault lines with legend.">
+  <meta name="author" content="TectonicPlateMap.org">
+  <link rel="canonical" href="https://tectonicplatemap.org/maps/plate-boundary-map">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://tectonicplatemap.org/maps/plate-boundary-map">
+  <meta property="og:title" content="Plate Boundaries Map | Convergent, Divergent & Transform">
+  <meta property="og:description" content="Scientific plate boundaries map color-coded by boundary type: convergent subduction zones, divergent spreading ridges, and transform fault lines with legend.">
+  <meta property="og:image" content="https://tectonicplatemap.org/images/maps/plate-boundary-map.png">
+  <meta property="og:image:width" content="2400">
+  <meta property="og:image:height" content="1350">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Plate Boundaries Map | Convergent, Divergent & Transform">
+  <meta name="twitter:description" content="Scientific plate boundaries map color-coded by boundary type: convergent subduction zones, divergent spreading ridges, and transform fault lines with legend.">
+  <meta name="twitter:image" content="https://tectonicplatemap.org/images/maps/plate-boundary-map.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="apple-touch-icon" href="/images/icon-192.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#0f172a">
+
+  <!-- Preconnect -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="/css/bundle.min.css?v=40">
+
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ItemPage",
+      "@id": "https://tectonicplatemap.org/maps/plate-boundary-map#webpage",
+      "url": "https://tectonicplatemap.org/maps/plate-boundary-map",
+      "name": "Plate Boundaries Map | Convergent, Divergent & Transform",
+      "description": "Scientific plate boundaries map color-coded by boundary type: convergent subduction zones, divergent spreading ridges, and transform fault lines with legend.",
+      "isPartOf": {
+        "@type": "WebSite",
+        "@id": "https://tectonicplatemap.org/#website",
+        "url": "https://tectonicplatemap.org/",
+        "name": "TectonicPlateMap.org"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://tectonicplatemap.org/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Printable Maps",
+          "item": "https://tectonicplatemap.org/maps/labeled-tectonic-plates-map"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Tectonic Plate Boundary Map by Fault Type",
+          "item": "https://tectonicplatemap.org/maps/plate-boundary-map"
+        }
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "contentUrl": "https://tectonicplatemap.org/images/maps/plate-boundary-map.png",
+      "name": "Tectonic Plate Boundary Map by Fault Type",
+      "description": "Global map of tectonic plate boundaries color-coded by convergent red, divergent yellow, and transform green faults with legend",
+      "width": 2400,
+      "height": 1350,
+      "creditText": "Peter Bird (2003) PB2002 / TectonicPlateMap.org",
+      "copyrightNotice": "CC-BY-4.0",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ]
+}
+  </script>
+</head>
+<body class="page-static">
+<div id="app">
+
+  <header>
+    <nav class="navbar is-tectonic" role="navigation" aria-label="Main Navigation">
+      <div class="navbar-brand">
+        <a class="navbar-item brand-badge" href="/" aria-label="Tectonic Plates Map Home">
+          <img src="/images/logo.svg" alt="Tectonic Plates Map Logo" width="34" height="34" class="brand-logo-img">
+          <span class="brand-h1">
+            <span>Tectonic <span style="color:#38bdf8;">Plates</span> Map</span>
+          </span>
+        </a>
+
+        <div class="mobile-nav-actions is-hidden-desktop">
+          <a href="/" class="button is-small is-primary is-rounded mobile-action-btn">
+            <span class="icon is-small"><i class="fa-solid fa-earth-americas" aria-hidden="true"></i></span>
+            <span>Map</span>
+          </a>
+          <a role="button" class="navbar-burger" id="nav-burger" aria-label="menu" aria-expanded="false" data-target="nav-menu">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+      </div>
+
+      <div class="navbar-menu" id="nav-menu">
+        <div class="navbar-end">
+          <div class="navbar-item">
+            <a href="/" class="button is-small is-rounded" style="background:#0284c7; color:#ffffff; font-weight:700; border:1px solid #38bdf8;">
+              <span class="icon is-small"><i class="fa-solid fa-earth-americas" aria-hidden="true"></i></span>
+              <span>Interactive Map</span>
+            </a>
+          </div>
+          <div class="navbar-item">
+            <a href="/plates" class="button is-small is-rounded" style="background:rgba(30,41,59,0.8); color:#cbd5e1; border:1px solid rgba(255,255,255,0.15);">
+              <span class="icon is-small"><i class="fa-solid fa-table-list" aria-hidden="true"></i></span>
+              <span>Plates Directory</span>
+            </a>
+          </div>
+          <div class="navbar-item">
+            <a href="/maps/labeled-tectonic-plates-map" class="button is-small is-rounded" style="background:rgba(56,189,248,0.15); color:#38bdf8; font-weight:700; border:1px solid rgba(56,189,248,0.35);">
+              <span class="icon is-small"><i class="fa-solid fa-map" aria-hidden="true"></i></span>
+              <span>Printable Maps</span>
+            </a>
+          </div>
+          <div class="navbar-item">
+            <a href="/methodology" class="button is-small is-rounded" style="background:rgba(30,41,59,0.8); color:#cbd5e1; border:1px solid rgba(255,255,255,0.15);">
+              <span>Methodology</span>
+            </a>
+          </div>
+          <div class="navbar-item">
+            <a href="/about" class="button is-small is-rounded" style="background:rgba(30,41,59,0.8); color:#cbd5e1; border:1px solid rgba(255,255,255,0.15);">
+              <span>About</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+  <main class="static-content-wrap">
+    <div class="seo-container">
+      
+      <nav class="breadcrumb is-small" aria-label="breadcrumbs" style="margin-bottom:1.5rem;">
+        <ul>
+          <li><a href="/"><i class="fa-solid fa-house mr-1"></i> Home</a></li>
+          <li><a href="/maps/labeled-tectonic-plates-map">Printable Maps</a></li>
+          <li class="is-active"><a href="#" aria-current="page">Tectonic Plate Boundary Map by Fault Type</a></li>
+        </ul>
+      </nav>
+
+      <header class="static-page-header" style="text-align:left; margin-bottom:2rem;">
+        <span class="dir-badge-pill" style="margin-bottom:8px;">
+          <i class="fa-solid fa-print mr-1"></i> PRINTABLE GEOLOGY ATLAS
+        </span>
+        <h1 class="title is-2" style="color:#ffffff; margin-bottom:12px; font-weight:800;">Tectonic Plate Boundary Map by Fault Type</h1>
+        <p style="color:#94a3b8; font-size:0.9rem;">
+          Last updated: October 15, 2026 &bull; Scientific Model: <a href="https://doi.org/10.1029/2001GC000252" target="_blank" rel="noopener" style="color:#38bdf8;">Peter Bird (2003) PB2002</a>
+        </p>
+
+        <!-- Navigation Tabs between all 4 map pages -->
+        <div style="margin-top:1.25rem; display:flex; flex-wrap:wrap; gap:8px;">
+          <a href='/maps/labeled-tectonic-plates-map' class='button is-small is-rounded is-dark' style='font-weight:600;'>Labeled Tectonic Plates</a> <a href='/maps/blank-tectonic-plates-map' class='button is-small is-rounded is-dark' style='font-weight:600;'>Blank Tectonic Plates Outline</a> <a href='/maps/plate-boundary-map' class='button is-small is-rounded is-link' style='font-weight:600;'>Tectonic Plate Boundary by Fault Type</a> <a href='/maps/continental-plates-map' class='button is-small is-rounded is-dark' style='font-weight:600;'>Continental Plates & Lithospheric Boundaries</a>
+        </div>
+      </header>
+
+      <!-- Map Presentation Box -->
+      <section class="box" style="background:#09101d; border:1px solid rgba(255,255,255,0.12); border-radius:12px; padding:0; overflow:hidden; margin-bottom:2rem;">
+        <img 
+          src="/images/maps/plate-boundary-map.png" 
+          alt="Global map of tectonic plate boundaries color-coded by convergent red, divergent yellow, and transform green faults with legend" 
+          width="2400" 
+          height="1350" 
+          style="width:100%; height:auto; display:block;" 
+          loading="eager"
+        >
+        <div style="padding:1.25rem; background:#1e293b; border-top:1px solid rgba(255,255,255,0.08); display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:12px;">
+          <div>
+            <div style="color:#ffffff; font-weight:700; font-size:1rem;">Tectonic Plate Boundary Map by Fault Type</div>
+            <div style="color:#94a3b8; font-size:0.8rem;">Resolution: 2400 &times; 1350 px &bull; Format: PNG, Vector SVG, PDF</div>
+          </div>
+          <div class="buttons" style="margin:0;">
+            <a href="/images/maps/plate-boundary-map.png" download class="button is-small is-primary is-rounded" style="font-weight:700;">
+              <span class="icon is-small"><i class="fa-solid fa-file-image"></i></span>
+              <span>PNG (2400px)</span>
+            </a>
+            <a href="/images/maps/plate-boundary-map.svg" download class="button is-small is-link is-outlined is-rounded" style="font-weight:700;">
+              <span class="icon is-small"><i class="fa-solid fa-bezier-curve"></i></span>
+              <span>Vector SVG</span>
+            </a>
+            <a href="/images/maps/plate-boundary-map-a4.pdf" download class="button is-small is-dark is-rounded" style="font-weight:700;">
+              <span class="icon is-small"><i class="fa-solid fa-file-pdf"></i></span>
+              <span>A4 PDF</span>
+            </a>
+            <a href="/images/maps/plate-boundary-map-usletter.pdf" download class="button is-small is-dark is-rounded" style="font-weight:700;">
+              <span class="icon is-small"><i class="fa-solid fa-file-pdf"></i></span>
+              <span>US Letter PDF</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Educational Text -->
+      <article class="content" style="color:#cbd5e1; font-size:1.02rem; line-height:1.75; margin-bottom:2.5rem;">
+        <h2 style="color:#ffffff; font-size:1.5rem; font-weight:700;">About this Map</h2>
+        Tectonic plate interactions occur along dynamic margins categorized into three primary structural types: convergent, divergent, and transform boundaries. This specialized plate boundary map visualizes the Earth's entire 5,819-step boundary network, color-coded according to fault kinematics based on the PB2002 dataset.
+
+Red boundary lines represent convergent margins, including deep subduction zones (such as the Mariana Trench, Sunda Arc, and Peru-Chile Trench) and massive continental collisions (such as the Indo-Eurasian Himalayan front). Yellow lines mark divergent boundaries, where new oceanic lithosphere generates along seafloor spreading ridges (like the Mid-Atlantic Ridge and East Pacific Rise) or continental rift zones (like the East African Rift). Green lines depict transform faults, where adjacent plates grind past each other horizontally along strike-slip fractures like California's San Andreas Fault and the Alpine Fault in New Zealand.
+
+An integrated visual legend provides clear guidance on boundary classifications. Download this scientific reference map as a 2400px PNG graphic, scalable SVG vector, or high-definition printable PDF formatted for A4 and US Letter document standards.
+      </article>
+
+      
+
+      <!-- Attribution & License Section -->
+      <section class="box" style="background:#1e293b; border:1px solid rgba(255,255,255,0.08); border-radius:10px; margin-top:2.5rem; padding:1.5rem;">
+        <h3 style="color:#ffffff; font-size:1.1rem; font-weight:700; margin-bottom:8px;">
+          <i class="fa-solid fa-scale-balanced mr-2" style="color:#38bdf8;"></i> Data Attribution &amp; License
+        </h3>
+        <p style="font-size:0.9rem; color:#94a3b8; line-height:1.6; margin-bottom:8px;">
+          Boundary coordinates, plate geometry, and Euler poles are derived from Peter Bird's seminal work: 
+          <em>"An updated digital model of plate boundaries"</em>, published in <em>Geochemistry, Geophysics, Geosystems</em> (G³), 2003 (DOI: <a href="https://doi.org/10.1029/2001GC000252" target="_blank" rel="noopener" style="color:#38bdf8;">10.1029/2001GC000252</a>).
+        </p>
+        <p style="font-size:0.85rem; color:#64748b; line-height:1.5;">
+          License: The PB2002 dataset is open scientific data available for academic, educational, and public dissemination with attribution. All generated static map files on this page are licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener" style="color:#38bdf8;">Creative Commons Attribution 4.0 International (CC BY 4.0)</a>. You may freely use, share, and adapt them for school, research, or publication provided that attribution to PB2002 (Bird 2003) and TectonicPlateMap.org is preserved.
+        </p>
+      </section>
+
+    </div>
+  </main>
+
+
+  <footer class="seo-footer">
+    <div class="seo-container">
+      <div class="columns is-multiline" style="text-align:left; margin-bottom:2rem;">
+        <div class="column is-4">
+          <h3 style="color:#ffffff; font-size:1rem; font-weight:700; margin-bottom:10px;">TectonicPlateMap.org</h3>
+          <p style="font-size:0.85rem; color:#94a3b8; line-height:1.6;">
+            A free, fast map for anyone curious about how Earth works.
+          </p>
+          <p style="font-size:0.8rem; color:#64748b; margin-top:8px;">
+            Geological Data: <a href="https://doi.org/10.1029/2001GC000252" target="_blank" rel="noopener" style="color:#94a3b8; text-decoration:underline;">Peter Bird (PB2002)</a> &bull; Seismology: <a href="https://earthquake.usgs.gov/" target="_blank" rel="noopener" style="color:#94a3b8; text-decoration:underline;">USGS Hazards</a> &bull; Volcanism: <a href="https://volcano.si.edu/" target="_blank" rel="noopener" style="color:#94a3b8; text-decoration:underline;">Smithsonian GVP</a>.
+          </p>
+        </div>
+        <div class="column is-4">
+          <h3 style="color:#ffffff; font-size:1rem; font-weight:700; margin-bottom:10px;">EXPLORE</h3>
+          <ul style="list-style:none; padding:0; margin:0; font-size:0.85rem; display:flex; flex-direction:column; gap:6px;">
+            <li><a href="/"><i class="fa-solid fa-angle-right mr-1"></i> Interactive Map</a></li>
+            <li><a href="/quiz"><i class="fa-solid fa-angle-right mr-1"></i> Tectonic Plates Quiz</a></li>
+            <li><a href="/what-plate-am-i-on"><i class="fa-solid fa-angle-right mr-1"></i> What Plate Am I On?</a></li>
+            <li><a href="/worksheets"><i class="fa-solid fa-angle-right mr-1"></i> Teacher Worksheets</a></li>
+            <li><a href="/plates"><i class="fa-solid fa-angle-right mr-1"></i> Plates Directory</a></li>
+            <li><a href="/maps/labeled-tectonic-plates-map"><i class="fa-solid fa-angle-right mr-1"></i> Printable Maps</a></li>
+            <li><a href="/methodology"><i class="fa-solid fa-angle-right mr-1"></i> Methodology &amp; Sources</a></li>
+            <li><a href="/#geology-guide"><i class="fa-solid fa-angle-right mr-1"></i> Geology Education Guide</a></li>
+            <li><a href="/#faq"><i class="fa-solid fa-angle-right mr-1"></i> Tectonics FAQ</a></li>
+          </ul>
+        </div>
+        <div class="column is-4">
+          <h3 style="color:#ffffff; font-size:1rem; font-weight:700; margin-bottom:10px;">ADDITIONAL</h3>
+          <ul style="list-style:none; padding:0; margin:0; font-size:0.85rem; display:flex; flex-direction:column; gap:6px;">
+            <li><a href="/about"><i class="fa-solid fa-angle-right mr-1"></i> About</a></li>
+            <li><a href="/contact"><i class="fa-solid fa-angle-right mr-1"></i> Contact</a></li>
+            <li><a href="/privacy-policy"><i class="fa-solid fa-angle-right mr-1"></i> Privacy Policy</a></li>
+            <li><a href="/terms-of-service"><i class="fa-solid fa-angle-right mr-1"></i> Terms of Service</a></li>
+          </ul>
+        </div>
+      </div>
+      <div style="border-top:1px solid rgba(255,255,255,0.08); padding-top:1.5rem; text-align:center;">
+        <p style="font-size:0.82rem; color:#64748b;">
+          &copy; 2026 TectonicPlateMap.org &bull; Open-access Earth geophysics and seismology platform. Built with HTML5, Bulma CSS, and MapLibre GL.
+         <span class="app-version-badge" style="font-family:var(--font-mono, monospace); font-size:0.72rem; background:rgba(255,255,255,0.06); color:#38bdf8; border:1px solid rgba(56,189,248,0.3); border-radius:12px; font-weight:600; padding:2px 8px; margin-left:6px; display:inline-block;" title="Tectonic Plates Map Version">v0.5</span></p>
+      </div>
+    </div>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-XXXXXXXXXX');
+    </script>
+  </footer>
+
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const burger = document.getElementById('nav-burger');
+    const menu = document.getElementById('nav-menu');
+    if (burger && menu) {
+      burger.addEventListener('click', () => {
+        burger.classList.toggle('is-active');
+        menu.classList.toggle('is-active');
+      });
+    }
+  });
+</script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="favBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </linearGradient>
+    <linearGradient id="pBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#0284c7"/>
+    </linearGradient>
+    <linearGradient id="pGreen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2dd4bf"/>
+      <stop offset="100%" stop-color="#0f766e"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Rounded App Icon Base -->
+  <rect width="64" height="64" rx="14" fill="url(#favBg)" stroke="#38bdf8" stroke-width="2" stroke-opacity="0.4"/>
+
+  <!-- Tectonic Plates -->
+  <!-- Top Left Plate -->
+  <path d="M 32,8 A 24,24 0 0,0 10,26 L 24,28 L 30,18 Z" fill="url(#pBlue)"/>
+  <!-- Bottom Left Plate -->
+  <path d="M 9,30 A 24,24 0 0,0 20,50 L 28,40 L 25,29 Z" fill="url(#pGreen)"/>
+  <!-- Right Plate -->
+  <path d="M 34,8 A 24,24 0 0,1 54,36 L 40,36 L 33,20 Z" fill="url(#pBlue)"/>
+  <!-- Bottom Plate -->
+  <path d="M 23,52 A 24,24 0 0,0 48,50 L 41,38 L 29,42 Z" fill="url(#pGreen)"/>
+
+  <!-- Fault Boundary Lines (Glowing Amber & Coral) -->
+  <path d="M 32,8 L 30,18 L 24,28 L 25,29 L 28,40 L 29,42 L 23,52" 
+        fill="none" stroke="#fbbf24" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <path d="M 30,18 L 40,36 L 48,50" 
+        fill="none" stroke="#ff3860" stroke-width="2" stroke-linecap="round"/>
+        
+  <path d="M 24,28 L 9,28" 
+        fill="none" stroke="#ff3860" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Epicenter Hotspot Dot -->
+  <circle cx="30" cy="18" r="3" fill="#ef4444" stroke="#ffffff" stroke-width="1"/>
+</svg>

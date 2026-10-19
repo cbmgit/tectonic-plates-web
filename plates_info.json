@@ -1,0 +1,951 @@
+{
+  "African Plate": {
+    "description": "The African Plate spans the entire African continent and stretches out into the surrounding Atlantic and Indian Oceans.\n\nIt is slowly tearing apart along the East African Rift, where the Somali Plate is breaking away. Up north, its collision with Eurasia pushed up the Alps and shaped the Mediterranean, while grinding against the Arabian Plate opened up the Red Sea.",
+    "countries": [
+      "Algeria",
+      "Angola",
+      "Benin",
+      "Botswana",
+      "Burkina Faso",
+      "Burundi",
+      "Cameroon",
+      "Central African Republic",
+      "Chad",
+      "Democratic Republic of the Congo",
+      "Republic of the Congo",
+      "Djibouti",
+      "Egypt",
+      "Equatorial Guinea",
+      "Eritrea",
+      "Eswatini",
+      "Ethiopia",
+      "Gabon",
+      "Gambia",
+      "Ghana",
+      "Guinea",
+      "Guinea-Bissau",
+      "Ivory Coast",
+      "Kenya",
+      "Lesotho",
+      "Liberia",
+      "Libya",
+      "Madagascar",
+      "Malawi",
+      "Mali",
+      "Mauritania",
+      "Morocco",
+      "Mozambique",
+      "Namibia",
+      "Niger",
+      "Nigeria",
+      "Rwanda",
+      "Senegal",
+      "Sierra Leone",
+      "Somalia",
+      "South Africa",
+      "South Sudan",
+      "Sudan",
+      "Tanzania",
+      "Togo",
+      "Tunisia",
+      "Uganda",
+      "Zambia",
+      "Zimbabwe"
+    ],
+    "size": "58.48 million km² (58,475,731 km²)",
+    "movement": "Northeast (52.7°)",
+    "speed": "3.2 cm/year",
+    "facts": [
+      "Covers approximately 58.48 million km² (58,475,731 km²)",
+      "Drifting northeast at about 3.2 cm per year relative to NNR",
+      "Responsible for the Great Rift Valley in East Africa",
+      "Divergent boundary creating the Mid-Atlantic Ridge"
+    ]
+  },
+  "Eurasian Plate": {
+    "description": "The Eurasian Plate is one of the largest plates on the planet, covering most of Europe and Asia.\n\nIt stretches from the Mid-Atlantic Ridge in the west all the way to Pacific trenches in the east. Its massive head-on collision with India pushed up the Himalayas, which are still rising today.",
+    "countries": [
+      "Albania",
+      "Andorra",
+      "Armenia",
+      "Austria",
+      "Azerbaijan",
+      "Belarus",
+      "Belgium",
+      "Bosnia and Herzegovina",
+      "Bulgaria",
+      "China",
+      "Croatia",
+      "Czech Republic",
+      "Denmark",
+      "Estonia",
+      "Finland",
+      "France",
+      "Georgia",
+      "Germany",
+      "Greece",
+      "Hungary",
+      "Iceland (partial)",
+      "Italy",
+      "Kazakhstan",
+      "Kosovo",
+      "Kyrgyzstan",
+      "Latvia",
+      "Liechtenstein",
+      "Lithuania",
+      "Luxembourg",
+      "Moldova",
+      "Monaco",
+      "Mongolia",
+      "Montenegro",
+      "Netherlands",
+      "North Korea",
+      "North Macedonia",
+      "Norway",
+      "Poland",
+      "Portugal",
+      "Romania",
+      "Russia",
+      "San Marino",
+      "Serbia",
+      "Slovakia",
+      "Slovenia",
+      "South Korea",
+      "Spain",
+      "Sweden",
+      "Switzerland",
+      "Tajikistan",
+      "Turkey",
+      "Turkmenistan",
+      "Ukraine",
+      "United Kingdom",
+      "Uzbekistan",
+      "Vatican City"
+    ],
+    "size": "48.56 million km² (48,557,923 km²)",
+    "movement": "East (86.5°)",
+    "speed": "2.5 cm/year",
+    "facts": [
+      "One of the largest tectonic plates",
+      "Covers approximately 48.56 million km² (48,557,923 km²)",
+      "Collision with African Plate created the Alps",
+      "Collision with Indian Plate formed the Himalayas"
+    ]
+  },
+  "Caribbean Plate": {
+    "description": "The Caribbean Plate is mostly oceanic crust wedged right between North and South America.\n\nIts edges are packed with active fault lines, including the Enriquillo fault in Haiti and the Lesser Antilles subduction zone. Those boundaries feed the Caribbean's volcanic island arcs and trigger frequent earthquakes.",
+    "countries": [
+      "Cuba",
+      "Jamaica",
+      "Haiti",
+      "Dominican Republic",
+      "Puerto Rico",
+      "Trinidad and Tobago",
+      "Barbados",
+      "Grenada",
+      "Saint Lucia",
+      "Saint Vincent and the Grenadines",
+      "Dominica",
+      "Antigua and Barbuda",
+      "Saint Kitts and Nevis",
+      "Belize",
+      "Guatemala (partial)",
+      "Honduras (partial)",
+      "Nicaragua (partial)",
+      "Costa Rica (partial)",
+      "Panama (partial)"
+    ],
+    "size": "2.96 million km² (2,964,762 km²)",
+    "movement": "East-Northeast (57.8°)",
+    "speed": "1.3 cm/year",
+    "facts": [
+      "Drifting east-northeast at about 1.3 cm per year relative to NNR",
+      "Bounded by transform faults and subduction zones",
+      "High seismic and volcanic activity",
+      "Covers approximately 2.96 million km² (2,964,762 km²)"
+    ]
+  },
+  "South American Plate": {
+    "description": "The South American Plate carries the entire continent and extends eastward into the Atlantic Ocean floor.\n\nAlong its west coast, the incoming Nazca Plate slides underneath it, crumpling the land into the towering Andes Mountains and fueling active volcanoes. On the eastern side, the Mid-Atlantic Ridge pushes the continent westward year after year.",
+    "countries": [
+      "Argentina",
+      "Bolivia",
+      "Brazil",
+      "Chile",
+      "Colombia",
+      "Ecuador",
+      "French Guiana",
+      "Guyana",
+      "Paraguay",
+      "Peru",
+      "Suriname",
+      "Uruguay",
+      "Venezuela"
+    ],
+    "size": "41.83 million km² (41,825,164 km²)",
+    "movement": "North-Northwest (338.4°)",
+    "speed": "1.2 cm/year",
+    "facts": [
+      "Covers approximately 41.83 million km² (41,825,164 km²)",
+      "Collision with Nazca Plate formed the Andes",
+      "Divergent boundary at Mid-Atlantic Ridge",
+      "Drifting north-northwest at about 1.2 cm per year relative to NNR"
+    ]
+  },
+  "Arabian Plate": {
+    "description": "The Arabian Plate is tearing away from Africa along the Red Sea and Gulf of Aden, a rift that started about 30 million years ago.\n\nAs new ocean crust forms in the gap, the Red Sea is slowly turning into a wider ocean basin. To the north, the plate pushes into Eurasia, throwing up the Zagros Mountains in Iran.",
+    "countries": [
+      "Saudi Arabia",
+      "Yemen",
+      "Oman",
+      "United Arab Emirates",
+      "Qatar",
+      "Bahrain",
+      "Kuwait",
+      "Iraq (partial)",
+      "Jordan (partial)",
+      "Syria (partial)"
+    ],
+    "size": "4.90 million km² (4,904,232 km²)",
+    "movement": "Northeast (41.3°)",
+    "speed": "5.0 cm/year",
+    "facts": [
+      "Drifting northeast at about 5.0 cm per year relative to NNR",
+      "Creating the Red Sea as it separates from Africa",
+      "Collision with Eurasian Plate forms the Zagros Mountains",
+      "Covers approximately 4.90 million km² (4,904,232 km²)"
+    ]
+  },
+  "North American Plate": {
+    "description": "The North American Plate covers North America, Greenland, and large chunks of the Atlantic and Arctic oceans.\n\nIts western edge grinds past the Pacific Plate along California's San Andreas Fault. On its eastern edge, the Mid-Atlantic Ridge creates fresh ocean crust, steadily widening the Atlantic Ocean by a few centimeters each year.",
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "Guatemala (partial)",
+      "Belize (partial)",
+      "Cuba (partial)",
+      "Bahamas",
+      "Greenland",
+      "Iceland (partial)"
+    ],
+    "size": "55.43 million km² (55,431,580 km²)",
+    "movement": "West (273.9°)",
+    "speed": "2.0 cm/year",
+    "facts": [
+      "Covers approximately 55.43 million km² (55,431,580 km²)",
+      "Divergent boundary with Eurasian Plate at Mid-Atlantic Ridge",
+      "Transform boundary with Pacific Plate (San Andreas Fault)",
+      "Drifting west at about 2.0 cm per year relative to NNR"
+    ]
+  },
+  "Pacific Plate": {
+    "description": "The Pacific Plate is the biggest tectonic plate on Earth, underlying most of the Pacific Ocean basin.\n\nIts perimeter forms the famous Ring of Fire. As the plate drifts northwest at 8 to 10 centimeters a year, it dives under neighboring plates, carving ultra-deep ocean trenches, sparking major quakes, and feeding chains of volcanoes.",
+    "countries": [
+      "New Zealand (partial)",
+      "parts of California",
+      "Solomon Islands",
+      "Vanuatu",
+      "Fiji",
+      "Tonga",
+      "Samoa"
+    ],
+    "size": "104.59 million km² (104,594,030 km²)",
+    "movement": "West-Northwest (297.1°)",
+    "speed": "7.1 cm/year",
+    "facts": [
+      "Covers approximately 104.59 million km² (104,594,030 km²)",
+      "Drifting west-northwest at about 7.1 cm per year relative to NNR",
+      "Contains the Ring of Fire",
+      "Mostly oceanic crust"
+    ]
+  },
+  "Indian Plate": {
+    "description": "The Indian Plate is one of the fastest movers on Earth, racing north at roughly 5 centimeters per year.\n\nAround 50 million years ago, it slammed into Eurasia, throwing up the Himalayas and the Tibetan Plateau. That collision is still going strong today, lifting mountain peaks by millimeters each year and causing heavy regional tremors.",
+    "countries": [
+      "India",
+      "Nepal",
+      "Bhutan",
+      "Bangladesh",
+      "Pakistan",
+      "Sri Lanka"
+    ],
+    "size": "12.44 million km² (12,435,088 km²)",
+    "movement": "Northeast (44.0°)",
+    "speed": "5.7 cm/year",
+    "facts": [
+      "Drifting northeast at about 5.7 cm per year relative to NNR",
+      "Collision with Eurasian Plate created the Himalayas",
+      "Contains Mount Everest, the world's highest peak",
+      "One of the fastest-moving plates"
+    ]
+  },
+  "Philippine Sea Plate": {
+    "description": "The Philippine Sea Plate is surrounded by subduction zones on almost all sides, making it an intense geological hotspot.\n\nIt borders the Mariana Trench, the deepest point on Earth at nearly 11,000 meters. The constant friction along its edges feeds active volcanic island arcs across the Philippines and Mariana Islands.",
+    "countries": [
+      "Philippines (partial)",
+      "Guam",
+      "Northern Mariana Islands"
+    ],
+    "size": "5.44 million km² (5,443,817 km²)",
+    "movement": "West-Northwest (295.3°)",
+    "speed": "3.9 cm/year",
+    "facts": [
+      "Surrounded by subduction zones",
+      "High volcanic and seismic activity",
+      "Contains the Mariana Trench",
+      "Complex interactions with multiple plates"
+    ]
+  },
+  "Scotia Plate": {
+    "description": "The Scotia Plate is a small oceanic plate sitting in the rough waters between South America and Antarctica.\n\nPinned between two giants, it slides eastward along big transform faults. Its eastern edge curves into the volcanic South Sandwich Islands, where active submarine and surface eruptions happen regularly.",
+    "countries": [
+      "South Georgia and the South Sandwich Islands",
+      "Falkland Islands (partial)"
+    ],
+    "size": "1.70 million km² (1,700,722 km²)",
+    "movement": "North-Northeast (21.7°)",
+    "speed": "1.3 cm/year",
+    "facts": [
+      "Covers approximately 1.70 million km² (1,700,722 km²)",
+      "Mostly oceanic",
+      "Bounded by transform faults",
+      "High seismic activity"
+    ]
+  },
+  "Antarctic Plate": {
+    "description": "The Antarctic Plate holds the frozen continent of Antarctica and the surrounding Southern Ocean floor.\n\nUniquely, almost its entire border consists of divergent mid-ocean ridges where new crust is created. Because it is ringed by spreading ridges, the plate is slowly expanding outward in every direction.",
+    "countries": [
+      "Antarctica"
+    ],
+    "size": "58.15 million km² (58,149,796 km²)",
+    "movement": "North-Northwest (330.8°)",
+    "speed": "1.0 cm/year",
+    "facts": [
+      "Covers approximately 58.15 million km² (58,149,796 km²)",
+      "Surrounded almost entirely by divergent boundaries",
+      "Moving very slowly compared to other plates",
+      "Contains the South Pole"
+    ]
+  },
+  "Cocos Plate": {
+    "description": "The Cocos Plate is a young, dense oceanic plate in the eastern Pacific, born at the East Pacific Rise.\n\nIt slides quickly under Central America, creating the Middle America Trench and feeding the Central American Volcanic Arc, the source of active volcanoes from Guatemala down to Costa Rica.",
+    "countries": [],
+    "size": "2.93 million km² (2,931,806 km²)",
+    "movement": "Northeast (40.8°)",
+    "speed": "7.2 cm/year",
+    "facts": [
+      "Young oceanic plate created at the East Pacific Rise",
+      "Subducting under the Caribbean Plate",
+      "Causes volcanic activity in Central America",
+      "Drifting northeast at about 7.2 cm per year relative to NNR"
+    ]
+  },
+  "Juan de Fuca Plate": {
+    "description": "The Juan de Fuca Plate is a small oceanic slab off the coast of Washington, Oregon, and British Columbia.\n\nIt is a surviving piece of the ancient Farallon Plate. As it slides under North America, it fuels the Cascade volcanoes (like Mount St. Helens and Mount Rainier) and poses the risk of major megathrust earthquakes in the Pacific Northwest.",
+    "countries": [],
+    "size": "256,324 km²",
+    "movement": "East-Northeast (72.7°)",
+    "speed": "2.3 cm/year",
+    "facts": [
+      "Subducting under the North American Plate",
+      "Responsible for Cascade Range volcanoes",
+      "Remnant of the ancient Farallon Plate",
+      "High earthquake risk in the Pacific Northwest"
+    ]
+  },
+  "Nazca Plate": {
+    "description": "The Nazca Plate is a fast-moving oceanic plate in the eastern Pacific cruising east at around 8 centimeters a year.\n\nIt rams head-on into South America and dives downward, forming the deep Peru-Chile Trench and shoving up the Andes mountains while fueling frequent, powerful earthquakes along the coast.",
+    "countries": [],
+    "size": "16.10 million km² (16,101,279 km²)",
+    "movement": "East (84.9°)",
+    "speed": "7.7 cm/year",
+    "facts": [
+      "Subduction creates the Andes Mountains",
+      "Causes volcanic and seismic activity in South America",
+      "Drifting east at about 7.7 cm per year relative to NNR",
+      "Covers approximately 16.10 million km² (16,101,279 km²)"
+    ]
+  },
+  "Aegean Sea Plate": {
+    "description": "The Aegean Sea Plate is an active microplate caught in the crunch zone between Africa, Eurasia, and Anatolia.\n\nAs the African Plate sinks underneath it, the region stretches from behind, sparking earthquakes and feeding active volcanic centers like Santorini across the Greek islands.",
+    "countries": [
+      "Greece (partial)",
+      "Turkey (partial)"
+    ],
+    "size": "321,878 km²",
+    "movement": "South-Southeast (154.5°)",
+    "speed": "1.5 cm/year",
+    "facts": [
+      "One of the smallest tectonic plates",
+      "High seismic activity in the region",
+      "Formed by extension and back-arc spreading",
+      "Contains numerous active faults"
+    ]
+  },
+  "Altiplano Plate": {
+    "description": "The Altiplano Plate underlies the high Altiplano plateau in the central Andes, the largest high plateau on Earth outside Tibet.\n\nIt formed as the Nazca Plate slid flat beneath South America, buckling the crust into a plateau that averages 3,750 meters in altitude and holds huge lithium and salt deposits.",
+    "countries": [
+      "Bolivia",
+      "Peru"
+    ],
+    "size": "832,156 km²",
+    "movement": "North-Northeast (29.8°)",
+    "speed": "1.7 cm/year",
+    "facts": [
+      "Located in the central Andes mountain range",
+      "Forms the high Altiplano plateau",
+      "Complex deformation zone",
+      "Associated with volcanic activity"
+    ]
+  },
+  "Amur Plate": {
+    "description": "The Amur Plate is a proposed minor plate covering parts of eastern Russia, northeast China, and the Korean Peninsula.\n\nIt is separated from Eurasia by the Baikal Rift Zone, home to Lake Baikal, the deepest and oldest freshwater lake on Earth. Geologists still study whether it moves as its own independent block.",
+    "countries": [
+      "Russia (partial)",
+      "China (partial)",
+      "Mongolia (partial)"
+    ],
+    "size": "5.30 million km² (5,303,412 km²)",
+    "movement": "East-Southeast (120.2°)",
+    "speed": "3.4 cm/year",
+    "facts": [
+      "Controversial whether it is an independent plate",
+      "Bounded by the Baikal Rift Zone",
+      "Low seismic activity",
+      "Includes parts of northeastern China"
+    ]
+  },
+  "Balmoral Reef Plate": {
+    "description": "The Balmoral Reef Plate is one of the tiniest tectonic plates on Earth, located in the southwestern Pacific near Fiji.\n\nSurrounded by transform faults and mini spreading centers, it shows that plate tectonics operates at every scale, from continent-sized slabs down to localized crustal fragments.",
+    "countries": [],
+    "size": "195,383 km²",
+    "movement": "West-Northwest (290.0°)",
+    "speed": "4.4 cm/year",
+    "facts": [
+      "One of the smallest tectonic plates",
+      "Entirely oceanic",
+      "Located in the southwestern Pacific",
+      "Part of a complex plate boundary zone"
+    ]
+  },
+  "Banda Sea Plate": {
+    "description": "The Banda Sea Plate sits in eastern Indonesia, trapped inside a horseshoe curve of active subduction zones.\n\nBecause crust is getting swallowed on nearly every side, it creates a deep ocean basin surrounded by one of the most concentrated chains of active volcanoes in the Pacific.",
+    "countries": [
+      "Indonesia (partial)"
+    ],
+    "size": "695,916 km²",
+    "movement": "Northeast (45.4°)",
+    "speed": "3.0 cm/year",
+    "facts": [
+      "Surrounded by subduction zones",
+      "High volcanic activity",
+      "Part of the Indonesian archipelago",
+      "Complex tectonic setting"
+    ]
+  },
+  "Birds Head Plate": {
+    "description": "The Birds Head Plate underlies the bird-shaped northwest peninsula of New Guinea.\n\nCaught between the massive Australian and Pacific plates, this microplate spins and rotates under intense pressure, heavily folding and twisting the local rock layers.",
+    "countries": [
+      "Indonesia (partial)"
+    ],
+    "size": "525,657 km²",
+    "movement": "West-Northwest (303.4°)",
+    "speed": "6.6 cm/year",
+    "facts": [
+      "Located at the Bird's Head Peninsula",
+      "Complex deformation zone",
+      "Part of the collision between Pacific and Australian plates",
+      "Active tectonics"
+    ]
+  },
+  "Burma Plate": {
+    "description": "The Burma Plate is a narrow sliver plate caught along the edge of Southeast Asia, shaped by India's oblique crash into Asia.\n\nThe active Sagaing Fault cuts straight through Myanmar along its eastern border, generating strong earthquakes, while its western trench was the source of the catastrophic 2004 Indian Ocean tsunami.",
+    "countries": [
+      "Myanmar",
+      "Thailand (partial)",
+      "Bangladesh (partial)"
+    ],
+    "size": "515,369 km²",
+    "movement": "North-Northeast (28.9°)",
+    "speed": "4.9 cm/year",
+    "facts": [
+      "Bounded by the Sagaing Fault",
+      "High seismic hazard",
+      "Part of the India-Eurasia collision zone",
+      "Hosts major strike-slip faults"
+    ]
+  },
+  "Caroline Plate": {
+    "description": "The Caroline Plate is an oceanic microplate in the western Pacific, bounded by spreading ridges and deep trenches.\n\nIt moves independently from the giant Pacific and Philippine Sea plates nearby, maintaining a relatively quiet interior compared to the stormy subduction zones along its edges.",
+    "countries": [
+      "Federated States of Micronesia"
+    ],
+    "size": "1.53 million km² (1,528,210 km²)",
+    "movement": "West-Northwest (283.9°)",
+    "speed": "5.9 cm/year",
+    "facts": [
+      "Entirely oceanic",
+      "Bounded by spreading ridges and transform faults",
+      "Low seismic activity",
+      "Part of the complex western Pacific plate mosaic"
+    ]
+  },
+  "Conway Reef Plate": {
+    "description": "The Conway Reef Plate is a microplate in the South Pacific near Fiji, named after a submerged coral atoll.\n\nIt rotates on its own as it gets squeezed between larger tectonic neighbors, making it a classic case study in how small crustal blocks twist under regional pressure.",
+    "countries": [],
+    "size": "144,457 km²",
+    "movement": "North-Northwest (338.9°)",
+    "speed": "2.9 cm/year",
+    "facts": [
+      "One of the smallest plates on Earth",
+      "Entirely oceanic",
+      "High complexity in boundary interactions",
+      "Located near Fiji"
+    ]
+  },
+  "Easter Plate": {
+    "description": "The Easter Plate is an oceanic microplate in the southeastern Pacific that hosts isolated Easter Island (Rapa Nui).\n\nIt sits near the East Pacific Rise, bounded by actively spreading ridges, while volcanic hotspot activity from deep in the mantle pushed up the island itself.",
+    "countries": [
+      "Easter Island (Chile)"
+    ],
+    "size": "166,982 km²",
+    "movement": "North-Northeast (30.2°)",
+    "speed": "3.7 cm/year",
+    "facts": [
+      "Contains Easter Island",
+      "Entirely oceanic",
+      "Bounded by spreading ridges",
+      "Part of the East Pacific Rise system"
+    ]
+  },
+  "Futuna Plate": {
+    "description": "The Futuna Plate is a small oceanic microplate in the southwestern Pacific near Wallis and Futuna.\n\nIt sits in a dynamic zone of colliding and shearing plates, marked by frequent underwater tremors and submarine volcanic activity across the local seafloor.",
+    "countries": [
+      "Wallis and Futuna"
+    ],
+    "size": "32,023 km²",
+    "movement": "North-Northwest (339.3°)",
+    "speed": "3.7 cm/year",
+    "facts": [
+      "Small oceanic plate",
+      "Part of a complex subduction zone",
+      "High volcanic activity",
+      "Located near Samoa and Fiji"
+    ]
+  },
+  "Galapagos Plate": {
+    "description": "The Galapagos Plate is a microplate sitting right at a rare triple junction where the Nazca, Cocos, and Pacific plates meet.\n\nDeep below, a stationary mantle hotspot melts through the crust to feed the Galapagos archipelago, creating a chain of young volcanic islands famous for their isolated wildlife.",
+    "countries": [
+      "Galapagos Islands (Ecuador)"
+    ],
+    "size": "14,625 km²",
+    "movement": "East-Northeast (59.9°)",
+    "speed": "6.0 cm/year",
+    "facts": [
+      "Contains the Galapagos Islands",
+      "Located at a triple junction",
+      "High volcanic activity",
+      "Famous for unique biodiversity"
+    ]
+  },
+  "Juan Fernandez Plate": {
+    "description": "The Juan Fernandez Plate is a small oceanic microplate off the coast of Chile, near the islands where Alexander Selkirk was marooned.\n\nSurrounded by spreading centers connecting the Pacific, Nazca, and Antarctic systems, it rotates quickly as it rides between the bigger plates.",
+    "countries": [],
+    "size": "97,677 km²",
+    "movement": "Northeast (37.9°)",
+    "speed": "7.6 cm/year",
+    "facts": [
+      "Entirely oceanic",
+      "Located near Juan Fernández Islands",
+      "Part of the Nazca-Antarctic spreading system",
+      "High spreading rates"
+    ]
+  },
+  "Kermadec Plate": {
+    "description": "The Kermadec Plate sits along a violent subduction trench northeast of New Zealand.\n\nAs the Pacific Plate dives underneath it, it carves the ultra-deep Kermadec Trench and feeds a chain of active submarine volcanoes that regularly shake the region with deep earthquakes.",
+    "countries": [],
+    "size": "505,346 km²",
+    "movement": "East-Northeast (60.0°)",
+    "speed": "3.5 cm/year",
+    "facts": [
+      "Subducting under the Australian Plate",
+      "Forms the Kermadec Trench",
+      "High seismic and volcanic activity",
+      "Part of the Pacific Ring of Fire"
+    ]
+  },
+  "Manus Plate": {
+    "description": "The Manus Plate is actively forming in a spreading basin north of Papua New Guinea.\n\nAs the seafloor pulls apart behind a subduction zone, it spews out black smoker hydrothermal vents with mineral-rich fluids exceeding 400 degrees Celsius, supporting bizarre deep-sea life.",
+    "countries": [],
+    "size": "8,219 km²",
+    "movement": "North-Northwest (336.3°)",
+    "speed": "3.8 cm/year",
+    "facts": [
+      "One of the smallest plates",
+      "Part of a back-arc spreading system",
+      "High volcanic activity",
+      "Complex boundary interactions"
+    ]
+  },
+  "Maoke Plate": {
+    "description": "The Maoke Plate sits directly beneath the high central mountain spine of New Guinea.\n\nFormed right in the collision zone between the Australian and Pacific plates, it pushes mountain peaks over 4,800 meters high, complete with rare equatorial glaciers.",
+    "countries": [
+      "Indonesia (partial)",
+      "Papua New Guinea (partial)"
+    ],
+    "size": "115,307 km²",
+    "movement": "North-Northeast (23.1°)",
+    "speed": "6.5 cm/year",
+    "facts": [
+      "Located in the central highlands of New Guinea",
+      "Part of the Australia-Pacific collision zone",
+      "Complex deformation",
+      "Active mountain building"
+    ]
+  },
+  "Mariana Plate": {
+    "description": "The Mariana Plate carries the Mariana island arc and borders the Mariana Trench, the deepest spot on Earth at nearly 11,000 meters below sea level.\n\nThe older Pacific Plate dives steeply beneath it, triggering strong earthquakes and feeding a string of active volcanoes and deep-sea hydrothermal vents.",
+    "countries": [
+      "Northern Mariana Islands (partial)",
+      "Guam (partial)"
+    ],
+    "size": "420,801 km²",
+    "movement": "North-Northwest (334.5°)",
+    "speed": "1.2 cm/year",
+    "facts": [
+      "Contains the Mariana Trench, Earth's deepest point",
+      "Active subduction zone",
+      "High volcanic activity",
+      "Part of the Pacific Ring of Fire"
+    ]
+  },
+  "Molucca Sea Plate": {
+    "description": "The Molucca Sea Plate in eastern Indonesia has the unusual fate of being swallowed from both sides at once.\n\nThis double-subduction setup means the plate is shrinking year by year, and geologists expect it will eventually vanish entirely into Earth's mantle.",
+    "countries": [],
+    "size": "418,108 km²",
+    "movement": "East (81.1°)",
+    "speed": "2.0 cm/year",
+    "facts": [
+      "Surrounded by subduction zones on all sides",
+      "Unique double subduction",
+      "High seismic activity",
+      "Part of the Indonesian archipelago"
+    ]
+  },
+  "New Hebrides Plate": {
+    "description": "The New Hebrides Plate supports the island nation of Vanuatu, one of the most volcanically active places on Earth.\n\nThe Australian Plate slides underneath it along the New Hebrides Trench, fueling energetic volcanoes like Yasur and triggering regular earthquakes.",
+    "countries": [
+      "Vanuatu"
+    ],
+    "size": "643,463 km²",
+    "movement": "West-Northwest (281.5°)",
+    "speed": "8.2 cm/year",
+    "facts": [
+      "Subducting under the Australian Plate",
+      "Forms the New Hebrides Trench",
+      "High volcanic and seismic activity",
+      "Part of the Vanuatu island arc"
+    ]
+  },
+  "Niuafo'ou Plate": {
+    "description": "The Niuafo'ou Plate is a small back-arc microplate in the northern Tonga region, named after volcanic Niuafo'ou island.\n\nIt formed as the crust stretched and rifted behind the Tonga subduction zone, hosting submarine spreading centers and active hydrothermal vents.",
+    "countries": [
+      "Tonga (partial)"
+    ],
+    "size": "124,283 km²",
+    "movement": "East (96.5°)",
+    "speed": "8.5 cm/year",
+    "facts": [
+      "Small oceanic microplate",
+      "Part of the Tonga subduction system",
+      "High volcanic activity",
+      "Complex back-arc setting"
+    ]
+  },
+  "North Andes Plate": {
+    "description": "The North Andes Plate is a continental fragment across Colombia, Ecuador, and Venezuela that is getting squeezed northeastward.\n\nAs the Nazca Plate slides obliquely beneath South America, this escape motion produces active strike-slip faults and feeds towering volcanoes like Cotopaxi.",
+    "countries": [
+      "Colombia",
+      "Ecuador",
+      "Venezuela (partial)"
+    ],
+    "size": "971,805 km²",
+    "movement": "North-Northeast (11.4°)",
+    "speed": "1.1 cm/year",
+    "facts": [
+      "Part of the complex northern Andes deformation",
+      "Escaping northward",
+      "High seismic hazard",
+      "Bounded by major fault systems"
+    ]
+  },
+  "North Bismarck Plate": {
+    "description": "The North Bismarck Plate is an oceanic microplate in the Bismarck Sea north of Papua New Guinea.\n\nIt floats in a chaotic collision zone between the Australian and Pacific plates, surrounded by active faults, rotating microplates, and frequent seismic shocks.",
+    "countries": [
+      "Papua New Guinea (partial)"
+    ],
+    "size": "388,138 km²",
+    "movement": "West-Northwest (294.2°)",
+    "speed": "6.8 cm/year",
+    "facts": [
+      "Part of the Bismarck Sea region",
+      "Complex plate boundary zone",
+      "High seismic activity",
+      "Active volcanism"
+    ]
+  },
+  "Okhotsk Plate": {
+    "description": "The Okhotsk Plate covers eastern Siberia, the Sea of Okhotsk, and the Kamchatka Peninsula.\n\nIts eastern edge meets the Pacific Plate along the Kuril-Kamchatka Trench, creating one of the most volcanically explosive regions on the globe with dozens of towering active volcanoes.",
+    "countries": [
+      "Russia (partial)",
+      "Japan (partial)"
+    ],
+    "size": "3.04 million km² (3,037,118 km²)",
+    "movement": "Southeast (142.0°)",
+    "speed": "2.6 cm/year",
+    "facts": [
+      "Sometimes considered part of the North American Plate",
+      "Bounded by the Japan Trench to the south",
+      "Low to moderate seismic activity",
+      "Includes Kamchatka Peninsula"
+    ]
+  },
+  "Okinawa Plate": {
+    "description": "The Okinawa Plate is an active back-arc basin forming behind Japan's Ryukyu island chain.\n\nAs the seafloor stretches in the Okinawa Trough, new oceanic crust is being born right before our eyes, accompanied by bubbling hydrothermal fields on the seafloor.",
+    "countries": [
+      "Japan (Okinawa)"
+    ],
+    "size": "324,711 km²",
+    "movement": "Southeast (131.7°)",
+    "speed": "6.2 cm/year",
+    "facts": [
+      "Back-arc basin setting",
+      "Active extension and rifting",
+      "Volcanic activity",
+      "Part of the Ryukyu Arc system"
+    ]
+  },
+  "Panama Plate": {
+    "description": "The Panama Plate is a microplate squeezed between the Caribbean, Cocos, and South American plates, carrying the Isthmus of Panama.\n\nWhen this land bridge rose roughly 3 million years ago, it shut off water flow between the Atlantic and Pacific, permanently changing global ocean currents and climate.",
+    "countries": [
+      "Panama",
+      "Colombia (partial)",
+      "Costa Rica (partial)"
+    ],
+    "size": "273,735 km²",
+    "movement": "Northeast (44.1°)",
+    "speed": "2.0 cm/year",
+    "facts": [
+      "Caught between larger Caribbean and South American plates",
+      "High seismic activity",
+      "Complex fault systems",
+      "Part of Central American arc"
+    ]
+  },
+  "Rivera Plate": {
+    "description": "The Rivera Plate is a small oceanic slab off Mexico's Pacific coast, another surviving fragment of the ancient Farallon Plate.\n\nIt slides beneath Mexico at a shallow angle, helping fuel western Mexico's active volcanoes along the Trans-Mexican Volcanic Belt and triggering regional earthquakes.",
+    "countries": [],
+    "size": "100,893 km²",
+    "movement": "East (86.8°)",
+    "speed": "1.0 cm/year",
+    "facts": [
+      "Subducting under the North American Plate",
+      "Causes seismicity in western Mexico",
+      "Remnant of the ancient Farallon Plate",
+      "Young oceanic crust"
+    ]
+  },
+  "South Sandwich Plate": {
+    "description": "The Sandwich Plate is a remote oceanic microplate in the icy waters of the South Atlantic.\n\nAs the South American Plate dives beneath it along the South Sandwich Trench, it builds a curving chain of active volcanic islands that erupt regularly in one of Earth's loneliest spots.",
+    "countries": [
+      "South Sandwich Islands"
+    ],
+    "size": "0.25 million km²",
+    "movement": "Eastward",
+    "speed": "2 cm/year",
+    "facts": [
+      "Entirely oceanic",
+      "Active subduction zone",
+      "High volcanic activity",
+      "Part of the Scotia Sea region"
+    ]
+  },
+  "Shetland Plate": {
+    "description": "The Shetland Plate is a microplate in the Bransfield Strait between the South Shetland Islands and the Antarctic Peninsula.\n\nIt forms an active rift basin where the crust is pulling apart, creating underwater volcanoes and hydrothermal vents in the freezing Antarctic waters.",
+    "countries": [],
+    "size": "72,266 km²",
+    "movement": "North-Northeast (32.9°)",
+    "speed": "2.3 cm/year",
+    "facts": [
+      "Located in the Bransfield Strait",
+      "Active back-arc spreading",
+      "Volcanic activity",
+      "Part of Antarctic Peninsula region"
+    ]
+  },
+  "Solomon Sea Plate": {
+    "description": "The Solomon Sea Plate is a fast-moving oceanic microplate near Papua New Guinea, cruising westward at about 10 centimeters a year.\n\nBordered by subduction trenches on multiple sides, it is constantly being pulled and squeezed, making this one of the most seismically restless spots in the Pacific.",
+    "countries": [],
+    "size": "128,669 km²",
+    "movement": "North (10.5°)",
+    "speed": "7.1 cm/year",
+    "facts": [
+      "One of the fastest-moving small plates",
+      "Bounded by subduction zones",
+      "High seismic activity",
+      "Part of the Solomon Islands region"
+    ]
+  },
+  "South Bismarck Plate": {
+    "description": "The South Bismarck Plate sits in the southern Bismarck Sea, acting as the counterpart to the North Bismarck Plate.\n\nIt absorbs the intense friction between converging Pacific and Australian plates, bounded by the deep New Britain Trench where major subduction quakes originate.",
+    "countries": [
+      "Papua New Guinea (partial)"
+    ],
+    "size": "309,094 km²",
+    "movement": "East-Southeast (118.9°)",
+    "speed": "3.0 cm/year",
+    "facts": [
+      "Part of the Bismarck Sea complex",
+      "Bounded by transform faults",
+      "Moderate seismic activity",
+      "Interacts with multiple adjacent plates"
+    ]
+  },
+  "Sunda Plate": {
+    "description": "The Sunda Plate carries most of Southeast Asia, including Malaysia, Thailand, and western Indonesia.\n\nIt is ringed by high-friction subduction zones along the Sunda Trench, which spawned the catastrophic 2004 earthquake and tsunami and powers dozens of active Indonesian volcanoes.",
+    "countries": [
+      "Indonesia (partial)",
+      "Malaysia",
+      "Thailand",
+      "Singapore",
+      "Brunei",
+      "Cambodia",
+      "Laos",
+      "Vietnam",
+      "Myanmar (partial)"
+    ],
+    "size": "8.92 million km² (8,916,270 km²)",
+    "movement": "East (95.1°)",
+    "speed": "4.0 cm/year",
+    "facts": [
+      "Sometimes considered part of the Eurasian Plate",
+      "Bounded by major subduction zones",
+      "High seismic and volcanic hazard",
+      "Includes the 2004 Sumatra earthquake region"
+    ]
+  },
+  "Timor Plate": {
+    "description": "The Timor Plate is caught in an active collision where the Australian continent is actively crashing into Southeast Asia.\n\nThis collision is crumpling the crust and pushing up mountain ranges across the island of Timor, offering a real-time look at how mountain belts form.",
+    "countries": [
+      "Timor-Leste",
+      "Indonesia (partial)"
+    ],
+    "size": "353,285 km²",
+    "movement": "North-Northeast (24.2°)",
+    "speed": "5.2 cm/year",
+    "facts": [
+      "Part of the Australia-Sunda collision zone",
+      "High seismic activity",
+      "Active mountain building",
+      "Complex deformation"
+    ]
+  },
+  "Tonga Plate": {
+    "description": "The Tonga Plate holds the world record for the fastest subduction rate, diving into the mantle at up to 24 centimeters per year.\n\nThis intense speed carves the Tonga Trench (over 10,800 meters deep), feeds a chain of explosive island volcanoes, and sparks some of the deepest earthquakes ever recorded.",
+    "countries": [
+      "Tonga"
+    ],
+    "size": "253,622 km²",
+    "movement": "East (100.0°)",
+    "speed": "11.4 cm/year",
+    "facts": [
+      "One of the fastest-subducting plates on Earth",
+      "Forms the Tonga Trench",
+      "Extremely high seismic activity",
+      "Part of the Pacific Ring of Fire"
+    ]
+  },
+  "Woodlark Plate": {
+    "description": "The Woodlark Plate near Papua New Guinea is a rare place where a continental rift is turning directly into a brand-new ocean basin.\n\nThe basin is opening at roughly 10 centimeters a year, giving scientists a front-row seat to watch how continents split and oceans are born.",
+    "countries": [
+      "Papua New Guinea (partial)"
+    ],
+    "size": "453,080 km²",
+    "movement": "North-Northeast (18.2°)",
+    "speed": "6.7 cm/year",
+    "facts": [
+      "Active seafloor spreading",
+      "One of the few continental rifts transitioning to oceanic",
+      "High seismic activity",
+      "Fast-spreading ridge"
+    ]
+  },
+  "Yangtze Plate": {
+    "description": "The Yangtze Plate is an ancient, stable continental block underlying eastern and southern China, including the Yangtze River basin.\n\nIt has remained geologically solid for over a billion years, while its edges preserve the scars of ancient collisions that helped piece together the Asian continent.",
+    "countries": [
+      "China (partial)"
+    ],
+    "size": "2.20 million km² (2,201,946 km²)",
+    "movement": "East-Southeast (115.2°)",
+    "speed": "4.0 cm/year",
+    "facts": [
+      "Sometimes considered part of the Eurasian Plate",
+      "Low seismic activity",
+      "Ancient craton",
+      "Includes the Yangtze River region"
+    ]
+  },
+  "Australian Plate": {
+    "description": "The Australia Plate carries Australia, parts of New Zealand, and surrounding ocean floor northward at about 7 centimeters per year.\n\nIts northern boundary grinds violently into the Pacific and Sunda plates, producing intense tectonic activity across Indonesia and Papua New Guinea while driving active mountain uplift.",
+    "countries": [
+      "Australia",
+      "Papua New Guinea",
+      "New Zealand (partial)",
+      "Indonesia (partial)"
+    ],
+    "size": "45.98 million km² (45,984,895 km²)",
+    "movement": "North-Northeast (30.3°)",
+    "speed": "6.9 cm/year",
+    "facts": [
+      "One of the fastest-moving plates",
+      "Fused with the Indian Plate to form Indo-Australian Plate",
+      "Drifting north-northeast at about 6.9 cm per year relative to NNR",
+      "Covers approximately 45.98 million km² (45,984,895 km²)"
+    ]
+  },
+  "Somali Plate": {
+    "description": "The Somalia Plate is the eastern piece of Africa currently splitting away from the main African Plate along the East African Rift.\n\nAs the rift widens, it generates tremors, forms deep rift lakes, and feeds iconic volcanoes like Mount Kilimanjaro. Millions of years from now, it will become an island continent.",
+    "countries": [
+      "Somalia",
+      "Kenya (partial)",
+      "Tanzania (partial)",
+      "Mozambique (partial)",
+      "Madagascar (partial)"
+    ],
+    "size": "19.15 million km² (19,154,790 km²)",
+    "movement": "Northeast (53.6°)",
+    "speed": "2.7 cm/year",
+    "facts": [
+      "Separating from the African Plate",
+      "Creating the East African Rift",
+      "Will eventually form a new ocean",
+      "Covers approximately 19.15 million km² (19,154,790 km²)"
+    ]
+  },
+  "Anatolian Plate": {
+    "description": "The Anatolia Plate carries most of Turkey and is getting squeezed westward like a watermelon seed between colliding African and Eurasian plates.\n\nThis westward escape is channeled by the North Anatolian and East Anatolian faults, two of the most active strike-slip faults in the world that have triggered major historical earthquakes.",
+    "countries": [
+      "Turkey"
+    ],
+    "size": "575,627 km²",
+    "movement": "Northeast (34.1°)",
+    "speed": "1.1 cm/year",
+    "facts": [
+      "Escaping westward due to Arabian collision",
+      "Bounded by the North and East Anatolian Faults",
+      "High earthquake hazard",
+      "Drifting northeast at about 1.1 cm per year relative to NNR"
+    ]
+  }
+}

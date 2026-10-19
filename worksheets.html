@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Tectonic Plates Printable Worksheet & Teacher Answer Key | Earth Science</title>
+  <meta name="description" content="Free printable tectonic plates test worksheet with numbered blank map and teacher answer key. Ideal for middle school, high school, and AP geology classrooms.">
+  <meta name="author" content="TectonicPlateMap.org">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  <link rel="canonical" href="https://tectonicplatemap.org/worksheets">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://tectonicplatemap.org/worksheets">
+  <meta property="og:site_name" content="TectonicPlateMap.org">
+  <meta property="og:title" content="Tectonic Plates Printable Worksheet &amp; Teacher Answer Key">
+  <meta property="og:description" content="Download free printable classroom worksheets with numbered plates and teacher answer key. Aligns with NGSS earth science curriculum.">
+  <meta property="og:image" content="https://tectonicplatemap.org/images/og-preview.jpg">
+
+  <!-- Favicons -->
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+
+  <!-- Production Bundle CSS -->
+  <link rel="stylesheet" href="css/bundle.min.css?v=40">
+
+  <style>
+    .worksheet-layout {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 2rem 1rem 4rem 1rem;
+    }
+    .print-canvas-box {
+      background: #ffffff;
+      color: #0f172a;
+      border-radius: 12px;
+      padding: 2rem;
+      box-shadow: 0 15px 35px rgba(0,0,0,0.4);
+      margin-bottom: 2rem;
+    }
+    .worksheet-header-banner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 2px solid #0f172a;
+      padding-bottom: 1rem;
+      margin-bottom: 1.5rem;
+    }
+    .student-fields-row {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 12px;
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: #1e293b;
+      margin-bottom: 1.5rem;
+      padding: 10px 14px;
+      background: #f8fafc;
+      border-radius: 6px;
+      border: 1px dashed #cbd5e1;
+    }
+    .ws-table-container {
+      width: 100%;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      margin-top: 1.5rem;
+      border-radius: 8px;
+    }
+    .ws-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.9rem;
+      min-width: 600px;
+    }
+    .mobile-scroll-hint {
+      display: none;
+      font-size: 0.78rem;
+      color: #64748b;
+      margin-top: 6px;
+      text-align: right;
+    }
+    .ws-table th {
+      background: #f1f5f9;
+      color: #0f172a;
+      padding: 8px 12px;
+      border: 1px solid #cbd5e1;
+      text-align: left;
+    }
+    .ws-table td {
+      padding: 8px 12px;
+      border: 1px solid #e2e8f0;
+      color: #334155;
+    }
+    .print-canvas-box strong,
+    .print-canvas-box b,
+    .ws-table strong,
+    .ws-table b {
+      color: #0f172a !important;
+    }
+    .ws-plate-name {
+      color: #0284c7 !important;
+      font-weight: 700 !important;
+      display: inline-block;
+    }
+    .mode-switch-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #111827;
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      border-radius: 12px;
+      padding: 1rem 1.5rem;
+      margin-bottom: 1.5rem;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    .mode-pill-btn {
+      background: #1e293b;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      color: #cbd5e1;
+      border-radius: 20px;
+      padding: 6px 16px;
+      font-size: 0.85rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .mode-pill-btn.is-active {
+      background: #0284c7;
+      color: #ffffff;
+      border-color: #38bdf8;
+    }
+
+    /* Mobile & Tablet Responsive Media Queries */
+    @media screen and (max-width: 768px) {
+      .worksheet-layout {
+        padding: 1rem 0.5rem 3rem 0.5rem;
+      }
+      .print-canvas-box {
+        padding: 1.25rem 0.75rem;
+        border-radius: 8px;
+      }
+      .worksheet-header-banner {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+      }
+      .worksheet-header-banner h1 {
+        font-size: 1.25rem !important;
+      }
+      .student-fields-row {
+        grid-template-columns: 1fr;
+        font-size: 0.85rem;
+        gap: 6px;
+      }
+      .mode-switch-bar {
+        padding: 0.75rem 1rem;
+        flex-direction: column;
+        align-items: stretch;
+      }
+      .mode-switch-bar > div {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+      }
+      .mode-pill-btn {
+        flex: 1;
+        text-align: center;
+        padding: 8px 6px;
+        font-size: 0.78rem;
+      }
+      .mobile-scroll-hint {
+        display: block;
+      }
+    }
+
+    @media screen and (min-width: 769px) and (max-width: 1023px) {
+      .worksheet-layout {
+        padding: 1.5rem 1rem 3rem 1rem;
+      }
+      .print-canvas-box {
+        padding: 1.5rem;
+      }
+      .student-fields-row {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    /* Print Optimization (Clean Black & White PDF for Classrooms) */
+    @media print {
+      body {
+        background: #ffffff !important;
+        color: #000000 !important;
+      }
+      header, footer, .mode-switch-bar, .no-print, .button {
+        display: none !important;
+      }
+      .worksheet-layout {
+        max-width: 100% !important;
+        padding: 0 !important;
+        margin: 0 !important;
+      }
+      .print-canvas-box {
+        box-shadow: none !important;
+        padding: 0 !important;
+        border-radius: 0 !important;
+      }
+      .ws-table th {
+        background: #e2e8f0 !important;
+        color: #000000 !important;
+      }
+      .ws-table td {
+        border-color: #94a3b8 !important;
+        color: #000000 !important;
+      }
+      .ws-plate-name {
+        color: #000000 !important;
+        font-weight: 700 !important;
+      }
+    }
+  </style>
+</head>
+<body style="background:#0b1329; color:#f8fafc; min-height:100vh; display:flex; flex-direction:column;">
+
+  <!-- Global Header Navigation -->
+  <header>
+    <nav class="navbar is-tectonic" role="navigation" aria-label="Main Navigation">
+      <div class="navbar-brand">
+        <a class="navbar-item brand-badge" href="/" aria-label="Tectonic Plates Map Home">
+          <img src="images/logo.svg" alt="Tectonic Plates Map Logo" width="34" height="34" class="brand-logo-img">
+          <span style="font-weight:800; font-size:1.1rem; color:#fff; margin-left:8px;">
+            Tectonic <span style="color:#38bdf8;">Plates</span> Map
+          </span>
+        </a>
+        <a role="button" class="navbar-burger" id="nav-burger" aria-label="menu" aria-expanded="false" data-target="nav-menu">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div class="navbar-menu" id="nav-menu">
+        <div class="navbar-end">
+          <div class="navbar-item">
+            <a href="/" class="button is-small is-rounded is-dark" style="background:#1e293b; border-color:rgba(255,255,255,0.15); color:#cbd5e1;">
+              <span class="icon is-small"><i class="fa-solid fa-earth-americas"></i></span>
+              <span>3D Map</span>
+            </a>
+          </div>
+          <div class="navbar-item">
+            <a href="/quiz" class="button is-small is-rounded is-dark" style="background:#1e293b; border-color:rgba(255,255,255,0.15); color:#cbd5e1;">
+              <span class="icon is-small"><i class="fa-solid fa-circle-question"></i></span>
+              <span>Quiz</span>
+            </a>
+          </div>
+          <div class="navbar-item">
+            <a href="/what-plate-am-i-on" class="button is-small is-rounded is-dark" style="background:#1e293b; border-color:rgba(255,255,255,0.15); color:#cbd5e1;">
+              <span class="icon is-small"><i class="fa-solid fa-location-crosshairs"></i></span>
+              <span>Find My Plate</span>
+            </a>
+          </div>
+          <div class="navbar-item">
+            <a href="/worksheets" class="button is-small is-rounded" style="background:#0284c7; color:#fff; border-color:#38bdf8; font-weight:700;">
+              <span class="icon is-small"><i class="fa-solid fa-file-pen"></i></span>
+              <span>Worksheets</span>
+            </a>
+          </div>
+          <div class="navbar-item">
+            <a href="/plates" class="button is-small is-rounded is-dark" style="background:#1e293b; border-color:rgba(255,255,255,0.15); color:#cbd5e1;">
+              <span class="icon is-small"><i class="fa-solid fa-table-list"></i></span>
+              <span>All 52 Plates</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="worksheet-layout" style="flex:1;">
+    <!-- Mode Switcher & Print Control Bar -->
+    <div class="mode-switch-bar no-print">
+      <div style="display:flex; align-items:center; gap:8px;">
+        <span style="font-size:0.85rem; color:#94a3b8; font-weight:700; text-transform:uppercase;">View Mode:</span>
+        <button id="btn-mode-student" class="mode-pill-btn is-active" onclick="setWorksheetMode('student')">
+          <i class="fa-solid fa-user-graduate mr-1"></i> Student Worksheet
+        </button>
+        <button id="btn-mode-teacher" class="mode-pill-btn" onclick="setWorksheetMode('teacher')">
+          <i class="fa-solid fa-key mr-1"></i> Teacher Answer Key
+        </button>
+      </div>
+
+      <div>
+        <button class="button is-primary is-rounded is-small" style="font-weight:700;" onclick="triggerPrint()">
+          <span class="icon"><i class="fa-solid fa-print"></i></span>
+          <span>Print / Save as PDF</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Printable Canvas -->
+    <div class="print-canvas-box">
+      <div class="worksheet-header-banner">
+        <div>
+          <h1 style="font-size:1.6rem; font-weight:800; color:#0f172a; margin:0;">
+            Earth's Tectonic Plates Identification Worksheet
+          </h1>
+          <p style="font-size:0.85rem; color:#64748b; margin-top:4px;">
+            Standards: NGSS MS-ESS2-1 &bull; HS-ESS2-1 Earth's Interior Systems
+          </p>
+        </div>
+        <div>
+          <span id="worksheet-mode-badge" style="background:#0369a1; color:#fff; font-size:0.75rem; font-weight:800; padding:6px 12px; border-radius:20px; letter-spacing:0.5px;">
+            STUDENT QUIZ WORKSHEET
+          </span>
+        </div>
+      </div>
+
+      <!-- Student Name & Score Row -->
+      <div id="worksheet-student-header" class="student-fields-row">
+        <span>Name: _______________________________</span>
+        <span>Date: _______________</span>
+        <span>Class / Period: __________</span>
+        <span>Score: _____ / 30</span>
+      </div>
+
+      <div style="margin-bottom:1.5rem;">
+        <p style="font-size:0.9rem; color:#334155; line-height:1.5; margin-bottom:1rem;">
+          <strong>Instructions:</strong> Examine the world plate map below. Using the numbers 1 through 15 located across the continents and ocean basins, identify each tectonic plate, identify its primary crust composition (Oceanic or Continental), and state the main type of boundary that borders it.
+        </p>
+
+        <!-- High-contrast Vector SVG Plate Map with Numbers -->
+        <div style="border:1px solid #cbd5e1; border-radius:8px; overflow:hidden; background:#f8fafc; padding:10px;">
+          <svg viewBox="0 0 920 480" width="100%" height="auto" style="display:block;">
+            <defs>
+              <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+                <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#e2e8f0" stroke-width="0.8"/>
+              </pattern>
+            </defs>
+            <rect width="920" height="480" fill="#f8fafc"/>
+            <rect width="920" height="480" fill="url(#grid)"/>
+
+            <!-- Landmass Outline Silhouettes -->
+            <!-- North America -->
+            <path d="M120 70 Q180 50 260 70 Q300 110 240 180 Q200 210 170 230 Q160 210 140 180 Q100 130 120 70 Z" fill="#e2e8f0" stroke="#94a3b8" stroke-width="1.2"/>
+            <!-- South America -->
+            <path d="M220 250 Q280 260 300 310 Q280 390 230 430 Q210 370 200 300 Z" fill="#e2e8f0" stroke="#94a3b8" stroke-width="1.2"/>
+            <!-- Eurasia -->
+            <path d="M420 70 Q560 50 780 70 Q820 120 790 190 Q680 180 600 220 Q500 200 450 160 Q400 120 420 70 Z" fill="#e2e8f0" stroke="#94a3b8" stroke-width="1.2"/>
+            <!-- Africa -->
+            <path d="M430 170 Q500 160 540 220 Q540 310 490 370 Q440 340 420 270 Q400 210 430 170 Z" fill="#e2e8f0" stroke="#94a3b8" stroke-width="1.2"/>
+            <!-- Australia -->
+            <path d="M720 290 Q800 280 820 330 Q790 380 730 370 Q700 330 720 290 Z" fill="#e2e8f0" stroke="#94a3b8" stroke-width="1.2"/>
+            <!-- Antarctica -->
+            <path d="M100 450 Q460 435 840 450 L840 480 L100 480 Z" fill="#e2e8f0" stroke="#94a3b8" stroke-width="1.2"/>
+
+            <!-- Boundary Fissure Lines -->
+            <!-- Mid-Atlantic Ridge -->
+            <path d="M360 40 Q380 120 340 210 Q370 310 330 440" fill="none" stroke="#dc2626" stroke-width="2" stroke-dasharray="4 3"/>
+            <!-- Pacific Rim / Ring of Fire -->
+            <path d="M90 160 Q120 100 240 100" fill="none" stroke="#2563eb" stroke-width="2"/>
+            <path d="M840 130 Q760 170 780 260" fill="none" stroke="#2563eb" stroke-width="2"/>
+            <path d="M190 240 Q180 350 220 440" fill="none" stroke="#2563eb" stroke-width="2"/>
+            <!-- San Andreas -->
+            <path d="M135 150 L155 185" fill="none" stroke="#d97706" stroke-width="3"/>
+            <!-- Himalayas Collision -->
+            <path d="M590 170 Q640 165 680 180" fill="none" stroke="#7c3aed" stroke-width="3"/>
+
+            <!-- Plate Number Circles (1 to 15) -->
+            <!-- 1. Pacific -->
+            <circle cx="80" cy="220" r="14" fill="#0284c7" stroke="#ffffff" stroke-width="2"/>
+            <text x="80" y="225" fill="#fff" font-size="11" font-weight="800" text-anchor="middle">1</text>
+            <circle cx="860" cy="220" r="14" fill="#0284c7" stroke="#ffffff" stroke-width="2"/>
+            <text x="860" y="225" fill="#fff" font-size="11" font-weight="800" text-anchor="middle">1</text>
+
+            <!-- 2. North American -->
+            <circle cx="210" cy="110" r="14" fill="#0284c7" stroke="#ffffff" stroke-width="2"/>
+            <text x="210" y="115" fill="#fff" font-size="11" font-weight="800" text-anchor="middle">2</text>
+
+            <!-- 3. Eurasian -->
+            <circle cx="610" cy="110" r="14" fill="#0284c7" stroke="#ffffff" stroke-width="2"/>
+            <text x="610" y="115" fill="#fff" font-size="11" font-weight="800" text-anchor="middle">3</text>
+
+            <!-- 4. African -->
+            <circle cx="470" cy="250" r="14" fill="#0284c7" stroke="#ffffff" stroke-width="2"/>
+            <text x="470" y="255" fill="#fff" font-size="11" font-weight="800" text-anchor="middle">4</text>
+
+            <!-- 5. Antarctic -->
+            <circle cx="460" cy="460" r="14" fill="#0284c7" stroke="#ffffff" stroke-width="2"/>
+            <text x="460" y="465" fill="#fff" font-size="11" font-weight="800" text-anchor="middle">5</text>
+
+            <!-- 6. Australian -->
+            <circle cx="750" cy="330" r="14" fill="#0284c7" stroke="#ffffff" stroke-width="2"/>
+            <text x="750" y="335" fill="#fff" font-size="11" font-weight="800" text-anchor="middle">6</text>
+
+            <!-- 7. South American -->
+            <circle cx="250" cy="330" r="14" fill="#0284c7" stroke="#ffffff" stroke-width="2"/>
+            <text x="250" y="335" fill="#fff" font-size="11" font-weight="800" text-anchor="middle">7</text>
+
+            <!-- 8. Nazca -->
+            <circle cx="160" cy="330" r="14" fill="#0f172a" stroke="#ffffff" stroke-width="2"/>
+            <text x="160" y="335" fill="#fff" font-size="11" font-weight="800" text-anchor="middle">8</text>
+
+            <!-- 9. Cocos -->
+            <circle cx="140" cy="245" r="14" fill="#0f172a" stroke="#ffffff" stroke-width="2"/>
+            <text x="140" y="250" fill="#fff" font-size="11" font-weight="800" text-anchor="middle">9</text>
+
+            <!-- 10. Caribbean -->
+            <circle cx="215" cy="225" r="14" fill="#0f172a" stroke="#ffffff" stroke-width="2"/>
+            <text x="215" y="230" fill="#fff" font-size="11" font-weight="800" text-anchor="middle">10</text>
+
+            <!-- 11. Arabian -->
+            <circle cx="540" cy="190" r="14" fill="#0f172a" stroke="#ffffff" stroke-width="2"/>
+            <text x="540" y="195" fill="#fff" font-size="11" font-weight="800" text-anchor="middle">11</text>
+
+            <!-- 12. Philippine Sea -->
+            <circle cx="780" cy="220" r="14" fill="#0f172a" stroke="#ffffff" stroke-width="2"/>
+            <text x="780" y="225" fill="#fff" font-size="11" font-weight="800" text-anchor="middle">12</text>
+
+            <!-- 13. Juan de Fuca -->
+            <circle cx="115" cy="130" r="14" fill="#0f172a" stroke="#ffffff" stroke-width="2"/>
+            <text x="115" y="135" fill="#fff" font-size="11" font-weight="800" text-anchor="middle">13</text>
+
+            <!-- 14. Scotia -->
+            <circle cx="260" cy="430" r="14" fill="#0f172a" stroke="#ffffff" stroke-width="2"/>
+            <text x="260" y="435" fill="#fff" font-size="11" font-weight="800" text-anchor="middle">14</text>
+
+            <!-- 15. Somali -->
+            <circle cx="530" cy="275" r="14" fill="#0f172a" stroke="#ffffff" stroke-width="2"/>
+            <text x="530" y="280" fill="#fff" font-size="11" font-weight="800" text-anchor="middle">15</text>
+          </svg>
+        </div>
+      </div>
+
+      <!-- Identification Data Table (Horizontally scrollable on mobile & tablet) -->
+      <div class="ws-table-container">
+        <table class="ws-table">
+          <thead>
+            <tr>
+              <th style="width:60px; text-align:center;">#</th>
+              <th style="width:230px;">Tectonic Plate Name</th>
+              <th style="width:180px;">Primary Crust Type</th>
+              <th style="width:160px;">Drift Speed</th>
+              <th>Primary Boundary Interaction</th>
+            </tr>
+          </thead>
+          <tbody id="worksheet-table-body">
+            <!-- Populated by worksheets.js based on mode -->
+          </tbody>
+        </table>
+      </div>
+      <div class="mobile-scroll-hint no-print">
+        <i class="fa-solid fa-arrows-left-right mr-1"></i> Swipe horizontally to view full table
+      </div>
+    </div>
+
+    <!-- Classroom Discussion & Standards Alignment Guide -->
+    <div class="box no-print" style="background:#111827; border:1px solid rgba(255,255,255,0.08); padding:1.5rem; border-radius:12px;">
+      <h3 style="color:#ffffff; font-size:1.1rem; font-weight:700; margin-bottom:8px;">
+        <i class="fa-solid fa-chalkboard-user mr-2" style="color:#38bdf8;"></i> Lesson Ideas &amp; Curriculum Tips for Teachers
+      </h3>
+      <p style="font-size:0.88rem; color:#cbd5e1; line-height:1.6; margin-bottom:10px;">
+        <strong>Live Seismology Cross-Check:</strong> Have students open our <a href="/" style="color:#38bdf8; text-decoration:underline;">Interactive 3D Map</a> alongside this worksheet. Ask them to count how many earthquakes in the past 24 hours occurred along plate #1 (Pacific Plate) compared to plate #5 (Antarctic Plate). This illustrates why subduction zones generate the overwhelming majority of global tremors.
+      </p>
+      <p style="font-size:0.88rem; color:#cbd5e1; line-height:1.6; margin:0;">
+        <strong>Plate Speed Calculations:</strong> Challenge students to calculate how many meters the Pacific Plate will travel over 10,000 years at its current speed of 8.1 cm per year (810 meters).
+      </p>
+    </div>
+  </main>
+
+  <!-- Global Footer -->
+  <footer class="seo-footer">
+    <div class="seo-container">
+      <div class="columns is-multiline" style="text-align:left; margin-bottom:2rem;">
+        <div class="column is-4">
+          <h3 style="color:#ffffff; font-size:1rem; font-weight:700; margin-bottom:10px;">TectonicPlateMap.org</h3>
+          <p style="font-size:0.85rem; color:#94a3b8; line-height:1.6;">
+            A free, fast map for anyone curious about how Earth works.
+          </p>
+          <p style="font-size:0.8rem; color:#64748b; margin-top:8px;">
+            Geological Data: <a href="https://doi.org/10.1029/2001GC000252" target="_blank" rel="noopener" style="color:#94a3b8; text-decoration:underline;">Peter Bird (PB2002)</a> &bull; Seismology: <a href="https://earthquake.usgs.gov/" target="_blank" rel="noopener" style="color:#94a3b8; text-decoration:underline;">USGS Hazards</a> &bull; Volcanism: <a href="https://volcano.si.edu/" target="_blank" rel="noopener" style="color:#94a3b8; text-decoration:underline;">Smithsonian GVP</a>.
+          </p>
+        </div>
+        <div class="column is-4">
+          <h3 style="color:#ffffff; font-size:1rem; font-weight:700; margin-bottom:10px;">EXPLORE</h3>
+          <ul style="list-style:none; padding:0; margin:0; font-size:0.85rem; display:flex; flex-direction:column; gap:6px;">
+            <li><a href="/"><i class="fa-solid fa-angle-right mr-1"></i> Interactive Map</a></li>
+            <li><a href="/quiz"><i class="fa-solid fa-angle-right mr-1"></i> Tectonic Plates Quiz</a></li>
+            <li><a href="/what-plate-am-i-on"><i class="fa-solid fa-angle-right mr-1"></i> What Plate Am I On?</a></li>
+            <li><a href="/worksheets"><i class="fa-solid fa-angle-right mr-1"></i> Teacher Worksheets</a></li>
+            <li><a href="/plates"><i class="fa-solid fa-angle-right mr-1"></i> Plates Directory</a></li>
+            <li><a href="/maps/labeled-tectonic-plates-map"><i class="fa-solid fa-angle-right mr-1"></i> Printable Maps</a></li>
+            <li><a href="/methodology"><i class="fa-solid fa-angle-right mr-1"></i> Methodology &amp; Sources</a></li>
+            <li><a href="/#geology-guide"><i class="fa-solid fa-angle-right mr-1"></i> Geology Education Guide</a></li>
+            <li><a href="/#faq"><i class="fa-solid fa-angle-right mr-1"></i> Tectonics FAQ</a></li>
+          </ul>
+        </div>
+        <div class="column is-4">
+          <h3 style="color:#ffffff; font-size:1rem; font-weight:700; margin-bottom:10px;">ADDITIONAL</h3>
+          <ul style="list-style:none; padding:0; margin:0; font-size:0.85rem; display:flex; flex-direction:column; gap:6px;">
+            <li><a href="/about"><i class="fa-solid fa-angle-right mr-1"></i> About</a></li>
+            <li><a href="/contact"><i class="fa-solid fa-angle-right mr-1"></i> Contact</a></li>
+            <li><a href="/privacy-policy"><i class="fa-solid fa-angle-right mr-1"></i> Privacy Policy</a></li>
+            <li><a href="/terms-of-service"><i class="fa-solid fa-angle-right mr-1"></i> Terms of Service</a></li>
+          </ul>
+        </div>
+      </div>
+      <div style="border-top:1px solid rgba(255,255,255,0.08); padding-top:1.5rem; text-align:center;">
+        <p style="font-size:0.82rem; color:#64748b;">
+          &copy; 2026 TectonicPlateMap.org &bull; Open-access Earth geophysics and seismology platform. Built with HTML5, Bulma CSS, and MapLibre GL.
+         <span class="app-version-badge" style="font-family:var(--font-mono, monospace); font-size:0.72rem; background:rgba(255,255,255,0.06); color:#38bdf8; border:1px solid rgba(56,189,248,0.3); border-radius:12px; font-weight:600; padding:2px 8px; margin-left:6px; display:inline-block;" title="Tectonic Plates Map Version">v0.5</span></p>
+      </div>
+    </div>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-XXXXXXXXXX');
+    </script>
+  </footer>
+
+  <!-- Core UI Script (Mobile Hamburger Menu & Dialogs) -->
+  <script src="js/core-ui.min.js?v=40" defer></script>
+
+  <!-- Lazy-loaded Worksheet Script (Deferred) -->
+  <script src="js/worksheets.min.js?v=40" defer></script>
+</body>
+</html>

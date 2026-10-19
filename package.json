@@ -1,0 +1,18 @@
+{
+  "name": "tectonic-plates-web",
+  "version": "1.0.0",
+  "description": "Interactive 3D tectonic plates map and geophysics atlas",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "tectonic-plates",
+    "earthquakes",
+    "volcanoes",
+    "geology",
+    "maplibre"
+  ],
+  "author": "TectonicPlateMap.org",
+  "license": "MIT"
+}

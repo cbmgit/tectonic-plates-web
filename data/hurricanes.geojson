@@ -1,0 +1,325 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -75.1,
+            23.1
+          ],
+          [
+            -77.2,
+            24.5
+          ],
+          [
+            -80.1,
+            26.0
+          ],
+          [
+            -82.0,
+            25.1
+          ],
+          [
+            -84.5,
+            24.6
+          ],
+          [
+            -87.2,
+            25.7
+          ],
+          [
+            -89.6,
+            27.2
+          ],
+          [
+            -89.6,
+            29.3
+          ],
+          [
+            -89.5,
+            30.2
+          ],
+          [
+            -88.8,
+            32.5
+          ],
+          [
+            -87.0,
+            35.8
+          ],
+          [
+            -84.0,
+            39.5
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Hurricane Katrina",
+        "year": 2005,
+        "basin": "Atlantic",
+        "category": "Category 5",
+        "max_winds": "280 km/h (175 mph)",
+        "pressure": "902 mbar",
+        "damage": "$125 Billion",
+        "description": "One of the deadliest and costliest hurricanes in US history, devastating New Orleans and the Gulf Coast."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            155.0,
+            6.0
+          ],
+          [
+            145.0,
+            7.0
+          ],
+          [
+            135.0,
+            8.5
+          ],
+          [
+            128.0,
+            10.5
+          ],
+          [
+            125.7,
+            11.1
+          ],
+          [
+            122.0,
+            11.5
+          ],
+          [
+            118.0,
+            12.0
+          ],
+          [
+            110.0,
+            15.0
+          ],
+          [
+            107.0,
+            20.0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Typhoon Haiyan (Yolanda)",
+        "year": 2013,
+        "basin": "Western Pacific",
+        "category": "Super Typhoon (Cat 5)",
+        "max_winds": "315 km/h (195 mph)",
+        "pressure": "895 mbar",
+        "damage": "$2.98 Billion",
+        "description": "One of the most powerful tropical cyclones ever recorded, striking the Philippines with catastrophic 7m storm surges."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -94.0,
+            13.0
+          ],
+          [
+            -97.0,
+            13.5
+          ],
+          [
+            -101.5,
+            14.0
+          ],
+          [
+            -104.0,
+            16.0
+          ],
+          [
+            -105.3,
+            18.5
+          ],
+          [
+            -104.5,
+            20.5
+          ],
+          [
+            -102.5,
+            23.5
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Hurricane Patricia",
+        "year": 2015,
+        "basin": "Eastern Pacific",
+        "category": "Category 5",
+        "max_winds": "345 km/h (215 mph)",
+        "pressure": "872 mbar",
+        "damage": "$462 Million",
+        "description": "Highest reliably measured 1-minute sustained wind speed on Earth (215 mph) in the Western Hemisphere."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -74.0,
+            14.0
+          ],
+          [
+            -79.0,
+            16.0
+          ],
+          [
+            -83.0,
+            19.5
+          ],
+          [
+            -84.5,
+            22.5
+          ],
+          [
+            -83.0,
+            25.5
+          ],
+          [
+            -82.2,
+            26.6
+          ],
+          [
+            -81.0,
+            28.5
+          ],
+          [
+            -79.0,
+            31.0
+          ],
+          [
+            -79.1,
+            33.3
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Hurricane Ian",
+        "year": 2022,
+        "basin": "Atlantic",
+        "category": "Category 5",
+        "max_winds": "260 km/h (160 mph)",
+        "pressure": "937 mbar",
+        "damage": "$113 Billion",
+        "description": "Deadly Category 5 hurricane that slammed southwest Florida with catastrophic 15-foot storm surges."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            152.0,
+            11.0
+          ],
+          [
+            144.0,
+            12.0
+          ],
+          [
+            138.0,
+            13.5
+          ],
+          [
+            130.0,
+            16.0
+          ],
+          [
+            128.0,
+            19.0
+          ],
+          [
+            130.0,
+            23.0
+          ],
+          [
+            135.0,
+            29.0
+          ],
+          [
+            141.0,
+            36.0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Super Typhoon Tip",
+        "year": 1979,
+        "basin": "Western Pacific",
+        "category": "Super Typhoon (Cat 5)",
+        "max_winds": "305 km/h (190 mph)",
+        "pressure": "870 mbar",
+        "damage": "Global record lowest pressure",
+        "description": "Largest and most intense tropical cyclone ever recorded worldwide, with a diameter spanning 2,220 km across."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            170.0,
+            -14.0
+          ],
+          [
+            178.0,
+            -17.0
+          ],
+          [
+            -175.0,
+            -19.0
+          ],
+          [
+            -172.0,
+            -22.0
+          ],
+          [
+            -172.0,
+            -18.0
+          ],
+          [
+            -178.0,
+            -17.0
+          ],
+          [
+            179.0,
+            -17.3
+          ],
+          [
+            175.0,
+            -18.0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Cyclone Winston",
+        "year": 2016,
+        "basin": "South Pacific",
+        "category": "Category 5 Severe Tropical Cyclone",
+        "max_winds": "280 km/h (175 mph)",
+        "pressure": "884 mbar",
+        "damage": "$1.4 Billion",
+        "description": "Most intense tropical cyclone ever recorded in the Southern Hemisphere, causing catastrophic devastation in Fiji."
+      }
+    }
+  ]
+}

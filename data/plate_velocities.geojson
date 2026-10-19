@@ -1,0 +1,1669 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -163.31,
+            -5.14
+          ],
+          [
+            -168.863,
+            -2.31
+          ]
+        ]
+      },
+      "properties": {
+        "plate": "Pacific Plate",
+        "code": "PA",
+        "speed_mmyr": 71,
+        "speed_cmyr": 7.1,
+        "direction": "West-Northwest",
+        "azimuth": 297.1,
+        "origin": [
+          -163.31,
+          -5.14
+        ],
+        "endpoint": [
+          -168.863,
+          -2.31
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -2.76,
+            -6.12
+          ],
+          [
+            -0.52,
+            -4.423
+          ]
+        ]
+      },
+      "properties": {
+        "plate": "African Plate",
+        "code": "AF",
+        "speed_mmyr": 32,
+        "speed_cmyr": 3.2,
+        "direction": "Northeast",
+        "azimuth": 52.7,
+        "origin": [
+          -2.76,
+          -6.12
+        ],
+        "endpoint": [
+          -0.52,
+          -4.423
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            18.04,
+            -81.72
+          ],
+          [
+            15.906,
+            -80.956
+          ]
+        ]
+      },
+      "properties": {
+        "plate": "Antarctic Plate",
+        "code": "AN",
+        "speed_mmyr": 10,
+        "speed_cmyr": 1.0,
+        "direction": "North-Northwest",
+        "azimuth": 330.8,
+        "origin": [
+          18.04,
+          -81.72
+        ],
+        "endpoint": [
+          15.906,
+          -80.956
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -82.53,
+            57.21
+          ],
+          [
+            -85.754,
+            57.329
+          ]
+        ]
+      },
+      "properties": {
+        "plate": "North American Plate",
+        "code": "NA",
+        "speed_mmyr": 20,
+        "speed_cmyr": 2.0,
+        "direction": "West",
+        "azimuth": 273.9,
+        "origin": [
+          -82.53,
+          57.21
+        ],
+        "endpoint": [
+          -85.754,
+          57.329
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            62.43,
+            58.64
+          ],
+          [
+            66.626,
+            58.774
+          ]
+        ]
+      },
+      "properties": {
+        "plate": "Eurasian Plate",
+        "code": "EU",
+        "speed_mmyr": 25,
+        "speed_cmyr": 2.5,
+        "direction": "East",
+        "azimuth": 86.5,
+        "origin": [
+          62.43,
+          58.64
+        ],
+        "endpoint": [
+          66.626,
+          58.774
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.9,
+            -31.44
+          ],
+          [
+            125.47,
+            -26.227
+          ]
+        ]
+      },
+      "properties": {
+        "plate": "Australian Plate",
+        "code": "AU",
+        "speed_mmyr": 69,
+        "speed_cmyr": 6.9,
+        "direction": "North-Northeast",
+        "azimuth": 30.3,
+        "origin": [
+          121.9,
+          -31.44
+        ],
+        "endpoint": [
+          125.47,
+          -26.227
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -42.48,
+            -21.29
+          ],
+          [
+            -42.895,
+            -20.314
+          ]
+        ]
+      },
+      "properties": {
+        "plate": "South American Plate",
+        "code": "SA",
+        "speed_mmyr": 12,
+        "speed_cmyr": 1.2,
+        "direction": "North-Northwest",
+        "azimuth": 338.4,
+        "origin": [
+          -42.48,
+          -21.29
+        ],
+        "endpoint": [
+          -42.895,
+          -20.314
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            47.15,
+            -19.17
+          ],
+          [
+            49.163,
+            -17.768
+          ]
+        ]
+      },
+      "properties": {
+        "plate": "Somali Plate",
+        "code": "SO",
+        "speed_mmyr": 27,
+        "speed_cmyr": 2.7,
+        "direction": "Northeast",
+        "azimuth": 53.6,
+        "origin": [
+          47.15,
+          -19.17
+        ],
+        "endpoint": [
+          49.163,
+          -17.768
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -93.08,
+            -20.92
+          ],
+          [
+            -85.896,
+            -20.321
+          ]
+        ]
+      },
+      "properties": {
+        "plate": "Nazca Plate",
+        "code": "NZ",
+        "speed_mmyr": 77,
+        "speed_cmyr": 7.7,
+        "direction": "East",
+        "azimuth": 84.9,
+        "origin": [
+          -93.08,
+          -20.92
+        ],
+        "endpoint": [
+          -85.896,
+          -20.321
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            75.14,
+            13.28
+          ],
+          [
+            78.7,
+            16.868
+          ]
+        ]
+      },
+      "properties": {
+        "plate": "Indian Plate",
+        "code": "IN",
+        "speed_mmyr": 57,
+        "speed_cmyr": 5.7,
+        "direction": "Northeast",
+        "azimuth": 44.0,
+        "origin": [
+          75.14,
+          13.28
+        ],
+        "endpoint": [
+          78.7,
+          16.868
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            112.28,
+            3.87
+          ],
+          [
+            115.774,
+            3.559
+          ]
+        ]
+      },
+      "properties": {
+        "plate": "Sunda Plate",
+        "code": "SU",
+        "speed_mmyr": 40,
+        "speed_cmyr": 4.0,
+        "direction": "East",
+        "azimuth": 95.1,
+        "origin": [
+          112.28,
+          3.87
+        ],
+        "endpoint": [
+          115.774,
+          3.559
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            132.85,
+            19.34
+          ],
+          [
+            129.58,
+            20.798
+          ]
+        ]
+      },
+      "properties": {
+        "plate": "Philippine Sea Plate",
+        "code": "PS",
+        "speed_mmyr": 39,
+        "speed_cmyr": 3.9,
+        "direction": "West-Northwest",
+        "azimuth": 295.3,
+        "origin": [
+          132.85,
+          19.34
+        ],
+        "endpoint": [
+          129.58,
+          20.798
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            125.87,
+            44.42
+          ],
+          [
+            129.47,
+            42.924
+          ]
+        ]
+      },
+      "properties": {
+        "plate": "Amur Plate",
+        "code": "AM",
+        "speed_mmyr": 34,
+        "speed_cmyr": 3.4,
+        "direction": "East-Southeast",
+        "azimuth": 120.2,
+        "origin": [
+          125.87,
+          44.42
+        ],
+        "endpoint": [
+          129.47,
+          42.924
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            49.65,
+            24.81
+          ],
+          [
+            52.831,
+            28.097
+          ]
+        ]
+      },
+      "properties": {
+        "plate": "Arabian Plate",
+        "code": "AR",
+        "speed_mmyr": 50,
+        "speed_cmyr": 5.0,
+        "direction": "Northeast",
+        "azimuth": 41.3,
+        "origin": [
+          49.65,
+          24.81
+        ],
+        "endpoint": [
+          52.831,
+          28.097
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            148.05,
+            50.34
+          ],
+          [
+            150.245,
+            48.547
+          ]
+        ]
+      },
+      "properties": {
+        "plate": "Okhotsk Plate",
+        "code": "OK",
+        "speed_mmyr": 26,
+        "speed_cmyr": 2.6,
+        "direction": "Southeast",
+        "azimuth": 142.0,
+        "origin": [
+          148.05,
+          50.34
+        ],
+        "endpoint": [
+          150.245,
+          48.547
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -72.82,
+            14.84
+          ],
+          [
+            -71.824,
+            15.446
+          ]
+        ]
+      },
+      "properties": {
+        "plate": "Caribbean Plate",
+        "code": "CA",
+        "speed_mmyr": 13,
+        "speed_cmyr": 1.3,
+        "direction": "East-Northeast",
+        "azimuth": 57.8,
+        "origin": [
+          -72.82,
+          14.84
+        ],
+        "endpoint": [
+          -71.824,
+          15.446
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -94.74,
+            8.65
+          ],
+          [
+            -90.576,
+            13.419
+          ]
+        ]
+      },
+      "properties": {
+        "plate": "Cocos Plate",
+        "code": "CO",
+        "speed_mmyr": 72,
+        "speed_cmyr": 7.2,
+        "direction": "Northeast",
+        "azimuth": 40.8,
+        "origin": [
+          -94.74,
+          8.65
+        ],
+        "endpoint": [
+          -90.576,
+          13.419
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.45,
+            26.22
+          ],
+          [
+            119.98,
+            24.73
+          ]
+        ]
+      },
+      "properties": {
+        "plate": "Yangtze Plate",
+        "code": "YA",
+        "speed_mmyr": 40,
+        "speed_cmyr": 4.0,
+        "direction": "East-Southeast",
+        "azimuth": 115.2,
+        "origin": [
+          116.45,
+          26.22
+        ],
+        "endpoint": [
+          119.98,
+          24.73
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -52.61,
+            -57.17
+          ],
+          [
+            -51.834,
+            -56.113
+          ]
+        ]
+      },
+      "properties": {
+        "plate": "Scotia Plate",
+        "code": "SC",
+        "speed_mmyr": 13,
+        "speed_cmyr": 1.3,
+        "direction": "North-Northeast",
+        "azimuth": 21.7,
+        "origin": [
+          -52.61,
+          -57.17
+        ],
+        "endpoint": [
+          -51.834,
+          -56.113
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            140.42,
+            3.47
+          ],
+          [
+            135.399,
+            4.71
+          ]
+        ]
+      },
+      "properties": {
+        "plate": "Caroline Plate",
+        "code": "CL",
+        "speed_mmyr": 59,
+        "speed_cmyr": 5.9,
+        "direction": "West-Northwest",
+        "azimuth": 283.9,
+        "origin": [
+          140.42,
+          3.47
+        ],
+        "endpoint": [
+          135.399,
+          4.71
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            25.29,
+            36.91
+          ],
+          [
+            25.997,
+            35.725
+          ]
+        ]
+      },
+      "properties": {
+        "plate": "Aegean Sea Plate",
+        "code": "AS",
+        "speed_mmyr": 15,
+        "speed_cmyr": 1.5,
+        "direction": "South-Southeast",
+        "azimuth": 154.5,
+        "origin": [
+          25.29,
+          36.91
+        ],
+        "endpoint": [
+          25.997,
+          35.725
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -69.92,
+            -17.57
+          ],
+          [
+            -69.145,
+            -16.279
+          ]
+        ]
+      },
+      "properties": {
+        "plate": "Altiplano Plate",
+        "code": "AP",
+        "speed_mmyr": 17,
+        "speed_cmyr": 1.7,
+        "direction": "North-Northeast",
+        "azimuth": 29.8,
+        "origin": [
+          -69.92,
+          -17.57
+        ],
+        "endpoint": [
+          -69.145,
+          -16.279
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            32.56,
+            38.34
+          ],
+          [
+            33.248,
+            39.137
+          ]
+        ]
+      },
+      "properties": {
+        "plate": "Anatolian Plate",
+        "code": "AT",
+        "speed_mmyr": 11,
+        "speed_cmyr": 1.1,
+        "direction": "Northeast",
+        "azimuth": 34.1,
+        "origin": [
+          32.56,
+          38.34
+        ],
+        "endpoint": [
+          33.248,
+          39.137
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            175.62,
+            -15.0
+          ],
+          [
+            171.875,
+            -13.683
+          ]
+        ]
+      },
+      "properties": {
+        "plate": "Balmoral Reef Plate",
+        "code": "BR",
+        "speed_mmyr": 44,
+        "speed_cmyr": 4.4,
+        "direction": "West-Northwest",
+        "azimuth": 290.0,
+        "origin": [
+          175.62,
+          -15.0
+        ],
+        "endpoint": [
+          171.875,
+          -13.683
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            125.22,
+            -4.37
+          ],
+          [
+            127.095,
+            -2.527
+          ]
+        ]
+      },
+      "properties": {
+        "plate": "Banda Sea Plate",
+        "code": "BS",
+        "speed_mmyr": 30,
+        "speed_cmyr": 3.0,
+        "direction": "Northeast",
+        "azimuth": 45.4,
+        "origin": [
+          125.22,
+          -4.37
+        ],
+        "endpoint": [
+          127.095,
+          -2.527
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            132.02,
+            -1.03
+          ],
+          [
+            127.198,
+            2.149
+          ]
+        ]
+      },
+      "properties": {
+        "plate": "Birds Head Plate",
+        "code": "BH",
+        "speed_mmyr": 66,
+        "speed_cmyr": 6.6,
+        "direction": "West-Northwest",
+        "azimuth": 303.4,
+        "origin": [
+          132.02,
+          -1.03
+        ],
+        "endpoint": [
+          127.198,
+          2.149
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            94.74,
+            9.15
+          ],
+          [
+            96.839,
+            12.904
+          ]
+        ]
+      },
+      "properties": {
+        "plate": "Burma Plate",
+        "code": "BU",
+        "speed_mmyr": 49,
+        "speed_cmyr": 4.9,
+        "direction": "North-Northeast",
+        "azimuth": 28.9,
+        "origin": [
+          94.74,
+          9.15
+        ],
+        "endpoint": [
+          96.839,
+          12.904
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            174.72,
+            -19.15
+          ],
+          [
+            173.753,
+            -16.783
+          ]
+        ]
+      },
+      "properties": {
+        "plate": "Conway Reef Plate",
+        "code": "CR",
+        "speed_mmyr": 29,
+        "speed_cmyr": 2.9,
+        "direction": "North-Northwest",
+        "azimuth": 338.9,
+        "origin": [
+          174.72,
+          -19.15
+        ],
+        "endpoint": [
+          173.753,
+          -16.783
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -114.12,
+            -24.4
+          ],
+          [
+            -112.332,
+            -21.602
+          ]
+        ]
+      },
+      "properties": {
+        "plate": "Easter Plate",
+        "code": "EA",
+        "speed_mmyr": 37,
+        "speed_cmyr": 3.7,
+        "direction": "North-Northeast",
+        "azimuth": 30.2,
+        "origin": [
+          -114.12,
+          -24.4
+        ],
+        "endpoint": [
+          -112.332,
+          -21.602
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -177.94,
+            -15.06
+          ],
+          [
+            -179.125,
+            -12.031
+          ]
+        ]
+      },
+      "properties": {
+        "plate": "Futuna Plate",
+        "code": "FT",
+        "speed_mmyr": 37,
+        "speed_cmyr": 3.7,
+        "direction": "North-Northwest",
+        "azimuth": 339.3,
+        "origin": [
+          -177.94,
+          -15.06
+        ],
+        "endpoint": [
+          -179.125,
+          -12.031
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -101.75,
+            1.89
+          ],
+          [
+            -97.205,
+            4.523
+          ]
+        ]
+      },
+      "properties": {
+        "plate": "Galapagos Plate",
+        "code": "GP",
+        "speed_mmyr": 60,
+        "speed_cmyr": 6.0,
+        "direction": "East-Northeast",
+        "azimuth": 59.9,
+        "origin": [
+          -101.75,
+          1.89
+        ],
+        "endpoint": [
+          -97.205,
+          4.523
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -110.97,
+            -33.31
+          ],
+          [
+            -106.082,
+            -28.063
+          ]
+        ]
+      },
+      "properties": {
+        "plate": "Juan Fernandez Plate",
+        "code": "JZ",
+        "speed_mmyr": 76,
+        "speed_cmyr": 7.6,
+        "direction": "Northeast",
+        "azimuth": 37.9,
+        "origin": [
+          -110.97,
+          -33.31
+        ],
+        "endpoint": [
+          -106.082,
+          -28.063
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -128.34,
+            46.15
+          ],
+          [
+            -125.566,
+            46.748
+          ]
+        ]
+      },
+      "properties": {
+        "plate": "Juan de Fuca Plate",
+        "code": "JF",
+        "speed_mmyr": 23,
+        "speed_cmyr": 2.3,
+        "direction": "East-Northeast",
+        "azimuth": 72.7,
+        "origin": [
+          -128.34,
+          46.15
+        ],
+        "endpoint": [
+          -125.566,
+          46.748
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -179.53,
+            -33.12
+          ],
+          [
+            -176.363,
+            -31.589
+          ]
+        ]
+      },
+      "properties": {
+        "plate": "Kermadec Plate",
+        "code": "KE",
+        "speed_mmyr": 35,
+        "speed_cmyr": 3.5,
+        "direction": "East-Northeast",
+        "azimuth": 60.0,
+        "origin": [
+          -179.53,
+          -33.12
+        ],
+        "endpoint": [
+          -176.363,
+          -31.589
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            150.58,
+            -3.51
+          ],
+          [
+            149.241,
+            -0.465
+          ]
+        ]
+      },
+      "properties": {
+        "plate": "Manus Plate",
+        "code": "MN",
+        "speed_mmyr": 38,
+        "speed_cmyr": 3.8,
+        "direction": "North-Northwest",
+        "azimuth": 336.3,
+        "origin": [
+          150.58,
+          -3.51
+        ],
+        "endpoint": [
+          149.241,
+          -0.465
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            138.07,
+            -3.69
+          ],
+          [
+            140.306,
+            1.541
+          ]
+        ]
+      },
+      "properties": {
+        "plate": "Maoke Plate",
+        "code": "MO",
+        "speed_mmyr": 65,
+        "speed_cmyr": 6.5,
+        "direction": "North-Northeast",
+        "azimuth": 23.1,
+        "origin": [
+          138.07,
+          -3.69
+        ],
+        "endpoint": [
+          140.306,
+          1.541
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            144.53,
+            17.5
+          ],
+          [
+            144.056,
+            18.448
+          ]
+        ]
+      },
+      "properties": {
+        "plate": "Mariana Plate",
+        "code": "MA",
+        "speed_mmyr": 12,
+        "speed_cmyr": 1.2,
+        "direction": "North-Northwest",
+        "azimuth": 334.5,
+        "origin": [
+          144.53,
+          17.5
+        ],
+        "endpoint": [
+          144.056,
+          18.448
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            124.06,
+            -0.57
+          ],
+          [
+            125.789,
+            -0.299
+          ]
+        ]
+      },
+      "properties": {
+        "plate": "Molucca Sea Plate",
+        "code": "MS",
+        "speed_mmyr": 20,
+        "speed_cmyr": 2.0,
+        "direction": "East",
+        "azimuth": 81.1,
+        "origin": [
+          124.06,
+          -0.57
+        ],
+        "endpoint": [
+          125.789,
+          -0.299
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            170.43,
+            -17.68
+          ],
+          [
+            163.05,
+            -16.25
+          ]
+        ]
+      },
+      "properties": {
+        "plate": "New Hebrides Plate",
+        "code": "NH",
+        "speed_mmyr": 82,
+        "speed_cmyr": 8.2,
+        "direction": "West-Northwest",
+        "azimuth": 281.5,
+        "origin": [
+          170.43,
+          -17.68
+        ],
+        "endpoint": [
+          163.05,
+          -16.25
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -175.43,
+            -16.52
+          ],
+          [
+            -167.722,
+            -17.362
+          ]
+        ]
+      },
+      "properties": {
+        "plate": "Niuafo'ou Plate",
+        "code": "NI",
+        "speed_mmyr": 85,
+        "speed_cmyr": 8.5,
+        "direction": "East",
+        "azimuth": 96.5,
+        "origin": [
+          -175.43,
+          -16.52
+        ],
+        "endpoint": [
+          -167.722,
+          -17.362
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -75.34,
+            6.34
+          ],
+          [
+            -75.149,
+            7.284
+          ]
+        ]
+      },
+      "properties": {
+        "plate": "North Andes Plate",
+        "code": "ND",
+        "speed_mmyr": 11,
+        "speed_cmyr": 1.1,
+        "direction": "North-Northeast",
+        "azimuth": 11.4,
+        "origin": [
+          -75.34,
+          6.34
+        ],
+        "endpoint": [
+          -75.149,
+          7.284
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            149.19,
+            -3.38
+          ],
+          [
+            143.753,
+            -0.941
+          ]
+        ]
+      },
+      "properties": {
+        "plate": "North Bismarck Plate",
+        "code": "NB",
+        "speed_mmyr": 68,
+        "speed_cmyr": 6.8,
+        "direction": "West-Northwest",
+        "azimuth": 294.2,
+        "origin": [
+          149.19,
+          -3.38
+        ],
+        "endpoint": [
+          143.753,
+          -0.941
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.94,
+            27.35
+          ],
+          [
+            132.5,
+            23.741
+          ]
+        ]
+      },
+      "properties": {
+        "plate": "Okinawa Plate",
+        "code": "ON",
+        "speed_mmyr": 62,
+        "speed_cmyr": 6.2,
+        "direction": "Southeast",
+        "azimuth": 131.7,
+        "origin": [
+          127.94,
+          27.35
+        ],
+        "endpoint": [
+          132.5,
+          23.741
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -81.06,
+            9.01
+          ],
+          [
+            -79.827,
+            10.267
+          ]
+        ]
+      },
+      "properties": {
+        "plate": "Panama Plate",
+        "code": "PM",
+        "speed_mmyr": 20,
+        "speed_cmyr": 2.0,
+        "direction": "Northeast",
+        "azimuth": 44.1,
+        "origin": [
+          -81.06,
+          9.01
+        ],
+        "endpoint": [
+          -79.827,
+          10.267
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -107.39,
+            20.04
+          ],
+          [
+            -106.46,
+            20.089
+          ]
+        ]
+      },
+      "properties": {
+        "plate": "Rivera Plate",
+        "code": "RI",
+        "speed_mmyr": 10,
+        "speed_cmyr": 1.0,
+        "direction": "East",
+        "azimuth": 86.8,
+        "origin": [
+          -107.39,
+          20.04
+        ],
+        "endpoint": [
+          -106.46,
+          20.089
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -58.94,
+            -61.84
+          ],
+          [
+            -56.624,
+            -60.15
+          ]
+        ]
+      },
+      "properties": {
+        "plate": "Shetland Plate",
+        "code": "SL",
+        "speed_mmyr": 23,
+        "speed_cmyr": 2.3,
+        "direction": "North-Northeast",
+        "azimuth": 32.9,
+        "origin": [
+          -58.94,
+          -61.84
+        ],
+        "endpoint": [
+          -56.624,
+          -60.15
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            152.61,
+            -7.25
+          ],
+          [
+            153.751,
+            -1.142
+          ]
+        ]
+      },
+      "properties": {
+        "plate": "Solomon Sea Plate",
+        "code": "SS",
+        "speed_mmyr": 71,
+        "speed_cmyr": 7.1,
+        "direction": "North",
+        "azimuth": 10.5,
+        "origin": [
+          152.61,
+          -7.25
+        ],
+        "endpoint": [
+          153.751,
+          -1.142
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            149.24,
+            -5.3
+          ],
+          [
+            151.548,
+            -6.569
+          ]
+        ]
+      },
+      "properties": {
+        "plate": "South Bismarck Plate",
+        "code": "SB",
+        "speed_mmyr": 30,
+        "speed_cmyr": 3.0,
+        "direction": "East-Southeast",
+        "azimuth": 118.9,
+        "origin": [
+          149.24,
+          -5.3
+        ],
+        "endpoint": [
+          151.548,
+          -6.569
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -27.66,
+            -57.77
+          ],
+          [
+            -16.019,
+            -56.268
+          ]
+        ]
+      },
+      "properties": {
+        "plate": "South Sandwich Plate",
+        "code": "SW",
+        "speed_mmyr": 73,
+        "speed_cmyr": 7.3,
+        "direction": "East-Northeast",
+        "azimuth": 76.4,
+        "origin": [
+          -27.66,
+          -57.77
+        ],
+        "endpoint": [
+          -16.019,
+          -56.268
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            125.72,
+            -8.86
+          ],
+          [
+            127.608,
+            -4.71
+          ]
+        ]
+      },
+      "properties": {
+        "plate": "Timor Plate",
+        "code": "TI",
+        "speed_mmyr": 52,
+        "speed_cmyr": 5.2,
+        "direction": "North-Northeast",
+        "azimuth": 24.2,
+        "origin": [
+          125.72,
+          -8.86
+        ],
+        "endpoint": [
+          127.608,
+          -4.71
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -174.49,
+            -19.39
+          ],
+          [
+            -164.076,
+            -21.122
+          ]
+        ]
+      },
+      "properties": {
+        "plate": "Tonga Plate",
+        "code": "TO",
+        "speed_mmyr": 114,
+        "speed_cmyr": 11.4,
+        "direction": "East",
+        "azimuth": 100.0,
+        "origin": [
+          -174.49,
+          -19.39
+        ],
+        "endpoint": [
+          -164.076,
+          -21.122
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            147.74,
+            -6.32
+          ],
+          [
+            149.582,
+            -0.751
+          ]
+        ]
+      },
+      "properties": {
+        "plate": "Woodlark Plate",
+        "code": "WL",
+        "speed_mmyr": 67,
+        "speed_cmyr": 6.7,
+        "direction": "North-Northeast",
+        "azimuth": 18.2,
+        "origin": [
+          147.74,
+          -6.32
+        ],
+        "endpoint": [
+          149.582,
+          -0.751
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+# Permanent 301 Redirects: Strip legacy .html for clean URLs & link equity preservation
+/index.html / 301
+/plates.html /plates 301
+/about.html /about 301
+/contact.html /contact 301
+/methodology.html /methodology 301
+/privacy-policy.html /privacy-policy 301
+/terms-of-service.html /terms-of-service 301
+/maps/labeled-tectonic-plates-map.html /maps/labeled-tectonic-plates-map 301
+/maps/blank-tectonic-plates-map.html /maps/blank-tectonic-plates-map 301
+/maps/plate-boundary-map.html /maps/plate-boundary-map 301
+/maps/continental-plates-map.html /maps/continental-plates-map 301
+/quiz.html /quiz 301
+/what-plate-am-i-on.html /what-plate-am-i-on 301
+/worksheets.html /worksheets 301
+
+# Cloudflare Pages SPA Routing & Clean URLs for Interactive Map Modes
+/earthquakes /index.html 200
+/earthquakes/ /index.html 200
+/volcanoes /index.html 200
+/volcanoes/ /index.html 200
+/hurricanes /index.html 200
+/hurricanes/ /index.html 200
+/northern-lights /index.html 200
+/northern-lights/ /index.html 200
+/ocean-trenches /index.html 200
+/ocean-trenches/ /index.html 200
+/impact-craters /index.html 200
+/impact-craters/ /index.html 200
+/tornadoes /index.html 200
+/tornadoes/ /index.html 200
+
+# API Trailing Slash Redirects
+/api/earthquakes/ /api/earthquakes 301
+/api/hurricanes/ /api/hurricanes 301
+/api/tornadoes/ /api/tornadoes 301

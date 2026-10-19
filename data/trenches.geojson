@@ -1,0 +1,131 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.5917,
+          11.3733
+        ]
+      },
+      "properties": {
+        "name": "Mariana Trench (Challenger Deep)",
+        "depth": "10,994 m (36,070 ft)",
+        "lat": 11.3733,
+        "lng": 142.5917,
+        "plate": "Pacific / Mariana Plate",
+        "desc": "Deepest point on planet Earth, where the Pacific Plate subducts beneath the Mariana Plate."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -174.75,
+          -23.2833
+        ]
+      },
+      "properties": {
+        "name": "Tonga Trench (Horizon Deep)",
+        "depth": "10,882 m (35,702 ft)",
+        "lat": -23.2833,
+        "lng": -174.75,
+        "plate": "Pacific / Indo-Australian Plate",
+        "desc": "Second deepest ocean trench on Earth, famous for extreme subduction velocity (up to 24 cm/year)."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.65,
+          10.45
+        ]
+      },
+      "properties": {
+        "name": "Philippine Trench",
+        "depth": "10,540 m (34,580 ft)",
+        "lat": 10.45,
+        "lng": 126.65,
+        "plate": "Philippine Sea Plate",
+        "desc": "Profound trench off eastern Philippines formed by subduction of the Philippine Sea Plate."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.0,
+          44.0
+        ]
+      },
+      "properties": {
+        "name": "Kuril-Kamchatka Trench",
+        "depth": "10,542 m (34,587 ft)",
+        "lat": 44.0,
+        "lng": 150.0,
+        "plate": "Pacific / Okhotsk Plate",
+        "desc": "Intensely seismic trench fueling frequent magnitude 8+ megathrust earthquakes and Kamchatka volcanoes."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.5,
+          19.85
+        ]
+      },
+      "properties": {
+        "name": "Puerto Rico Trench (Milwaukee Deep)",
+        "depth": "8,376 m (27,480 ft)",
+        "lat": 19.85,
+        "lng": -66.5,
+        "plate": "North American / Caribbean Plate",
+        "desc": "Deepest point in the Atlantic Ocean, situated on a complex transform-subduction boundary."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.9667,
+          -10.3167
+        ]
+      },
+      "properties": {
+        "name": "Java Trench (Sunda Trench)",
+        "depth": "7,725 m (25,344 ft)",
+        "lat": -10.3167,
+        "lng": 109.9667,
+        "plate": "Indo-Australian / Sunda Plate",
+        "desc": "Site of the devastating 2004 Indian Ocean earthquake and mega-tsunami."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -25.9167,
+          -55.6667
+        ]
+      },
+      "properties": {
+        "name": "South Sandwich Trench",
+        "depth": "8,428 m (27,651 ft)",
+        "lat": -55.6667,
+        "lng": -25.9167,
+        "plate": "South American / Scotia Plate",
+        "desc": "Deepest point in the Southern Ocean, located along sub-Antarctic volcanic island arcs."
+      }
+    }
+  ]
+}

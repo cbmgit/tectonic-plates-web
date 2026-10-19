@@ -1,0 +1,1213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Primary SEO Title & Meta (keywords removed per guidelines) -->
+  <title>Tectonic Plates Map | Interactive 3D Earth Boundaries</title>
+  <meta name="description" content="Explore the interactive 3D tectonic plates map of Earth. Discover all 52 plates from PB2002, active fault boundaries, and real-time live USGS earthquakes.">
+  <meta name="author" content="TectonicPlateMap.org">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  <link rel="canonical" href="https://tectonicplatemap.org/">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://tectonicplatemap.org/">
+  <meta property="og:site_name" content="TectonicPlateMap.org">
+  <meta property="og:title" content="Tectonic Plates Map | Interactive 3D Earth Boundaries">
+  <meta property="og:description" content="Explore all 52 tectonic plates (7 major, 13 minor, 32 microplates), active fault boundaries, live USGS earthquakes, Ring of Fire volcanoes, and plate drift velocities in 3D WebGL.">
+  <meta property="og:image" content="https://tectonicplatemap.org/images/og-preview.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Interactive 3D Tectonic Plates Map visualization showing boundaries and earthquakes">
+
+  <!-- Favicon & Touch Icons -->
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="favicon-192x192.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <link rel="shortcut icon" href="favicon.ico">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://tectonicplatemap.org/">
+  <meta name="twitter:title" content="Tectonic Plates Map | Interactive 3D Earth Boundaries">
+  <meta name="twitter:description" content="Explore all 52 tectonic plates (7 major, 13 minor, 32 microplates), active fault boundaries, live USGS earthquakes, and active volcanoes in 3D WebGL.">
+  <meta name="twitter:image" content="https://tectonicplatemap.org/images/og-preview.jpg">
+
+  <!-- Resource Preconnections for Core Web Vitals -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://basemaps.cartocdn.com">
+  <link rel="preconnect" href="https://earthquake.usgs.gov">
+
+  <!-- Critical Font Preloads (Swap Mode to Prevent Render Blocking) -->
+  <link rel="preload" href="vendor/fontawesome/webfonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap">
+  </noscript>
+
+  <!-- Progressive Web App Manifest & Offline Configuration -->
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#0f172a">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Tectonic Plates">
+  <link rel="apple-touch-icon" href="images/icon-192.png">
+
+  <!-- Unified Production Stylesheet (Bulma + Custom Theme + FontAwesome + MapLibre GL) -->
+  <link rel="stylesheet" href="css/bundle.min.css?v=41">
+
+  <!-- Structured Data: WebSite, WebApplication, Dataset & FAQPage JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://tectonicplatemap.org/#website",
+        "url": "https://tectonicplatemap.org/",
+        "name": "TectonicPlateMap.org",
+        "description": "Interactive 3D WebGL Earth Tectonic Plates & Active Fault Boundaries Map",
+        "publisher": {
+          "@type": "Organization",
+          "name": "TectonicPlateMap.org",
+          "url": "https://tectonicplatemap.org/",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://tectonicplatemap.org/images/logo.svg"
+          }
+        }
+      },
+      {
+        "@type": "WebApplication",
+        "@id": "https://tectonicplatemap.org/#webapp",
+        "name": "Tectonic Plates Map Explorer",
+        "url": "https://tectonicplatemap.org/",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "All modern browsers (Chrome, Edge, Firefox, Safari)",
+        "description": "Interactive WebGL map displaying Earth's 52 tectonic plates (7 major, 13 minor, 32 microplates) from PB2002, plate motion vectors, fault boundaries, live USGS earthquakes, and active volcanoes.",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "featureList": [
+          "Interactive WebGL 3D Globe & Vector Map",
+          "All 52 Tectonic Plates (PB2002 Model)",
+          "Boundary Classification: Convergent, Divergent, Transform, Collision",
+          "Real-time USGS Live Earthquakes Feed with Depth & Magnitude",
+          "Smithsonian Ring of Fire Active Volcanoes",
+          "Plate Drift Velocity Vectors in mm/year (NNR Reference Frame)",
+          "Find My Tectonic Plate HTML5 Geolocation"
+        ]
+      },
+      {
+        "@type": "Dataset",
+        "name": "Peter Bird (PB2002) Global Tectonic Plates Model",
+        "description": "Digital model of Earth's plate boundaries and velocity steps by Peter Bird (2003).",
+        "license": "https://creativecommons.org/licenses/by/4.0/",
+        "creator": {
+          "@type": "Person",
+          "name": "Peter Bird"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://tectonicplatemap.org/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What are tectonic plates and why do they move?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Tectonic plates are massive pieces of Earth's outer crust and upper mantle. They move because deep heat from the planet's core sets up slow convection currents in the semi-molten mantle below. Hot rock rises, cools near the top, and sinks back down, acting like a slow conveyor belt that drags the plates across the surface."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the difference between continental and oceanic plates?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ocean plates are thinner (about 5 to 10 km) but made of dense, heavy basalt rock. Continental plates are much thicker (roughly 30 to 70 km) but composed of lighter granite. Because ocean crust is heavier, it almost always sinks underneath continental crust when they collide."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which tectonic plate is moving the fastest right now?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The Pacific, Nazca, and Cocos plates are the quickest movers on the planet, cruising along at roughly 7 to 10 centimeters per year. On the flip side, the Antarctic Plate is one of the slowest, creeping along at barely 1 to 2 cm each year."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Why do earthquakes and volcanoes cluster along plate edges?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Plate boundaries are where all the friction and grinding happen. When two plates get locked by rough rock, pressure builds up until the rock snaps, which is what causes an earthquake. Along subduction zones and spreading rifts, melting rock creates magma chambers that bubble up and erupt as volcanoes."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the Pacific Ring of Fire?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "It is a 40,000 kilometer (25,000 mile) horseshoe-shaped belt circling the Pacific Ocean. Because the giant Pacific Plate is constantly sliding under neighboring plates along its edges, this single perimeter is home to about 75% of the world's active volcanoes and roughly 90% of all earthquakes."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+
+<div id="app">
+  <!-- Semantic Header & Navigation -->
+  <header>
+    <nav class="navbar is-tectonic" role="navigation" aria-label="Main Navigation">
+      <div class="navbar-brand">
+        <a class="navbar-item brand-badge" href="/" id="brand-logo-link" onclick="resetToHomeDefaults(event)" aria-label="Tectonic Plates Map Home">
+          <img src="images/logo.svg" alt="Tectonic Plates Map Logo" width="34" height="34" class="brand-logo-img">
+          <!-- Primary Single H1 Tag for SEO -->
+          <h1 class="brand-h1">
+            <span>Tectonic <span style="color:#38bdf8;">Plates</span> Map</span>
+          </h1>
+        </a>
+
+        <!-- Mobile-Only Quick Explore Pill & Hamburger Menu Button -->
+        <div class="mobile-nav-actions is-hidden-desktop">
+          <button id="btn-mobile-maps" class="button is-small is-warning is-rounded mobile-action-btn" onclick="toggleMapsDrawer()" aria-label="Toggle Earth Phenomena Explore Drawer">
+            <span class="icon is-small"><i class="fa-solid fa-compass" aria-hidden="true"></i></span>
+            <span>Explore</span>
+          </button>
+          <a role="button" class="navbar-burger" id="nav-burger" aria-label="menu" aria-expanded="false" data-target="nav-menu">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+      </div>
+
+      <div class="navbar-menu" id="nav-menu">
+        <div class="navbar-start">
+          <!-- Search Box -->
+          <div class="navbar-item">
+            <div class="nav-search-wrap">
+              <div class="control has-icons-left">
+                <input 
+                  id="search-input" 
+                  class="input is-rounded is-small" 
+                  type="search" 
+                  placeholder="Search plates, countries, volcanoes..."
+                  style="background:#1e293b; border-color:rgba(255,255,255,0.15); color:#fff;"
+                  autocomplete="off"
+                  aria-label="Search tectonic plates, countries, and volcanoes"
+                >
+                <span class="icon is-small is-left" style="color:#94a3b8;">
+                  <i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>
+                </span>
+              </div>
+              <div id="search-dropdown" class="search-dropdown-menu" role="listbox"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="navbar-end">
+          <!-- Find My Plate Button -->
+          <!-- Find My Plate Button -->
+          <div class="navbar-item">
+            <button id="btn-find-my-plate" class="button is-small is-rounded" onclick="findMyPlate()" style="background:rgba(56,189,248,0.15); color:#38bdf8; border:1px solid rgba(56,189,248,0.35); font-weight:700;" aria-label="Detect my current tectonic plate">
+              <span class="icon is-small"><i class="fa-solid fa-location-crosshairs" aria-hidden="true"></i></span>
+              <span>Find My Plate</span>
+            </button>
+          </div>
+
+          <!-- All 52 Plates Modal Trigger -->
+          <div class="navbar-item">
+            <button id="btn-all-plates" class="button is-small is-rounded" onclick="openComparisonModal()" style="background:rgba(30,41,59,0.85); color:#e2e8f0; border:1px solid rgba(255,255,255,0.15);" aria-label="Open directory of all 52 tectonic plates">
+              <span class="icon is-small"><i class="fa-solid fa-table-list" aria-hidden="true"></i></span>
+              <span>All 52 Plates</span>
+            </button>
+          </div>
+
+          <!-- Plates Directory Page Link -->
+          <div class="navbar-item">
+            <a href="/plates" id="btn-plates-dir-nav" class="button is-small is-rounded" style="background:rgba(30,41,59,0.85); color:#e2e8f0; border:1px solid rgba(255,255,255,0.15);" aria-label="Open comprehensive directory of all 52 tectonic plates">
+              <span class="icon is-small"><i class="fa-solid fa-list-check" aria-hidden="true"></i></span>
+              <span>Directory</span>
+            </a>
+          </div>
+
+          <!-- Printable Maps Page Link -->
+          <div class="navbar-item">
+            <a href="/maps/labeled-tectonic-plates-map" id="btn-maps-print-nav" class="button is-small is-rounded" style="background:rgba(56,189,248,0.15); color:#38bdf8; border:1px solid rgba(56,189,248,0.35); font-weight:700;" aria-label="Download printable tectonic plate maps in PDF, PNG and SVG">
+              <span class="icon is-small"><i class="fa-solid fa-map" aria-hidden="true"></i></span>
+              <span>Printable Maps</span>
+            </a>
+          </div>
+
+          <!-- Geology Quiz Link -->
+          <div class="navbar-item">
+            <a href="/quiz" id="btn-quiz-nav" class="button is-small is-rounded" style="background:rgba(30,41,59,0.85); color:#e2e8f0; border:1px solid rgba(255,255,255,0.15);" aria-label="Take interactive geology quiz">
+              <span class="icon is-small"><i class="fa-solid fa-circle-question" aria-hidden="true"></i></span>
+              <span>Quiz</span>
+            </a>
+          </div>
+
+          <!-- Teacher Worksheets Link -->
+          <div class="navbar-item">
+            <a href="/worksheets" id="btn-worksheets-nav" class="button is-small is-rounded" style="background:rgba(30,41,59,0.85); color:#e2e8f0; border:1px solid rgba(255,255,255,0.15);" aria-label="Printable teacher worksheets and answer keys">
+              <span class="icon is-small"><i class="fa-solid fa-file-pen" aria-hidden="true"></i></span>
+              <span>Worksheets</span>
+            </a>
+          </div>
+
+          <!-- Geology Guide Jump Button -->
+          <div class="navbar-item">
+            <a href="#geology-guide" id="btn-geology-guide-nav" class="button is-small is-rounded" style="background:rgba(30,41,59,0.85); color:#e2e8f0; border:1px solid rgba(255,255,255,0.15);" aria-label="Read plate tectonics educational guide">
+              <span class="icon is-small"><i class="fa-solid fa-book-open" aria-hidden="true"></i></span>
+              <span>Geology Guide</span>
+            </a>
+          </div>
+
+          <!-- PWA Install App Button -->
+          <div class="navbar-item">
+            <button id="btn-pwa-install" class="button is-small is-rounded" onclick="installPWA()" style="display:none; background:#0284c7; color:#fff; border:1px solid #38bdf8; font-weight:700;" aria-label="Install Tectonic Plates Map App">
+              <span class="icon is-small"><i class="fa-solid fa-download" aria-hidden="true"></i></span>
+              <span>Install App</span>
+            </button>
+          </div>
+
+          <!-- Explore Modes Drawer Trigger -->
+          <div class="navbar-item">
+            <button id="btn-maps-selector" class="button is-small is-rounded" onclick="toggleMapsDrawer()" style="background:rgba(245,158,11,0.18); color:#fbbf24; border:1px solid rgba(245,158,11,0.4); font-weight:700;" aria-label="Open Explore drawer">
+              <span class="icon is-small"><i class="fa-solid fa-compass" aria-hidden="true"></i></span>
+              <span>Explore (7)</span>
+            </button>
+          </div>
+
+          <!-- Live Earthquakes Real-Time Sync & Filter Trigger -->
+          <div class="navbar-item">
+            <button id="quake-count-badge" class="button is-small is-rounded quake-sync-btn" onclick="refreshLiveEarthquakes(true)" title="Live USGS Earthquakes (past 24h) • Click to refresh in real time" aria-label="Live USGS Earthquakes - Click to refresh in real time">
+              <span class="icon is-small"><i class="fa-solid fa-bolt" aria-hidden="true"></i></span>
+              <span class="quake-btn-text">Quakes Today</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Interactive Map Workspace -->
+  <section class="main-content" aria-label="Interactive Tectonic Map">
+    <!-- Floating Explore Bar (Phenomena Selector) -->
+    <div id="maps-hub-bar" class="maps-hub-bar" aria-label="Earth Phenomena Explore Modes">
+      <div class="maps-hub-header" onclick="toggleMapsDrawer()" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();toggleMapsDrawer();}" role="button" tabindex="0" title="Click to Expand or Minimize Explore drawer" aria-label="Toggle Explore Drawer">
+        <span class="maps-hub-title"><i class="fa-solid fa-compass mr-1"></i> EXPLORE (8)</span>
+        <button class="maps-hub-toggle" aria-hidden="true" tabindex="-1">
+          <i class="fa-solid fa-chevron-up"></i>
+        </button>
+      </div>
+      <div class="maps-grid" role="tablist">
+        <!-- 1. Tectonic Plates -->
+        <button class="map-mode-card is-active" data-mode="tectonic-plates" onclick="switchMapMode('tectonic-plates')" role="tab" aria-label="Tectonic Plates Map Mode" title="Tectonic Plates: 52 PB2002 Plates (7 Major, 13 Minor, 32 Microplates) &bull; Lithospheric boundaries, motion vectors &amp; drift rates">
+          <span class="map-card-badge badge-theme-plates" id="card-badge-tectonic-plates" title="52 PB2002 Tectonic Plates">52</span>
+          <div class="map-card-icon">
+            <svg viewBox="0 0 48 48" width="40" height="40" fill="none">
+              <path d="M6 10L18 6L30 10L42 6V38L30 42L18 38L6 42V10Z" fill="#3b82f6" fill-opacity="0.15" stroke="#3b82f6" stroke-width="2.5" stroke-linejoin="round"/>
+              <path d="M18 6V38M30 10V42" stroke="#60a5fa" stroke-width="2" stroke-linecap="round" stroke-dasharray="2 3"/>
+              <path d="M10 16C13 14 15 18 17 19M22 24C24 22 27 23 28 27M32 18C34 16 38 17 39 21" stroke="#10b981" stroke-width="3" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <span class="map-card-label">Tectonic<br>Plates</span>
+        </button>
+
+        <!-- 2. Earthquakes -->
+        <button class="map-mode-card" data-mode="earthquakes" onclick="switchMapMode('earthquakes')" role="tab" aria-label="Earthquakes Map Mode" title="Earthquakes: Real-Time USGS Global Feeds &bull; Live epicenters, depth, Moment magnitudes (Mw / USGS M2.5+) &amp; tsunami alerts">
+          <span class="map-card-badge badge-theme-quakes" id="card-badge-earthquakes" title="Live USGS Earthquakes">...</span>
+          <div class="map-card-icon">
+            <svg viewBox="0 0 48 48" width="40" height="40" fill="none">
+              <circle cx="24" cy="24" r="18" fill="#0284c7" stroke="#38bdf8" stroke-width="2"/>
+              <path d="M10 24C12 18 18 16 22 17C26 18 28 22 32 21C36 20 38 23 40 24" fill="#22c55e" fill-opacity="0.9"/>
+              <path d="M12 30C16 28 20 32 25 31C30 30 34 33 37 31" fill="#16a34a"/>
+              <circle cx="24" cy="24" r="12" stroke="#ef4444" stroke-width="1.8" stroke-dasharray="2 2" fill="none"/>
+              <circle cx="24" cy="24" r="5" fill="#ef4444" stroke="#ffffff" stroke-width="1.5"/>
+            </svg>
+          </div>
+          <span class="map-card-label">Earthquakes</span>
+        </button>
+
+        <!-- 3. Volcanoes -->
+        <button class="map-mode-card" data-mode="volcanoes" onclick="switchMapMode('volcanoes')" role="tab" aria-label="Volcanoes Map Mode" title="Volcanoes: 1,217 Holocene Volcanoes &bull; Smithsonian GVP catalog, Pacific Ring of Fire, eruption histories &amp; VEI levels">
+          <span class="map-card-badge badge-theme-volcanoes" id="card-badge-volcanoes" title="1,217 Holocene Volcanoes">1.2k</span>
+          <div class="map-card-icon">
+            <svg viewBox="0 0 48 48" width="40" height="40" fill="none">
+              <ellipse cx="24" cy="12" rx="9" ry="5" fill="#94a3b8" fill-opacity="0.8"/>
+              <ellipse cx="20" cy="8" rx="6" ry="4" fill="#cbd5e1" fill-opacity="0.9"/>
+              <ellipse cx="27" cy="9" rx="7" ry="4.5" fill="#cbd5e1" fill-opacity="0.9"/>
+              <path d="M10 40L19 18H29L38 40H10Z" fill="#334155" stroke="#475569" stroke-width="1.5"/>
+              <path d="M22 18L24 28M24 18L26 26" stroke="#f97316" stroke-width="3" stroke-linecap="round"/>
+              <path d="M21 16L24 10L27 16" fill="#ef4444"/>
+            </svg>
+          </div>
+          <span class="map-card-label">Volcanoes</span>
+        </button>
+
+        <!-- 4. Hurricanes -->
+        <button class="map-mode-card" data-mode="hurricanes" onclick="switchMapMode('hurricanes')" role="tab" aria-label="Hurricanes Map Mode" title="Hurricanes: Active Tropical Cyclones &amp; Historic Tracks &bull; NOAA NHC Category 1-5 wind speeds &amp; central pressure">
+          <span class="map-card-badge badge-theme-hurricanes is-zero" id="card-badge-hurricanes" title="Active Tropical Cyclones">0</span>
+          <div class="map-card-icon">
+            <svg viewBox="0 0 48 48" width="40" height="40" fill="none">
+              <path d="M24 8C15 8 9 15 9 23C9 28 13 32 17 32C19 32 20 31 20 29C20 25 18 22 21 18C23 16 26 15 28 17C31 19 31 23 29 27C27 30 24 32 21 34C17 37 15 40 18 42C21 44 26 43 31 40C37 36 40 29 40 22C40 14 33 8 24 8Z" fill="#3b82f6" fill-opacity="0.2" stroke="#2563eb" stroke-width="2.5" stroke-linejoin="round"/>
+              <circle cx="24" cy="24" r="4.5" fill="#60a5fa" stroke="#1d4ed8" stroke-width="1.5"/>
+              <path d="M17 19C19 15 24 14 28 15M20 31C24 32 29 30 31 26" stroke="#93c5fd" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <span class="map-card-label">Hurricanes</span>
+        </button>
+
+        <!-- 5. Northern Lights -->
+        <button class="map-mode-card" data-mode="aurora" onclick="switchMapMode('aurora')" role="tab" aria-label="Northern Lights Map Mode" title="Northern Lights: 25 Polar Observatories &amp; Auroral Belts &bull; Aurora Borealis / Australis ovals &amp; geomagnetic Kp indices">
+          <span class="map-card-badge badge-theme-aurora" id="card-badge-aurora" title="25 Auroral Observatories & Hotspots">25</span>
+          <div class="map-card-icon">
+            <svg viewBox="0 0 48 48" width="40" height="40" fill="none">
+              <path d="M24 6L27 17L38 20L29 26L31 38L24 30L17 38L19 26L10 20L21 17L24 6Z" fill="#fbbf24" stroke="#f59e0b" stroke-width="1.5"/>
+              <path d="M12 12L13.5 16L18 17L14.5 19.5L15.5 24L12 21L8.5 24L9.5 19.5L6 17L10.5 16L12 12Z" fill="#facc15"/>
+              <path d="M35 28L36.2 31.5L40 32.2L37 34.2L37.8 38L35 35.5L32.2 38L33 34.2L30 32.2L33.8 31.5L35 28Z" fill="#34d399"/>
+              <path d="M6 36C14 30 22 40 30 34C36 29 42 35 44 33" stroke="#10b981" stroke-width="3" stroke-linecap="round" stroke-dasharray="2 3"/>
+            </svg>
+          </div>
+          <span class="map-card-label">Northern<br>Lights</span>
+        </button>
+
+        <!-- 6. Ocean Trenches -->
+        <button class="map-mode-card" data-mode="trenches" onclick="switchMapMode('trenches')" role="tab" aria-label="Ocean Trenches Map Mode" title="Ocean Trenches: 7 Deepest Hadal Subduction Chasms &bull; Mariana Trench (Challenger Deep 10,994m), Tonga &amp; Puerto Rico">
+          <span class="map-card-badge badge-theme-trenches" id="card-badge-trenches" title="7 Deep Ocean Trenches">7</span>
+          <div class="map-card-icon">
+            <svg viewBox="0 0 48 48" width="40" height="40" fill="none">
+              <rect x="6" y="8" width="36" height="32" rx="8" fill="#1e1b4b" stroke="#4338ca" stroke-width="1.5"/>
+              <path d="M8 16C14 16 18 20 24 34C30 20 34 16 40 16" stroke="#818cf8" stroke-width="3" stroke-linecap="round"/>
+              <circle cx="24" cy="34" r="3.5" fill="#38bdf8" stroke="#ffffff" stroke-width="1.5"/>
+              <path d="M12 24L24 38L36 24" stroke="#c7d2fe" stroke-width="1.5" stroke-dasharray="2 2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <span class="map-card-label">Ocean<br>Trenches</span>
+        </button>
+
+        <!-- 7. Impact Craters -->
+        <button class="map-mode-card" data-mode="craters" onclick="switchMapMode('craters')" role="tab" aria-label="Impact Craters Map Mode" title="Impact Craters: 5 Major Ancient Asteroid Impact Structures &bull; Chicxulub (dinosaur extinction, ~66 Ma), Vredefort &amp; Sudbury">
+          <span class="map-card-badge badge-theme-craters" id="card-badge-craters" title="5 Major Asteroid Impact Craters">5</span>
+          <div class="map-card-icon">
+            <svg viewBox="0 0 48 48" width="40" height="40" fill="none">
+              <ellipse cx="24" cy="30" rx="16" ry="9" fill="#78350f" stroke="#d97706" stroke-width="2"/>
+              <ellipse cx="24" cy="30" rx="9" ry="4.5" fill="#451a03" stroke="#f59e0b" stroke-width="1.5"/>
+              <path d="M38 6L25 25" stroke="#ef4444" stroke-width="3" stroke-linecap="round"/>
+              <path d="M34 6L23 23" stroke="#f59e0b" stroke-width="2" stroke-linecap="round"/>
+              <circle cx="24" cy="28" r="4" fill="#facc15" stroke="#ffffff" stroke-width="1.5"/>
+            </svg>
+          </div>
+          <span class="map-card-label">Impact<br>Craters</span>
+        </button>
+
+        <!-- 8. Tornadoes -->
+        <button class="map-mode-card" data-mode="tornadoes" onclick="switchMapMode('tornadoes')" role="tab" aria-label="Tornadoes Map Mode" title="Tornadoes &amp; Storms: Active Severe Weather &amp; Tornado Warnings &bull; NOAA SPC convective polygons, radar reflectivity &amp; outbreak tracks">
+          <span class="map-card-badge badge-theme-tornadoes is-zero" id="card-badge-tornadoes" title="Active Severe Storm & Tornado Warnings">0</span>
+          <div class="map-card-icon">
+            <svg viewBox="0 0 48 48" width="40" height="40" fill="none">
+              <path d="M8 10H40M12 17H36M16 24H32M20 31H28M22 38H26" stroke="#ef4444" stroke-width="3" stroke-linecap="round"/>
+              <path d="M10 10C15 15 33 15 38 10M14 17C18 21 30 21 34 17M18 24C21 28 27 28 30 24" stroke="#f87171" stroke-width="1.8" stroke-linecap="round"/>
+              <circle cx="24" cy="42" r="2.5" fill="#ef4444"/>
+            </svg>
+          </div>
+          <span class="map-card-label">Tornadoes<br>&amp; Storms</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Hub Mode Card Hover Tooltip -->
+    <div id="hub-card-tooltip" class="hub-card-tooltip" role="tooltip" aria-hidden="true"></div>
+
+    <!-- Interactive 3D WebGL Map Container -->
+    <div id="map-container" role="region" aria-label="Interactive 3D WebGL Tectonic Plates Map">
+      <div id="plate-hover-tooltip" class="plate-hover-tooltip" style="display:none; opacity:0;" aria-hidden="true"></div>
+    </div>
+
+    <!-- Quick Floating Action Chips (Top-Left) -->
+    <div class="quick-tools-bar">
+      <button id="chip-plate-count" class="tool-chip-btn" onclick="openComparisonModal()" aria-label="View all 52 tectonic plates list">
+        <i class="fa-solid fa-layer-group" style="color:#38bdf8;" aria-hidden="true"></i>
+        <span>Plates: <strong id="stat-plate-count" style="color:#fff;">52</strong></span>
+      </button>
+      <button id="chip-boundary-guide" class="tool-chip-btn" onclick="openGuideModal()" aria-label="Open boundary types explanation">
+        <i class="fa-solid fa-circle-question" style="color:#fbbf24;" aria-hidden="true"></i>
+        <span>Boundary Types</span>
+      </button>
+      <button id="chip-3d-pitch" class="tool-chip-btn" onclick="toggle3DPerspective()" aria-label="Toggle 3D perspective pitch" title="Toggle 3D perspective view">
+        <i class="fa-solid fa-cube" style="color:#34d399;" aria-hidden="true"></i>
+        <span id="label-3d-pitch">3D View</span>
+      </button>
+    </div>
+
+    <!-- Floating Mode Filter & Count Pill (Shown only in modes with filters) -->
+    <div id="mode-filter-bar" class="mode-filter-bar" style="display:none;" aria-label="Mode Time & Intensity Filters">
+      <div class="mode-filter-select-wrap">
+        <select id="mode-filter-select" onchange="onModeFilterChange(this.value)" aria-label="Filter events by time or season">
+          <!-- Populated dynamically based on active mode -->
+        </select>
+      </div>
+      <span id="mode-filter-badge" class="mode-filter-badge">0</span>
+    </div>
+
+    <!-- Floating Layer & Map Style Controls (Top-Right) -->
+    <aside class="floating-panel" id="floating-layers-panel" aria-label="Map Layer Filters">
+      <div class="floating-panel-header" onclick="toggleLayersPanel()" role="button" aria-expanded="true">
+        <span><i class="fa-solid fa-sliders mr-2" aria-hidden="true"></i> Map Layers</span>
+        <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+      </div>
+      
+      <div class="panel-body">
+        <div style="font-size:0.75rem; font-weight:700; text-transform:uppercase; color:#94a3b8; margin-top:8px;">Base Style</div>
+        <div class="map-style-selector" role="radiogroup" aria-label="Map Basemap Style">
+          <button class="style-btn is-active" id="btn-style-dark" data-style="dark" onclick="setMapStyle('dark')" title="High-contrast dark cartographic basemap optimized for plate visibility">Dark Geo</button>
+          <button class="style-btn" id="btn-style-satellite" data-style="satellite" onclick="setMapStyle('satellite')" title="High-resolution global satellite imagery">Satellite</button>
+          <button class="style-btn" id="btn-style-voyager" data-style="voyager" onclick="setMapStyle('voyager')" title="Topographical color basemap with terrain hillshading">Voyager</button>
+          <button class="style-btn" id="btn-style-positron" data-style="positron" onclick="setMapStyle('positron')" title="Clean light monochrome basemap for bright environments">Light</button>
+          <button class="style-btn" id="btn-style-offline" data-style="offline" onclick="setMapStyle('offline')" title="Self-contained vector landmasses (100% offline capable)">Offline</button>
+        </div>
+
+        <div style="font-size:0.75rem; font-weight:700; text-transform:uppercase; color:#94a3b8; margin-top:12px;">Overlays</div>
+        <div class="layer-toggle-group">
+          <div class="layer-toggle-item" title="52 lithospheric plates floating on Earth's asthenosphere">
+            <label for="toggle-plates-layer" title="52 lithospheric plates floating on Earth's asthenosphere">
+              <input id="toggle-plates-layer" type="checkbox" checked onchange="toggleLayer('plates')">
+              <span class="layer-color-dot" style="background:#3b82f6;"></span>
+              <span>Tectonic Plates</span>
+            </label>
+          </div>
+          <div class="layer-toggle-item" title="Active geological boundaries where tectonic plates collide, rift, or grind">
+            <label for="toggle-boundaries-layer" title="Active geological boundaries where tectonic plates collide, rift, or grind">
+              <input id="toggle-boundaries-layer" type="checkbox" checked onchange="toggleLayer('boundaries')">
+              <span class="layer-color-dot" style="background:#ff3860;"></span>
+              <span>Fault Boundaries</span>
+            </label>
+          </div>
+          <div class="boundary-subfilters" id="boundary-subfilters">
+            <button class="boundary-chip-btn is-active" id="btn-filter-convergent" onclick="toggleBoundaryType('convergent')" title="Convergent: Destructive collision and subduction zones (e.g. Himalayas, Mariana Trench)"><span style="color:#ff3860; margin-right:3px;">▲</span>Convergent</button>
+            <button class="boundary-chip-btn is-active" id="btn-filter-divergent" onclick="toggleBoundaryType('divergent')" title="Divergent: Constructive seafloor spreading ridges and rift valleys (e.g. Mid-Atlantic Ridge)"><span style="color:#ffb703; margin-right:3px;">←|→</span>Divergent</button>
+            <button class="boundary-chip-btn is-active" id="btn-filter-transform" onclick="toggleBoundaryType('transform')" title="Transform: Conservative strike-slip faults sliding horizontally (e.g. San Andreas Fault)"><span style="color:#00d1b2; margin-right:3px;">⇋</span>Transform</button>
+          </div>
+          <div class="layer-toggle-item" title="Show geological movement symbology (subduction sawteeth, spreading arrows, shear arrows)">
+            <label for="toggle-boundarySymbols-layer" title="Show geological movement symbology (subduction sawteeth, spreading arrows, shear arrows)">
+              <input id="toggle-boundarySymbols-layer" type="checkbox" checked onchange="toggleLayer('boundarySymbols')">
+              <span class="layer-color-dot" style="background:#ff3860; display:inline-flex; align-items:center; justify-content:center; font-size:8px; color:#fff; font-weight:900; line-height:1;">▲</span>
+              <span>Movement Symbology</span>
+            </label>
+          </div>
+          <div class="layer-toggle-item" title="Accessible high-contrast Okabe-Ito color palette for plate boundaries">
+            <label for="toggle-colorblind-palette" title="Accessible high-contrast Okabe-Ito color palette for plate boundaries">
+              <input id="toggle-colorblind-palette" type="checkbox" onchange="toggleColorblindMode(this.checked)">
+              <span class="layer-color-dot" style="background:#0284c7;"></span>
+              <span>Colorblind-Safe Colors</span>
+            </label>
+          </div>
+          <div class="layer-toggle-item" title="GPS-measured crustal drift velocity vectors and movement directions in cm/year">
+            <label for="toggle-velocities-layer" title="GPS-measured crustal drift velocity vectors and movement directions in cm/year">
+              <input id="toggle-velocities-layer" type="checkbox" checked onchange="toggleLayer('velocities')">
+              <span class="layer-color-dot" style="background:#38bdf8;"></span>
+              <span>Motion Vectors</span>
+            </label>
+          </div>
+          <div class="layer-toggle-item" title="1,500+ active and Holocene volcanic vents cataloged by the Smithsonian GVP">
+            <label for="toggle-volcanoes-layer" title="1,500+ active and Holocene volcanic vents cataloged by the Smithsonian GVP">
+              <input id="toggle-volcanoes-layer" type="checkbox" onchange="toggleLayer('volcanoes')">
+              <span class="layer-color-dot" style="background:#f97316;"></span>
+              <span>Active Volcanoes</span>
+            </label>
+          </div>
+          <div class="layer-toggle-item" title="Real-time global earthquake feeds updated live every 5 minutes from USGS">
+            <label for="toggle-earthquakes-layer" title="Real-time global earthquake feeds updated live every 5 minutes from USGS">
+              <input id="toggle-earthquakes-layer" type="checkbox" onchange="toggleLayer('earthquakes')">
+              <span class="layer-color-dot" style="background:#ef4444;"></span>
+              <span>Live USGS Quakes</span>
+            </label>
+          </div>
+          <div class="layer-toggle-item" title="Live NOAA NHC tropical cyclone positions &amp; Category 5 tracks">
+            <label for="toggle-hurricanes-layer" title="Live NOAA NHC tropical cyclone positions &amp; Category 5 tracks">
+              <input id="toggle-hurricanes-layer" type="checkbox" onchange="toggleLayer('hurricanes')">
+              <span class="layer-color-dot" style="background:#0ea5e9;"></span>
+              <span>Hurricanes &amp; Cyclones</span>
+            </label>
+          </div>
+          <div class="layer-toggle-item" title="Live NOAA NWS Tornado Warnings &amp; historic monster EF5/EF4 tornado tracks">
+            <label for="toggle-tornadoes-layer" title="Live NOAA NWS Tornado Warnings &amp; historic monster EF5/EF4 tornado tracks">
+              <input id="toggle-tornadoes-layer" type="checkbox" onchange="toggleLayer('tornadoes')">
+              <span class="layer-color-dot" style="background:#ef4444;"></span>
+              <span>Tornadoes &amp; Storms</span>
+            </label>
+          </div>
+          <div class="layer-toggle-item" title="Auroral Oval geomagnetic bands (68°N &amp; 66°S) and polar observation stations">
+            <label for="toggle-aurora-layer" title="Auroral Oval geomagnetic bands (68°N &amp; 66°S) and polar observation stations">
+              <input id="toggle-aurora-layer" type="checkbox" onchange="toggleLayer('aurora')">
+              <span class="layer-color-dot" style="background:#10b981;"></span>
+              <span>Northern Lights</span>
+            </label>
+          </div>
+          <div class="layer-toggle-item" title="Deepest oceanic subduction chasms on Earth including the Mariana Trench (10,994m)">
+            <label for="toggle-trenches-layer" title="Deepest oceanic subduction chasms on Earth including the Mariana Trench (10,994m)">
+              <input id="toggle-trenches-layer" type="checkbox" onchange="toggleLayer('trenches')">
+              <span class="layer-color-dot" style="background:#6366f1;"></span>
+              <span>Ocean Trenches</span>
+            </label>
+          </div>
+          <div class="layer-toggle-item" title="Major confirmed extraterrestrial meteorite impact craters on Earth's surface">
+            <label for="toggle-craters-layer" title="Major confirmed extraterrestrial meteorite impact craters on Earth's surface">
+              <input id="toggle-craters-layer" type="checkbox" onchange="toggleLayer('craters')">
+              <span class="layer-color-dot" style="background:#f59e0b;"></span>
+              <span>Impact Craters</span>
+            </label>
+          </div>
+          <div class="layer-toggle-item" title="Show dynamic plate name and metrics tooltip when hovering over the map">
+            <label for="toggle-hover-info" title="Show dynamic plate name and metrics tooltip when hovering over the map">
+              <input id="toggle-hover-info" type="checkbox" onchange="toggleHoverInfo(this.checked)">
+              <span class="layer-color-dot" style="background:#2dd4bf;"></span>
+              <span>Plate Hover Info</span>
+            </label>
+          </div>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Dynamic Mode Legend Pill (Bottom-Center, matching user screenshots) -->
+    <aside id="dynamic-mode-legend" class="dynamic-legend-pill" aria-label="Interactive Map Legend"></aside>
+    <!-- Rich On-Hover Tooltip for Legend Categories -->
+    <div id="legend-hover-tooltip" class="legend-hover-tooltip" role="tooltip" aria-hidden="true"></div>
+
+    <!-- Top 10 Largest Earthquakes Slide Drawer -->
+    <aside id="top-quakes-drawer" class="top-quakes-drawer is-hidden" aria-label="Largest Earthquakes in Current Filter" role="region">
+      <div class="top-quakes-header">
+        <div style="display:flex; align-items:center; gap:8px;">
+          <i class="fa-solid fa-list-ol" style="color:#ef4444;" aria-hidden="true"></i>
+          <h2 style="font-weight:700; color:#fff; font-size:0.92rem; margin:0;">Largest Quakes (Top 10)</h2>
+        </div>
+        <button type="button" class="inspector-close-btn" onclick="toggleTopQuakesDrawer(false)" aria-label="Close Top 10 List">
+          <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+        </button>
+      </div>
+      <div id="top-quakes-list" class="top-quakes-list" role="list" tabindex="0" aria-label="Top 10 earthquakes list">
+        <!-- Populated dynamically based on active filters -->
+      </div>
+    </aside>
+
+    <!-- Trust & Educational Disclaimer Banner -->
+    <div class="map-trust-banner" id="map-trust-banner" role="note" aria-label="Educational map disclaimer">
+      <span id="map-trust-banner-text">Educational visualization. Boundary model: <a href="http://peterbird.name/publications/2003_PB2002/2003_PB2002.htm" target="_blank" rel="noopener">Peter Bird (PB2002)</a></span>
+    </div>
+
+    <!-- Scroll Down to Guide Indicator -->
+    <a href="#geology-guide" class="scroll-hint-bar" aria-label="Scroll down for Geology Guide and FAQ">
+      <span>Explore Geology Guide &amp; Plates Directory</span>
+      <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+    </a>
+
+    <!-- Plate Inspector Slide-Out Drawer -->
+    <aside id="inspector-sidebar" class="inspector-sidebar is-hidden" aria-label="Tectonic Plate Details Drawer">
+      <div class="sheet-handle is-hidden-desktop" onclick="closeInspector()" title="Dismiss sheet"></div>
+      <div class="inspector-header">
+        <div class="inspector-title-wrap">
+          <span id="plate-code-badge" class="inspector-plate-badge">NA</span>
+          <h2 id="plate-name-title" class="inspector-plate-name">North American Plate</h2>
+        </div>
+        <button id="btn-close-inspector" class="inspector-close-btn" onclick="closeInspector()" title="Close details" aria-label="Close plate details">
+          <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+        </button>
+      </div>
+
+      <div class="inspector-body">
+        <div class="stat-grid">
+          <div class="stat-box">
+            <div class="stat-label">Surface Area</div>
+            <div id="plate-size-val" class="stat-value">55.43M km²</div>
+            <div id="plate-class-sub" class="stat-sub">Major Plate (Mixed Crust)</div>
+          </div>
+          <div class="stat-box">
+            <div class="stat-label">Drift Speed</div>
+            <div id="plate-speed-val" class="stat-value" style="color:#38bdf8;">2.3 cm/yr</div>
+            <div id="plate-movement-sub" class="stat-sub">WSW (relative to NNR)</div>
+          </div>
+        </div>
+
+        <div class="speed-meter-wrap">
+          <div style="display:flex; justify-content:space-between; font-size:0.75rem; font-weight:700; color:#94a3b8;">
+            <span>Relative Drift Velocity</span>
+            <span style="color:#f8fafc;">0 - 10+ cm/year</span>
+          </div>
+          <div class="speed-meter-bar">
+            <div id="speed-meter-fill" class="speed-meter-fill"></div>
+          </div>
+          <div id="inspector-velocity-detail" class="inspector-velocity-detail"></div>
+        </div>
+
+        <div class="inspector-action-buttons" style="display:flex; gap:8px; margin-bottom:12px;">
+          <button id="btn-center-plate" class="button is-link is-flex-grow-1" onclick="flyToSelectedPlate()" style="font-weight:700; border-radius:8px;" aria-label="Zoom to current plate on map">
+            <span class="icon"><i class="fa-solid fa-crosshairs" aria-hidden="true"></i></span>
+            <span>Center &amp; Zoom</span>
+          </button>
+          <button id="btn-share-plate" class="button is-dark" onclick="shareCurrentPlate()" style="border:1px solid rgba(255,255,255,0.2); border-radius:8px; font-weight:600;" title="Share link to this plate" aria-label="Share direct link to this plate">
+            <span class="icon"><i class="fa-solid fa-share-nodes" aria-hidden="true"></i></span>
+            <span id="share-btn-label">Share</span>
+          </button>
+        </div>
+
+        <div class="inspector-section">
+          <div class="inspector-section-title">
+            <i class="fa-solid fa-mountain" aria-hidden="true"></i>
+            <span>Geological Overview</span>
+          </div>
+          <div id="plate-desc-text" class="inspector-description">
+            <p>The North American Plate covers North America, Greenland, and large chunks of the Atlantic and Arctic oceans.</p>
+            <p>Along its western edge, it grinds past the Pacific Plate along the San Andreas Fault, while its eastern side slowly pulls away from Europe along the Mid-Atlantic Ridge.</p>
+          </div>
+        </div>
+
+        <div class="inspector-section">
+          <div class="inspector-section-title">
+            <i class="fa-solid fa-lightbulb" aria-hidden="true"></i>
+            <span>Key Tectonic Facts</span>
+          </div>
+          <ul id="plate-facts-list" class="facts-list"></ul>
+        </div>
+
+        <div class="inspector-section">
+          <div class="inspector-section-title">
+            <i class="fa-solid fa-puzzle-piece" aria-hidden="true"></i>
+            <span>Adjacent Plates (Neighbors)</span>
+          </div>
+          <div id="inspector-neighbors" class="neighbor-chips" style="display:flex; flex-wrap:wrap; gap:4px; margin-top:4px;"></div>
+        </div>
+
+        <div class="inspector-section">
+          <div class="inspector-section-title">
+            <i class="fa-solid fa-flag" aria-hidden="true"></i>
+            <span>Countries &amp; Landmasses</span>
+          </div>
+          <div id="plate-countries-tags" class="country-tags"></div>
+        </div>
+
+        <div class="inspector-section">
+          <div class="inspector-section-title">
+            <i class="fa-solid fa-wave-square" style="color:#ef4444;" aria-hidden="true"></i>
+            <span>Recent Seismic Events (USGS)</span>
+          </div>
+          <div id="plate-earthquakes-list" class="plate-earthquakes-list"></div>
+        </div>
+      </div>
+    </aside>
+  </section>
+
+  <!-- ========================================================
+       SEO KNOWLEDGE HUB, DIRECTORY & FAQ SECTION (CRAWLABLE)
+       ======================================================== -->
+  <main id="geology-guide" class="seo-content-section">
+    <div class="seo-container">
+      
+      <!-- Section Intro Hero -->
+      <article class="seo-hero-box">
+        <h2 class="seo-section-title">
+          <i class="fa-solid fa-volcano" style="color:#ff9500;" aria-hidden="true"></i>
+          <span>How Plate Tectonics Shapes Our Planet</span>
+        </h2>
+        <p style="font-size:1.05rem; line-height:1.75; margin-bottom:1rem;">
+          Ever notice how South America and Africa look like matching puzzle pieces? That is <strong>plate tectonics</strong> at work. Earth's outer shell is cracked into massive rigid slabs called <strong>tectonic plates</strong>, floating on top of hot, churning mantle rock below.
+        </p>
+        <p style="font-size:1.05rem; line-height:1.75; margin-bottom:1rem;">
+          They move slowly (usually around 2 to 10 centimeters a year, roughly the speed your fingernails grow). Over millions of years, that constant drift crashes continents together, lifts mountain ranges like the Himalayas, carves deep ocean trenches, and triggers earthquakes along active fault lines.
+        </p>
+        <p style="font-size:1.05rem; line-height:1.75;">
+          On this interactive <strong>geographical plates map</strong>, you can explore all <strong>52 tectonic plates</strong> (including 7 major plates, 13 minor plates, and 32 microplates from the PB2002 dataset), follow active fault lines, track live earthquakes from the USGS, and check out active volcanoes along the Ring of Fire.
+        </p>
+      </article>
+
+      <!-- The 3 Boundary Types Grid -->
+      <section id="plate-boundaries" style="margin-bottom:3.5rem;">
+        <h2 class="seo-section-title">
+          <i class="fa-solid fa-arrows-split-up-and-left" style="color:#38bdf8;" aria-hidden="true"></i>
+          <span>The Three Main Types of Plate Boundaries</span>
+        </h2>
+        <div class="columns is-multiline">
+          
+          <!-- Convergent -->
+          <div class="column is-4">
+            <div class="seo-card" style="border-top:4px solid #ff3860;">
+              <h3 class="seo-card-title" style="color:#ff3860;">1. Convergent Boundaries (When Plates Collide)</h3>
+              <p style="font-size:0.95rem; line-height:1.65; margin-bottom:0.6rem;">
+                This is where two plates crash head-on into each other. When a dense ocean plate hits lighter continental crust, the ocean plate sinks down into the mantle at a <strong>subduction zone</strong>, feeding volcanic chains and digging deep ocean trenches.
+              </p>
+              <p style="font-size:0.95rem; line-height:1.65; margin-bottom:0.75rem;">
+                When two continental plates collide, neither sinks. Instead, the crust buckles and crumples upward into massive mountain chains like the Himalayas.
+              </p>
+              <div style="font-size:0.84rem; color:#94a3b8;">
+                <strong style="color:#e2e8f0 !important;">Real-world spots:</strong> Mariana Trench, Cascadia Subduction Zone, Andes Mountains, and the Himalayas.
+              </div>
+            </div>
+          </div>
+
+          <!-- Divergent -->
+          <div class="column is-4">
+            <div class="seo-card" style="border-top:4px solid #fbbf24;">
+              <h3 class="seo-card-title" style="color:#fbbf24;">2. Divergent Boundaries (When Plates Pull Apart)</h3>
+              <p style="font-size:0.95rem; line-height:1.65; margin-bottom:0.6rem;">
+                Here, plates are slowly dragging away from each other. Magma from the mantle bubbles up to fill the void, cools against seawater, and creates brand-new ocean floor.
+              </p>
+              <p style="font-size:0.95rem; line-height:1.65; margin-bottom:0.75rem;">
+                Most of these run underwater along mid-ocean ridges like the Mid-Atlantic Ridge. You can also spot them on land in places like the East African Rift, where Africa is gradually splitting into two landmasses.
+              </p>
+              <div style="font-size:0.84rem; color:#94a3b8;">
+                <strong style="color:#e2e8f0 !important;">Real-world spots:</strong> Mid-Atlantic Ridge, East Pacific Rise, Iceland, and the East African Rift Valley.
+              </div>
+            </div>
+          </div>
+
+          <!-- Transform -->
+          <div class="column is-4">
+            <div class="seo-card" style="border-top:4px solid #2dd4bf;">
+              <h3 class="seo-card-title" style="color:#2dd4bf;">3. Transform Faults (When Plates Grind Past Each Other)</h3>
+              <p style="font-size:0.95rem; line-height:1.65; margin-bottom:0.6rem;">
+                At transform boundaries, plates slide horizontally past one another without creating or destroying crust.
+              </p>
+              <p style="font-size:0.95rem; line-height:1.65; margin-bottom:0.75rem;">
+                Rough rock edges snag as the plates push past each other. Decades of friction build up until the rock suddenly gives way, unleashing shallow, high-energy earthquakes.
+              </p>
+              <div style="font-size:0.84rem; color:#94a3b8;">
+                <strong style="color:#e2e8f0 !important;">Real-world spots:</strong> California's San Andreas Fault, Alpine Fault in New Zealand, and North Anatolian Fault in Turkey.
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- Major Lithospheric Plates Table (Driven by data/plates.json) -->
+      <section id="major-plates-table" style="margin-bottom:3.5rem;">
+        <h2 class="seo-section-title">
+          <i class="fa-solid fa-globe" style="color:#10b981;" aria-hidden="true"></i>
+          <span>Major Lithospheric Plates at a Glance</span>
+        </h2>
+        <p style="color:#94a3b8; font-size:0.9rem; margin-top:-0.5rem; margin-bottom:1.25rem;">
+          Exact spherical equal-area values computed from Peter Bird (2003) PB2002 polygons; drift velocities computed relative to No-Net-Rotation (NNR).
+        </p>
+        <div class="table-container">
+          <table class="table is-fullwidth is-striped" style="background:#1e293b; color:#cbd5e1; border-radius:10px; overflow:hidden;">
+            <thead>
+              <tr style="background:#0f172a;">
+                <th style="color:#ffffff;">Plate Name</th>
+                <th style="color:#ffffff;">Area (Equal-Area)</th>
+                <th style="color:#ffffff;">Movement Direction</th>
+                <th style="color:#ffffff;">Drift Speed (relative to NNR)</th>
+                <th style="color:#ffffff;">Primary Geological Characteristics</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Pacific Plate</strong></td>
+                <td>104.59M km²</td>
+                <td>West-Northwest</td>
+                <td>7.1 cm/year</td>
+                <td>World's largest plate, almost entirely oceanic lithosphere, framed by the active Pacific Ring of Fire.</td>
+              </tr>
+              <tr>
+                <td><strong>African Plate</strong></td>
+                <td>58.48M km²</td>
+                <td>Northeast</td>
+                <td>3.2 cm/year</td>
+                <td>Mixed continental/oceanic plate; contains the active East African Rift system and formed the Alps via Alpine collision.</td>
+              </tr>
+              <tr>
+                <td><strong>Antarctic Plate</strong></td>
+                <td>58.15M km²</td>
+                <td>North-Northwest</td>
+                <td>1.0 cm/year</td>
+                <td>Underlies the entire Antarctic continent and Southern Ocean floor; bounded almost entirely by oceanic spreading ridges.</td>
+              </tr>
+              <tr>
+                <td><strong>North American Plate</strong></td>
+                <td>55.43M km²</td>
+                <td>West</td>
+                <td>2.0 cm/year</td>
+                <td>Carries continental North America, Greenland, and western North Atlantic seafloor stretching to the Mid-Atlantic Ridge.</td>
+              </tr>
+              <tr>
+                <td><strong>Eurasian Plate</strong></td>
+                <td>48.56M km²</td>
+                <td>East</td>
+                <td>2.5 cm/year</td>
+                <td>Spans Europe and Asia; intense convergence with the Indian Plate drives Himalayan mountain uplift.</td>
+              </tr>
+              <tr>
+                <td><strong>Australian Plate</strong></td>
+                <td>45.98M km²</td>
+                <td>North-Northeast</td>
+                <td>6.9 cm/year</td>
+                <td>Covers Australia and Southern/Indian ocean basins; moves rapidly northward toward the Indonesian subduction arc.</td>
+              </tr>
+              <tr>
+                <td><strong>South American Plate</strong></td>
+                <td>41.83M km²</td>
+                <td>North-Northwest</td>
+                <td>1.2 cm/year</td>
+                <td>Carries continental South America and southwestern Atlantic seafloor; overrides the subducting Nazca Plate to elevate the Andes.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- Earth Phenomena & Interactive Map Themes Hub -->
+      <section style="margin-bottom:3.5rem;" id="earth-phenomena-section">
+        <h2 class="seo-section-title">
+          <i class="fa-solid fa-layer-group" style="color:#38bdf8;" aria-hidden="true"></i>
+          <span>8 Ways to Look at Earth</span>
+        </h2>
+        <p style="font-size:1.05rem; line-height:1.75; margin-bottom:0.75rem; color:#cbd5e1;">
+          Plate tectonics does not work in isolation. It causes earthquakes, feeds volcanoes, and carves trenches at the bottom of the ocean.
+        </p>
+        <p style="font-size:1.05rem; line-height:1.75; margin-bottom:1.5rem; color:#cbd5e1;">
+          At the same time, solar winds light up polar skies, warm oceans spin up tropical cyclones, and severe convective supercells spawn violent tornadoes. Pick any of the 8 modes below to explore each one on the map:
+        </p>
+
+        <div class="columns is-multiline">
+          <!-- 1. Tectonic Plates -->
+          <div class="column is-4">
+            <div class="seo-card" style="border-top:4px solid #3b82f6;">
+              <h3 class="seo-card-title" style="color:#38bdf8;">🗺️ Tectonic Plates</h3>
+              <p style="font-size:0.92rem; line-height:1.65; margin-bottom:0.75rem;">
+                Earth is divided into 52 rigid lithospheric plates creeping over the hotter mantle below. They slide, collide, and pull apart, shifting entire continents by centimeters each year.
+              </p>
+              <button class="button is-small is-link is-light is-fullwidth" onclick="switchMapMode('tectonic-plates'); document.getElementById('map-container').scrollIntoView({behavior:'smooth'});" style="font-weight:600;">
+                Switch Map to Plates ↗
+              </button>
+            </div>
+          </div>
+
+          <!-- 2. Earthquakes -->
+          <div class="column is-4">
+            <div class="seo-card" style="border-top:4px solid #ef4444;">
+              <h3 class="seo-card-title" style="color:#ef4444;">⚡ Live Earthquakes</h3>
+              <p style="font-size:0.92rem; line-height:1.65; margin-bottom:0.75rem;">
+                When plates grind against each other along transform and convergent faults, friction holds them tight until rock snaps. Connected directly to live USGS feeds to monitor real-time seismic shocks.
+              </p>
+              <button class="button is-small is-danger is-light is-fullwidth" onclick="switchMapMode('earthquakes'); document.getElementById('map-container').scrollIntoView({behavior:'smooth'});" style="font-weight:600;">
+                Track Live Quakes ↗
+              </button>
+            </div>
+          </div>
+
+          <!-- 3. Volcanoes -->
+          <div class="column is-4">
+            <div class="seo-card" style="border-top:4px solid #f97316;">
+              <h3 class="seo-card-title" style="color:#f97316;">🌋 Active Volcanoes</h3>
+              <p style="font-size:0.92rem; line-height:1.65; margin-bottom:0.75rem;">
+                About 75% of all active volcanoes sit inside the Pacific Ring of Fire. When ocean crust sinks below a neighboring plate, it melts and that molten rock punches up through the surface. That is how you get stratovolcanoes like Krakatoa and Mount Fuji.
+              </p>
+              <button class="button is-small is-warning is-light is-fullwidth" onclick="switchMapMode('volcanoes'); document.getElementById('map-container').scrollIntoView({behavior:'smooth'});" style="font-weight:600;">
+                Fly to Ring of Fire ↗
+              </button>
+            </div>
+          </div>
+
+          <!-- 4. Hurricanes -->
+          <div class="column is-4">
+            <div class="seo-card" style="border-top:4px solid #0ea5e9;">
+              <h3 class="seo-card-title" style="color:#38bdf8;">🌀 Hurricanes &amp; Cyclones</h3>
+              <p style="font-size:0.92rem; line-height:1.65; margin-bottom:0.75rem;">
+                Live tropical cyclone positions streamed in real time from NOAA NHC ATCF feeds, alongside historical tracks of monster Category 5 storms including Katrina, Haiyan, and Patricia.
+              </p>
+              <button class="button is-small is-info is-light is-fullwidth" onclick="switchMapMode('hurricanes'); document.getElementById('map-container').scrollIntoView({behavior:'smooth'});" style="font-weight:600;">
+                Track Tropical Cyclones ↗
+              </button>
+            </div>
+          </div>
+
+          <!-- 5. Northern Lights -->
+          <div class="column is-4">
+            <div class="seo-card" style="border-top:4px solid #10b981;">
+              <h3 class="seo-card-title" style="color:#34d399;">✨ Northern &amp; Southern Lights</h3>
+              <p style="font-size:0.92rem; line-height:1.65; margin-bottom:0.75rem;">
+                Charged particles from the sun slam into Earth's magnetic field and get funneled down toward the poles, where they smash into the upper atmosphere and light up the sky. That is the aurora. The rings you see on this map show where that happens most.
+              </p>
+              <button class="button is-small is-success is-light is-fullwidth" onclick="switchMapMode('aurora'); document.getElementById('map-container').scrollIntoView({behavior:'smooth'});" style="font-weight:600;">
+                Explore Auroral Oval ↗
+              </button>
+            </div>
+          </div>
+
+          <!-- 6. Ocean Trenches -->
+          <div class="column is-4">
+            <div class="seo-card" style="border-top:4px solid #6366f1;">
+              <h3 class="seo-card-title" style="color:#818cf8;">🌊 Deep Ocean Trenches</h3>
+              <p style="font-size:0.92rem; line-height:1.65; margin-bottom:0.75rem;">
+                Where old, cold oceanic crust plunges into the mantle, deep chasms form. The Mariana Trench reaches down 10,994 meters (nearly 36,000 feet) at Challenger Deep, the deepest point on Earth.
+              </p>
+              <button class="button is-small is-link is-light is-fullwidth" onclick="switchMapMode('trenches'); document.getElementById('map-container').scrollIntoView({behavior:'smooth'});" style="font-weight:600;">
+                View Ocean Trenches ↗
+              </button>
+            </div>
+          </div>
+
+          <!-- 7. Impact Craters -->
+          <div class="column is-6">
+            <div class="seo-card" style="border-top:4px solid #f59e0b;">
+              <h3 class="seo-card-title" style="color:#fbbf24;">💥 Meteorite Impact Craters</h3>
+              <p style="font-size:0.92rem; line-height:1.65; margin-bottom:0.75rem;">
+                Earth has been hit by massive space rocks for billions of years. The Chicxulub crater in Mexico is where the dinosaur-killing asteroid hit 66 million years ago. Vredefort in South Africa is the largest confirmed impact structure on the planet at around 300 km wide.
+              </p>
+              <button class="button is-small is-warning is-light is-fullwidth" onclick="switchMapMode('craters'); document.getElementById('map-container').scrollIntoView({behavior:'smooth'});" style="font-weight:600;">
+                Examine Impact Sites ↗
+              </button>
+            </div>
+          </div>
+
+          <!-- 8. Tornadoes -->
+          <div class="column is-6">
+            <div class="seo-card" style="border-top:4px solid #ef4444;">
+              <h3 class="seo-card-title" style="color:#ef4444;">🌪️ Tornado Warnings &amp; Outbreaks</h3>
+              <p style="font-size:0.92rem; line-height:1.65; margin-bottom:0.75rem;">
+                Real-time active tornado warnings and watches streamed from NOAA NWS radar polygons, combined with legendary historical outbreaks including Joplin EF5, El Reno 2.6-mile record vortex, and Bridge Creek 301 mph winds.
+              </p>
+              <button class="button is-small is-danger is-light is-fullwidth" onclick="switchMapMode('tornadoes'); document.getElementById('map-container').scrollIntoView({behavior:'smooth'});" style="font-weight:600;">
+                Track Tornadoes &amp; Storms ↗
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Frequently Asked Questions (FAQ) Section -->
+      <section id="faq" style="margin-bottom:3.5rem;">
+        <h2 class="seo-section-title">
+          <i class="fa-solid fa-circle-question" style="color:#fbbf24;" aria-hidden="true"></i>
+          <span>Frequently Asked Questions</span>
+        </h2>
+        
+        <div class="seo-faq-item">
+          <details>
+            <summary class="seo-faq-question">
+              <span>What are tectonic plates and why do they move?</span>
+            </summary>
+            <div class="seo-faq-answer">
+              <p style="margin-bottom:0.5rem;">Tectonic plates are massive pieces of Earth's outer crust and upper mantle.</p>
+              <p>They move because deep heat from the planet's core sets up slow convection currents in the semi-molten mantle below. Hot rock rises, cools near the top, and sinks back down, acting like a slow conveyor belt that drags the plates across the surface.</p>
+            </div>
+          </details>
+        </div>
+
+        <div class="seo-faq-item">
+          <details>
+            <summary class="seo-faq-question">
+              <span>What is the difference between continental and oceanic plates?</span>
+            </summary>
+            <div class="seo-faq-answer">
+              <p style="margin-bottom:0.5rem;">Ocean plates are thinner (about 5 to 10 km) but made of dense, heavy basalt rock.</p>
+              <p>Continental plates are much thicker (roughly 30 to 70 km) but composed of lighter granite. Because ocean crust is heavier, it almost always sinks underneath continental crust when they collide.</p>
+            </div>
+          </details>
+        </div>
+
+        <div class="seo-faq-item">
+          <details>
+            <summary class="seo-faq-question">
+              <span>Which tectonic plate is moving the fastest right now?</span>
+            </summary>
+            <div class="seo-faq-answer">
+              <p style="margin-bottom:0.5rem;">The Pacific, Nazca, and Cocos plates are the quickest movers on the planet, cruising along at roughly 7 to 10 centimeters per year.</p>
+              <p>On the flip side, the Antarctic Plate is one of the slowest, creeping along at barely 1 to 2 cm each year.</p>
+            </div>
+          </details>
+        </div>
+
+        <div class="seo-faq-item">
+          <details>
+            <summary class="seo-faq-question">
+              <span>Why do earthquakes and volcanoes cluster along plate edges?</span>
+            </summary>
+            <div class="seo-faq-answer">
+              <p style="margin-bottom:0.5rem;">Plate boundaries are where all the friction and grinding happen. When two plates get locked by rough rock, pressure builds up until the rock snaps, which is what causes an earthquake.</p>
+              <p>Along subduction zones and spreading rifts, melting rock creates magma chambers that bubble up and erupt as volcanoes.</p>
+            </div>
+          </details>
+        </div>
+
+        <div class="seo-faq-item">
+          <details>
+            <summary class="seo-faq-question">
+              <span>What is the Pacific Ring of Fire?</span>
+            </summary>
+            <div class="seo-faq-answer">
+              <p style="margin-bottom:0.5rem;">It is a 40,000 kilometer (25,000 mile) horseshoe-shaped belt circling the Pacific Ocean.</p>
+              <p>Because the giant Pacific Plate is constantly sliding under neighboring plates along its edges, this single perimeter is home to about 75% of the world's active volcanoes and roughly 90% of all earthquakes.</p>
+            </div>
+          </details>
+        </div>
+
+      </section>
+
+      <!-- Back to Top / Map Button -->
+      <div style="text-align:center; margin-top:2rem;">
+        <a href="#app" class="button is-primary is-rounded" aria-label="Return to interactive map view">
+          <span class="icon"><i class="fa-solid fa-arrow-up" aria-hidden="true"></i></span>
+          <span>Back to Interactive Map</span>
+        </a>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Semantic Footer with Additional Links -->
+  <footer class="seo-footer">
+    <div class="seo-container">
+      <div class="columns is-multiline" style="text-align:left; margin-bottom:2rem;">
+        <div class="column is-4">
+          <h3 style="color:#ffffff; font-size:1rem; font-weight:700; margin-bottom:10px;">TectonicPlateMap.org</h3>
+          <p style="font-size:0.85rem; color:#94a3b8; line-height:1.6;">
+            A free, fast map for anyone curious about how Earth works.
+          </p>
+          <p style="font-size:0.8rem; color:#64748b; margin-top:8px;">
+            Geological Data: <a href="https://doi.org/10.1029/2001GC000252" target="_blank" rel="noopener" style="color:#94a3b8; text-decoration:underline;">Peter Bird (PB2002)</a> &bull; Seismology: <a href="https://earthquake.usgs.gov/" target="_blank" rel="noopener" style="color:#94a3b8; text-decoration:underline;">USGS Hazards</a> &bull; Volcanism: <a href="https://volcano.si.edu/" target="_blank" rel="noopener" style="color:#94a3b8; text-decoration:underline;">Smithsonian GVP</a>.
+          </p>
+        </div>
+        <div class="column is-4">
+          <h3 style="color:#ffffff; font-size:1rem; font-weight:700; margin-bottom:10px;">EXPLORE</h3>
+          <ul style="list-style:none; padding:0; margin:0; font-size:0.85rem; display:flex; flex-direction:column; gap:6px;">
+            <li><a href="/"><i class="fa-solid fa-angle-right mr-1"></i> Interactive Map</a></li>
+            <li><a href="/quiz"><i class="fa-solid fa-angle-right mr-1"></i> Tectonic Plates Quiz</a></li>
+            <li><a href="/what-plate-am-i-on"><i class="fa-solid fa-angle-right mr-1"></i> What Plate Am I On?</a></li>
+            <li><a href="/worksheets"><i class="fa-solid fa-angle-right mr-1"></i> Teacher Worksheets</a></li>
+            <li><a href="/plates"><i class="fa-solid fa-angle-right mr-1"></i> Plates Directory</a></li>
+            <li><a href="/maps/labeled-tectonic-plates-map"><i class="fa-solid fa-angle-right mr-1"></i> Printable Maps</a></li>
+            <li><a href="/methodology"><i class="fa-solid fa-angle-right mr-1"></i> Methodology &amp; Sources</a></li>
+            <li><a href="/#geology-guide"><i class="fa-solid fa-angle-right mr-1"></i> Geology Education Guide</a></li>
+            <li><a href="/#faq"><i class="fa-solid fa-angle-right mr-1"></i> Tectonics FAQ</a></li>
+          </ul>
+        </div>
+        <div class="column is-4">
+          <h3 style="color:#ffffff; font-size:1rem; font-weight:700; margin-bottom:10px;">ADDITIONAL</h3>
+          <ul style="list-style:none; padding:0; margin:0; font-size:0.85rem; display:flex; flex-direction:column; gap:6px;">
+            <li><a href="/about"><i class="fa-solid fa-angle-right mr-1"></i> About</a></li>
+            <li><a href="/contact"><i class="fa-solid fa-angle-right mr-1"></i> Contact</a></li>
+            <li><a href="/privacy-policy"><i class="fa-solid fa-angle-right mr-1"></i> Privacy Policy</a></li>
+            <li><a href="/terms-of-service"><i class="fa-solid fa-angle-right mr-1"></i> Terms of Service</a></li>
+          </ul>
+        </div>
+      </div>
+      <div style="border-top:1px solid rgba(255,255,255,0.08); padding-top:1.5rem; text-align:center;">
+        <p style="font-size:0.82rem; color:#64748b;">
+          &copy; 2026 TectonicPlateMap.org &bull; Open-access Earth geophysics and seismology platform. Built with HTML5, Bulma CSS, and MapLibre GL.
+         <span class="app-version-badge" style="font-family:var(--font-mono, monospace); font-size:0.72rem; background:rgba(255,255,255,0.06); color:#38bdf8; border:1px solid rgba(56,189,248,0.3); border-radius:12px; font-weight:600; padding:2px 8px; margin-left:6px; display:inline-block;" title="Tectonic Plates Map Version">v0.5</span></p>
+      </div>
+    </div>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-XXXXXXXXXX');
+    </script>
+  </footer>
+
+</div>
+
+<!-- Modal: Geology Education Guide -->
+<div id="guide-modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="guide-modal-title">
+  <div class="modal-background" onclick="closeGuideModal()"></div>
+  <div class="modal-card">
+    <header class="modal-card-head">
+      <p id="guide-modal-title" class="modal-card-title"><i class="fa-solid fa-book mr-2" style="color:#38bdf8;" aria-hidden="true"></i> Plate Tectonics Guide</p>
+      <button class="delete" aria-label="close" onclick="closeGuideModal()"></button>
+    </header>
+    <section class="modal-card-body">
+      <div class="content">
+        <h3 style="color:#ffffff;">Quick Guide to Plate Boundaries</h3>
+        <p>Earth's outer crust is split into 7 major plates, 13 minor plates, and 32 microplates that slowly glide over churning mantle rock underneath.</p>
+        
+        <div class="columns">
+          <div class="column">
+            <div class="box" style="background:#1e293b; border-top:4px solid #ff3860;">
+              <h4 style="color:#ff3860; margin-bottom:8px;">1. Convergent</h4>
+              <p style="font-size:0.88rem; color:#cbd5e1;">Plates push together. Dense ocean crust gets shoved down into subduction zones, feeding volcanoes and carving trenches. Continental collisions crumple upward into mountain chains like the Himalayas.</p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="box" style="background:#1e293b; border-top:4px solid #fbbf24;">
+              <h4 style="color:#fbbf24; margin-bottom:8px;">2. Divergent</h4>
+              <p style="font-size:0.88rem; color:#cbd5e1;">Plates pull apart. Magma wells up to create brand new ocean crust along underwater ridges like the Mid-Atlantic Ridge or rift valleys on land.</p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="box" style="background:#1e293b; border-top:4px solid #2dd4bf;">
+              <h4 style="color:#2dd4bf; margin-bottom:8px;">3. Transform</h4>
+              <p style="font-size:0.88rem; color:#cbd5e1;">Plates slide horizontally past one another along strike-slip faults like California's San Andreas Fault, building up tension until it snaps in shallow earthquakes.</p>
+            </div>
+          </div>
+        </div>
+
+        <h4 style="color:#ffffff;">The Pacific Ring of Fire</h4>
+        <p style="font-size:0.88rem; color:#cbd5e1;">A 40,000 km horseshoe-shaped belt tracing subduction zones around the Pacific rim, holding over 75% of Earth's volcanoes and generating roughly 90% of all earthquakes.</p>
+      </div>
+    </section>
+    <footer class="modal-card-foot">
+      <button class="button is-primary" onclick="closeGuideModal()">Close</button>
+    </footer>
+  </div>
+</div>
+
+<!-- Modal: 52 Plates Comparison Table -->
+<div id="comparison-modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="comparison-modal-title">
+  <div class="modal-background" onclick="closeComparisonModal()"></div>
+  <div class="modal-card" style="max-width:960px;">
+    <header class="modal-card-head">
+      <p id="comparison-modal-title" class="modal-card-title"><i class="fa-solid fa-table-list mr-2" style="color:#38bdf8;" aria-hidden="true"></i> Global Tectonic Plates Directory (52 Plates)</p>
+      <button class="delete" aria-label="close" onclick="closeComparisonModal()"></button>
+    </header>
+    <section class="modal-card-body" style="padding:10px;">
+      <div class="table-container">
+        <table class="table is-fullwidth is-hoverable" style="background:transparent; color:#cbd5e1;">
+          <thead>
+            <tr>
+              <th style="color:#94a3b8;">Plate Name</th>
+              <th style="color:#94a3b8;">Code</th>
+              <th style="color:#94a3b8;">Surface Area</th>
+              <th style="color:#94a3b8;">Drift Speed</th>
+              <th style="color:#94a3b8;">Movement Direction</th>
+              <th style="color:#94a3b8;">Action</th>
+            </tr>
+          </thead>
+          <tbody id="comparison-table-body"></tbody>
+        </table>
+      </div>
+    </section>
+    <footer class="modal-card-foot">
+      <button class="button is-dark" onclick="closeComparisonModal()">Close</button>
+    </footer>
+  </div>
+</div>
+
+<!-- 1. Critical First-Paint UI Controller (Instant Interactivity & SEO Core Web Vitals) -->
+<script src="js/core-ui.min.js?v=41" defer></script>
+
+<!-- 2. Geospatial WebGL Engine (Deferred Non-Blocking Execution) -->
+<script src="vendor/maplibre/maplibre-gl.js" defer></script>
+
+<!-- 3. Core Geospatial Vector Geometry (Plates, Faults & Drift Vectors) -->
+<script src="js/data.min.js?v=41" defer></script>
+
+<!-- 4. Interactive Application Engine (Lazy Loaders, Live Seismology & Modes) -->
+<script src="js/app.min.js?v=41" defer></script>
+
+</body>
+</html>

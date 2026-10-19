@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Data Methodology & Scientific Sources | TectonicPlateMap.org</title>
+  <meta name="description" content="Scientific methodology behind TectonicPlateMap.org: PB2002 model, Euler rotation poles, No-Net-Rotation reference frame, and spherical equal-area data.">
+  <meta name="author" content="TectonicPlateMap.org">
+  <link rel="canonical" href="https://tectonicplatemap.org/methodology">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://tectonicplatemap.org/methodology">
+  <meta property="og:title" content="Data Methodology & Scientific Sources - TectonicPlateMap.org">
+  <meta property="og:description" content="Detailed scientific methodology behind TectonicPlateMap.org: PB2002 model, Euler rotation poles, No-Net-Rotation reference frame, and spherical equal-area calculations.">
+  <meta property="og:image" content="https://tectonicplatemap.org/images/og-preview.jpg">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="apple-touch-icon" href="/images/icon-192.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#0f172a">
+
+  <!-- Preconnect -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/bundle.min.css?v=40">
+
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ItemPage",
+      "@id": "https://tectonicplatemap.org/methodology#webpage",
+      "url": "https://tectonicplatemap.org/methodology",
+      "name": "Data Methodology & Scientific Sources - TectonicPlateMap.org",
+      "description": "Comprehensive documentation of data sources, PB2002 plate boundary model, Euler pole kinematics, No-Net-Rotation (NNR) reference frame, and spherical area calculations.",
+      "isPartOf": {
+        "@type": "WebSite",
+        "@id": "https://tectonicplatemap.org/#website",
+        "url": "https://tectonicplatemap.org/",
+        "name": "TectonicPlateMap.org"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://tectonicplatemap.org/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Methodology",
+          "item": "https://tectonicplatemap.org/methodology"
+        }
+      ]
+    }
+  ]
+}
+  </script>
+</head>
+<body class="page-static">
+<div id="app">
+
+  <header>
+    <nav class="navbar is-tectonic" role="navigation" aria-label="Main Navigation">
+      <div class="navbar-brand">
+        <a class="navbar-item brand-badge" href="/" aria-label="Tectonic Plates Map Home">
+          <img src="/images/logo.svg" alt="Tectonic Plates Map Logo" width="34" height="34" class="brand-logo-img">
+          <span class="brand-h1">
+            <span>Tectonic <span style="color:#38bdf8;">Plates</span> Map</span>
+          </span>
+        </a>
+
+        <div class="mobile-nav-actions is-hidden-desktop">
+          <a href="/" class="button is-small is-primary is-rounded mobile-action-btn">
+            <span class="icon is-small"><i class="fa-solid fa-earth-americas" aria-hidden="true"></i></span>
+            <span>Map</span>
+          </a>
+          <a role="button" class="navbar-burger" id="nav-burger" aria-label="menu" aria-expanded="false" data-target="nav-menu">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+      </div>
+
+      <div class="navbar-menu" id="nav-menu">
+        <div class="navbar-end">
+          <div class="navbar-item">
+            <a href="/" class="button is-small is-rounded" style="background:#0284c7; color:#ffffff; font-weight:700; border:1px solid #38bdf8;">
+              <span class="icon is-small"><i class="fa-solid fa-earth-americas" aria-hidden="true"></i></span>
+              <span>Interactive Map</span>
+            </a>
+          </div>
+          <div class="navbar-item">
+            <a href="/plates" class="button is-small is-rounded" style="background:rgba(30,41,59,0.8); color:#cbd5e1; border:1px solid rgba(255,255,255,0.15);">
+              <span class="icon is-small"><i class="fa-solid fa-table-list" aria-hidden="true"></i></span>
+              <span>Plates Directory</span>
+            </a>
+          </div>
+          <div class="navbar-item">
+            <a href="/maps/labeled-tectonic-plates-map" class="button is-small is-rounded" style="background:rgba(56,189,248,0.15); color:#38bdf8; font-weight:700; border:1px solid rgba(56,189,248,0.35);">
+              <span class="icon is-small"><i class="fa-solid fa-map" aria-hidden="true"></i></span>
+              <span>Printable Maps</span>
+            </a>
+          </div>
+          <div class="navbar-item">
+            <a href="/methodology" class="button is-small is-rounded" style="background:rgba(30,41,59,0.8); color:#cbd5e1; border:1px solid rgba(255,255,255,0.15);">
+              <span>Methodology</span>
+            </a>
+          </div>
+          <div class="navbar-item">
+            <a href="/about" class="button is-small is-rounded" style="background:rgba(30,41,59,0.8); color:#cbd5e1; border:1px solid rgba(255,255,255,0.15);">
+              <span>About</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+  <main class="static-content-wrap">
+    <div class="seo-container">
+      
+      <nav class="breadcrumb is-small" aria-label="breadcrumbs" style="margin-bottom:1.5rem;">
+        <ul>
+          <li><a href="/"><i class="fa-solid fa-house mr-1"></i> Home</a></li>
+          <li class="is-active"><a href="#" aria-current="page">Methodology</a></li>
+        </ul>
+      </nav>
+
+      <header class="static-page-header" style="text-align:left; margin-bottom:2.5rem;">
+        <span class="dir-badge-pill" style="margin-bottom:8px;">
+          <i class="fa-solid fa-flask mr-1"></i> SCIENTIFIC SPECIFICATION
+        </span>
+        <h1 class="title is-2" style="color:#ffffff; margin-bottom:12px; font-weight:800;">Data Methodology &amp; Sources</h1>
+        <p style="color:#94a3b8; font-size:0.95rem;">
+          How plate areas, kinematics, reference frames, and classifications are calculated on TectonicPlateMap.org. Last updated: October 15, 2026.
+        </p>
+      </header>
+
+      <article class="content" style="color:#cbd5e1; font-size:1.02rem; line-height:1.75;">
+        
+        <h2 style="color:#ffffff;"><i class="fa-solid fa-database mr-2" style="color:#38bdf8;"></i> 1. Primary Data Sources</h2>
+        <p>
+          All tectonic plate boundaries, polygon geometries, and Euler poles displayed on TectonicPlateMap.org originate from the landmark geophysics study:
+        </p>
+        <div class="box" style="background:#1e293b; border-left:4px solid #38bdf8; color:#cbd5e1;">
+          <strong>Bird, Peter (2003)</strong>. <em>An updated digital model of plate boundaries</em>. <strong>Geochemistry, Geophysics, Geosystems</strong> (G³), 4(3), 1027. DOI: <a href="https://doi.org/10.1029/2001GC000252" target="_blank" rel="noopener" style="color:#38bdf8;">10.1029/2001GC000252</a>.
+        </div>
+        <p>
+          The PB2002 model establishes a digital framework of <strong>52 tectonic plates</strong> (delineated by closed polygon curves in <code>PB2002_plates.dig</code>) and <strong>229 boundary segments</strong> containing 5,819 individual digitization steps (<code>PB2002_steps.dat</code>).
+        </p>
+        <p>
+          Live geoscientific overlay feeds are ingested from authoritative government and academic programs:
+        </p>
+        <ul>
+          <li><strong>Seismology:</strong> Real-time global earthquake feeds from the <a href="https://earthquake.usgs.gov/" target="_blank" rel="noopener" style="color:#38bdf8;">USGS Earthquake Hazards Program</a> (updated every 60 seconds).</li>
+          <li><strong>Volcanism:</strong> Holocene and Pleistocene active eruption databases from the <a href="https://volcano.si.edu/" target="_blank" rel="noopener" style="color:#38bdf8;">Smithsonian Institution Global Volcanism Program (GVP)</a>.</li>
+        </ul>
+
+        <h2 style="color:#ffffff; margin-top:2.5rem;"><i class="fa-solid fa-shapes mr-2" style="color:#10b981;"></i> 2. Spherical Equal-Area Computation</h2>
+        <p>
+          To eliminate discrepancies in reported plate sizes across textbooks and websites, all plate areas on this site are computed directly from the closed spherical boundary polygons in PB2002 using the spherical excess formulation of <strong>Oosterom &amp; Strackee (1983)</strong>.
+        </p>
+        <p>
+          Calculations are performed on the standard IUGG authalic sphere with mean radius R = 6,371.0088 km, yielding a total Earth surface area of:
+        </p>
+        <p style="text-align:center; font-family:monospace; font-size:1.1rem; color:#38bdf8; background:#1e293b; padding:8px; border-radius:6px;">
+          Total Earth Surface Area = 4 &times; &pi; &times; R&sup2; &approx; 510,065,881 km&sup2;
+        </p>
+        <p>
+          The sum of all 52 computed plate areas on our platform is <strong>510,065,884 km²</strong>, which accounts for 100.0000% of the Earth's surface with zero floating-point drift.
+        </p>
+
+        <h2 style="color:#ffffff; margin-top:2.5rem;"><i class="fa-solid fa-ruler-combined mr-2" style="color:#f59e0b;"></i> 3. Classification Criteria</h2>
+        <p>
+          Peter Bird demonstrated in his 2003 paper that the cumulative area-distribution of tectonic plates obeys a power law between 0.002 and 1 steradians. We adopt deterministic area thresholds to categorize all 52 plates:
+        </p>
+        <ul>
+          <li><strong>Major Plates (&ge; 20,000,000 km&sup2; / &ge; 0.5 steradians):</strong> Exactly 7 plates (Pacific, African, Antarctic, North American, Eurasian, Australian, and South American), encompassing 80.97% of Earth's surface.</li>
+          <li><strong>Minor Plates (1,000,000 to 20,000,000 km&sup2;):</strong> Exactly 13 plates (Somali, Nazca, Indian, Sunda, Philippine Sea, Amur, Arabian, Okhotsk, Caribbean, Cocos, Yangtze, Scotia, and Caroline), encompassing 16.98% of Earth's surface. Note that Somalia (19.1M km²) and India (12.4M km²) are correctly classified as minor plates, correcting erroneous legacy labels.</li>
+          <li><strong>Microplates (&lt; 1,000,000 km&sup2;):</strong> 32 small regional plates and micro-terranes (e.g. Altiplano, Burma, Juan de Fuca, Kermadec, Tonga, Woodlark, Easter), encompassing 2.04% of Earth's surface.</li>
+        </ul>
+
+        <h2 style="color:#ffffff; margin-top:2.5rem;"><i class="fa-solid fa-compass mr-2" style="color:#ec4899;"></i> 4. Kinematics &amp; Reference Frame</h2>
+        <p>
+          Euler's fixed point theorem states that any displacement of a rigid spherical shell is equivalent to a rotation about a fixed axis (the Euler pole). In PB2002 Table 1, Peter Bird lists Euler rotation poles relative to the Pacific Plate (PA-fixed).
+        </p>
+        <p>
+          To present intuitive, non-zero velocities for all plates, TectonicPlateMap.org converts these relative poles into the widely adopted <strong>No-Net-Rotation (NNR)</strong> reference frame using the NNR-NUVEL1A absolute Pacific rotation pole (DeMets et al., 1994 / Argus &amp; Gordon, 1991):
+        </p>
+        <div class="box" style="background:#1e293b; color:#cbd5e1;">
+          <strong>&Omega;<sub>i</sub><sup>NNR</sup> = &Omega;<sub>i</sub><sup>PA</sup> + &Omega;<sub>PA</sub><sup>NNR</sup></strong><br>
+          <strong>v<sub>i</sub> = &Omega;<sub>i</sub><sup>NNR</sup> &times; r<sub>centroid</sub></strong>
+        </div>
+        <p>
+          Linear drift velocities are calculated at each plate's geographic centroid and reported as single deterministic values in centimeters per year (cm/yr) along with the azimuth and 16-point cardinal compass direction, explicitly noted as <em>"relative to No-Net-Rotation (NNR)"</em>.
+        </p>
+
+        <h2 style="color:#ffffff; margin-top:2.5rem;"><i class="fa-solid fa-circle-exclamation mr-2" style="color:#eab308;"></i> 5. Known Limitations</h2>
+        <ul>
+          <li><strong>Rigid Plate Assumption:</strong> Tectonic plates are treated as internally rigid bodies. In reality, diffuse deformation occurs within continental collision belts (such as Tibet and the Basin and Range), which Peter Bird modeled as 13 distinct orogens.</li>
+          <li><strong>Centroid Speed Representation:</strong> Because rigid plates rotate on a sphere, linear drift speed varies with distance from the Euler pole (v = &omega; &times; R &times; sin(&Delta;)). The reported single speed represents the velocity at the plate's geometric centroid.</li>
+          <li><strong>Microplate Kinematic Uncertainty:</strong> While major plate motions are constrained to sub-millimeter precision by space geodesy (GPS/SLR), several remote oceanic microplates rely on sea-surface magnetic anomalies and structural assumptions.</li>
+        </ul>
+
+      </article>
+
+    </div>
+  </main>
+
+
+  <footer class="seo-footer">
+    <div class="seo-container">
+      <div class="columns is-multiline" style="text-align:left; margin-bottom:2rem;">
+        <div class="column is-4">
+          <h3 style="color:#ffffff; font-size:1rem; font-weight:700; margin-bottom:10px;">TectonicPlateMap.org</h3>
+          <p style="font-size:0.85rem; color:#94a3b8; line-height:1.6;">
+            A free, fast map for anyone curious about how Earth works.
+          </p>
+          <p style="font-size:0.8rem; color:#64748b; margin-top:8px;">
+            Geological Data: <a href="https://doi.org/10.1029/2001GC000252" target="_blank" rel="noopener" style="color:#94a3b8; text-decoration:underline;">Peter Bird (PB2002)</a> &bull; Seismology: <a href="https://earthquake.usgs.gov/" target="_blank" rel="noopener" style="color:#94a3b8; text-decoration:underline;">USGS Hazards</a> &bull; Volcanism: <a href="https://volcano.si.edu/" target="_blank" rel="noopener" style="color:#94a3b8; text-decoration:underline;">Smithsonian GVP</a>.
+          </p>
+        </div>
+        <div class="column is-4">
+          <h3 style="color:#ffffff; font-size:1rem; font-weight:700; margin-bottom:10px;">EXPLORE</h3>
+          <ul style="list-style:none; padding:0; margin:0; font-size:0.85rem; display:flex; flex-direction:column; gap:6px;">
+            <li><a href="/"><i class="fa-solid fa-angle-right mr-1"></i> Interactive Map</a></li>
+            <li><a href="/quiz"><i class="fa-solid fa-angle-right mr-1"></i> Tectonic Plates Quiz</a></li>
+            <li><a href="/what-plate-am-i-on"><i class="fa-solid fa-angle-right mr-1"></i> What Plate Am I On?</a></li>
+            <li><a href="/worksheets"><i class="fa-solid fa-angle-right mr-1"></i> Teacher Worksheets</a></li>
+            <li><a href="/plates"><i class="fa-solid fa-angle-right mr-1"></i> Plates Directory</a></li>
+            <li><a href="/maps/labeled-tectonic-plates-map"><i class="fa-solid fa-angle-right mr-1"></i> Printable Maps</a></li>
+            <li><a href="/methodology"><i class="fa-solid fa-angle-right mr-1"></i> Methodology &amp; Sources</a></li>
+            <li><a href="/#geology-guide"><i class="fa-solid fa-angle-right mr-1"></i> Geology Education Guide</a></li>
+            <li><a href="/#faq"><i class="fa-solid fa-angle-right mr-1"></i> Tectonics FAQ</a></li>
+          </ul>
+        </div>
+        <div class="column is-4">
+          <h3 style="color:#ffffff; font-size:1rem; font-weight:700; margin-bottom:10px;">ADDITIONAL</h3>
+          <ul style="list-style:none; padding:0; margin:0; font-size:0.85rem; display:flex; flex-direction:column; gap:6px;">
+            <li><a href="/about"><i class="fa-solid fa-angle-right mr-1"></i> About</a></li>
+            <li><a href="/contact"><i class="fa-solid fa-angle-right mr-1"></i> Contact</a></li>
+            <li><a href="/privacy-policy"><i class="fa-solid fa-angle-right mr-1"></i> Privacy Policy</a></li>
+            <li><a href="/terms-of-service"><i class="fa-solid fa-angle-right mr-1"></i> Terms of Service</a></li>
+          </ul>
+        </div>
+      </div>
+      <div style="border-top:1px solid rgba(255,255,255,0.08); padding-top:1.5rem; text-align:center;">
+        <p style="font-size:0.82rem; color:#64748b;">
+          &copy; 2026 TectonicPlateMap.org &bull; Open-access Earth geophysics and seismology platform. Built with HTML5, Bulma CSS, and MapLibre GL.
+         <span class="app-version-badge" style="font-family:var(--font-mono, monospace); font-size:0.72rem; background:rgba(255,255,255,0.06); color:#38bdf8; border:1px solid rgba(56,189,248,0.3); border-radius:12px; font-weight:600; padding:2px 8px; margin-left:6px; display:inline-block;" title="Tectonic Plates Map Version">v0.5</span></p>
+      </div>
+    </div>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-XXXXXXXXXX');
+    </script>
+  </footer>
+
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const burger = document.getElementById('nav-burger');
+    const menu = document.getElementById('nav-menu');
+    if (burger && menu) {
+      burger.addEventListener('click', () => {
+        burger.classList.toggle('is-active');
+        menu.classList.toggle('is-active');
+      });
+    }
+  });
+</script>
+</body>
+</html>
